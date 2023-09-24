@@ -6,3 +6,19 @@
     display: grid;
     grid-template-columns: repeat(4,1fr);
 }
+@mixin centered{
+    display: flex;
+    justify-content: space-between;
+}
+@mixin button {
+    background: $inter;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 20px;
+}
+@mixin card-book{
+    display: grid;
+            grid-template-rows: 0.2fr 0.5fr 0.2fr;
+}

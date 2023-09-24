@@ -1,0 +1,8 @@
+@mixin format {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+@mixin formated {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}

@@ -1,0 +1,26 @@
+@import './main';
+nav{
+    @include format;
+    background: $navbar-color;
+    img{
+        width: 10%;
+        padding: 5px 90px; 
+    }
+    .menu-bar{
+        padding-right: 90px;
+        ul{
+            @include formated;
+            li {
+                list-style: none;
+                margin-top:18px;
+                a{
+                    text-decoration: none;
+                    color: $black-color;
+                    font-size: 20px;
+                    text-transform: uppercase;
+                }
+            }
+            
+        }
+    }
+}

@@ -1,4 +1,6 @@
-@import './main';
+@import './variable';
+@import '../group-mixus/grid-mixus';
+
 nav{
     @include format;
     background: $navbar-color;

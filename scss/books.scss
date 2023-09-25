@@ -1,4 +1,4 @@
-@import './conponent/navbar';
+@import '../scss/conponents/navbar';
 
 body {
     header {
@@ -6,11 +6,9 @@ body {
             width: 100%;
         }
     }
-
     .group-book {
         padding-left: 90px;
         margin-top: 19px;
-
         button {
             margin-top: 5px;
             font-size: 20px;
@@ -20,16 +18,13 @@ body {
             border: none;
             background: $card-color;
         }
-
         button:nth-child(1) {
             background: $inter;
         }
-
         button:nth-child(8) {
             margin-left: 30%;
         }
     }
-
     input[type="text"] {
         width: 86%;
         margin: 30px 90px;
@@ -40,7 +35,6 @@ body {
         border: none;
         height: 30px;
     }
-
     h1 {
         text-align: center;
     }

@@ -1,7 +1,17 @@
 @mixin centered{
     display: flex;
     justify-content: space-between;
+<<<<<<< HEAD
 }
 // @mixin about{
 //     display: flex;
 // }
+=======
+    align-items: center;
+}
+@mixin flex-coloum{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+>>>>>>> 02d181893c551a5875bac3b978b12168338f672e

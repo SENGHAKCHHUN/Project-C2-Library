@@ -10,3 +10,18 @@
     display: grid;
     grid-template-rows: 0.2fr 0.5fr 0.2fr;
 }
+@mixin fiverow {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 15px;
+}
+@mixin button {
+    background: $inter;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 20px;
+    width: 215px;
+
+}

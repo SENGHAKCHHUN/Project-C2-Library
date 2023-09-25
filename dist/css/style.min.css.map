@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":3,"sources":["../../scss/conponents/_navbar.scss","../../scss/group-mixus/_grid-mixus.scss","../../scss/conponents/_variable.scss"],"names":[],"mappings":"AAGA,ICFI,YAAA,CACA,+BAAA,CDGA,kBEDW,CFEX,QACI,SAAA,CACA,gBAAA,CAEJ,cACI,kBAAA,CACA,iBCPJ,YAAA,CACA,oCAAA,CDQQ,oBACI,eAAA,CACA,eAAA,CACA,sBACI,oBAAA,CACA,UEjBN,CFkBM,cAAA,CACA,wBAAA","file":"style.min.css"}
+=======
+{"version":3,"sourceRoot":"","sources":["../../scss/conponents/_main.scss","../../scss/group-mixus/_grid-mixus.scss","../../scss/conponents/_navbar.scss","../../scss/conponents/_variable.scss"],"names":[],"mappings":"AAAA,EACI,UACA,SACA,2CCFA,aACA,gCCGA,WCDW,QDEX,QACI,UACA,iBAEJ,cACI,mBACA,iBDPJ,aACA,qCCQQ,oBACI,gBACA,gBACA,sBACI,qBACA,MCjBN,KDkBM,eACA","file":"style.min.css"}
+>>>>>>> 02d181893c551a5875bac3b978b12168338f672e

@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"version":3,"sources":["../scss/conponents/_navbar.scss","../scss/group-mixus/_grid-mixus.scss","../scss/conponents/_variable.scss","style.css"],"names":[],"mappings":"AAGA;ECFI,aAAA;EACA,gCAAA;EDGA,mBEDW;ACAf;AHEI;EACI,UAAA;EACA,iBAAA;AGAR;AHEI;EACI,mBAAA;AGAR;AHCQ;ECPJ,aAAA;EACA,qCAAA;AESJ;AHDY;EACI,gBAAA;EACA,gBAAA;AGGhB;AHFgB;EACI,qBAAA;EACA,WEjBN;EFkBM,eAAA;EACA,yBAAA;AGIpB","file":"style.css"}
-=======
-{"version":3,"sourceRoot":"","sources":["../scss/conponents/_main.scss","../scss/conponents/_navbar.scss","../scss/group-mixus/_grid-mixus.scss","../scss/conponents/_variable.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;;;ACAJ;ECFI;EACA;EDGA,YEDW;;AFEX;EACI;EACA;;AAEJ;EACI;;AACA;ECPJ;EACA;;ADQQ;EACI;EACA;;AACA;EACI;EACA,OEjBN;EFkBM;EACA","file":"style.css"}
->>>>>>> 02d181893c551a5875bac3b978b12168338f672e
+{"version":3,"sources":["../scss/conponents/_main.scss","style.css","../scss/conponents/_navbar.scss","../scss/group-mixus/_grid-mixus.scss","../scss/conponents/_variable.scss"],"names":[],"mappings":"AAAA;EACI,UAAA;EACA,SAAA;EACA,yCAAA;ACCJ;;ACDA;ECFI,aAAA;EACA,gCAAA;EDGA,mBEDW;AHMf;ACJI;EACI,UAAA;EACA,iBAAA;ADMR;ACJI;EACI,mBAAA;ADMR;ACLQ;ECPJ,aAAA;EACA,qCAAA;AFeJ;ACPY;EACI,gBAAA;EACA,gBAAA;ADShB;ACRgB;EACI,qBAAA;EACA,WEjBN;EFkBM,eAAA;EACA,yBAAA;ADUpB","file":"style.css"}

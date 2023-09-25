@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 {"version":3,"sources":["../../scss/conponents/_main.scss","../../scss/group-mixus/_grid-mixus.scss","../../scss/conponents/_navbar.scss","../../scss/conponents/_variable.scss","../../scss/style.scss"],"names":[],"mappings":"AAAA,EACI,SAAA,CACA,QAAA,CACA,sCAAA,CAAA,ICFA,YAAA,CACA,+BAAA,CCGA,kBCDW,CDEX,QACI,SAAA,CACA,gBAAA,CAEJ,cACI,kBAAA,CACA,iBDPJ,YAAA,CACA,oCAAA,CCQQ,oBACI,eAAA,CACA,eAAA,CACA,sBACI,oBAAA,CACA,UCjBN,CDkBM,cAAA,CACA,wBAAA,CElBhB,YACI,0DAAA,CACA,qBAAA,CACA,2BAAA,CACA,qBAAA,CACA,YAAA,CACA,eACI,iBAAA,CACA,YAAA,CAEJ,cACI,eAAA","file":"style.min.css"}
-=======
-{"version":3,"sources":["../../scss/conponents/_main.scss","../../scss/group-mixus/_grid-mixus.scss","../../scss/conponents/_navbar.scss","../../scss/conponents/_variable.scss"],"names":[],"mappings":"AAAA,EACI,SAAA,CACA,QAAA,CACA,sCAAA,CAAA,ICFA,YAAA,CACA,+BAAA,CCGA,kBCDW,CDEX,QACI,SAAA,CACA,gBAAA,CAEJ,cACI,kBAAA,CACA,iBDPJ,YAAA,CACA,oCAAA,CCQQ,oBACI,eAAA,CACA,eAAA,CACA,sBACI,oBAAA,CACA,UCjBN,CDkBM,cAAA,CACA,wBAAA","file":"style.min.css"}
->>>>>>> 346e20f2f7bc7170f19ce3837c1920c2d3c91e90

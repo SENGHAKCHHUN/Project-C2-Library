@@ -1,0 +1,146 @@
+@import './conponent/navbar';
+
+body {
+    header {
+        img {
+            width: 100%;
+        }
+    }
+
+    .group-book {
+        padding-left: 90px;
+        margin-top: 19px;
+
+        button {
+            margin-top: 5px;
+            font-size: 20px;
+            height: 35px;
+            padding: 7px;
+            border-radius: 5px;
+            border: none;
+            background: $card-color;
+        }
+
+        button:nth-child(1) {
+            background: $inter;
+        }
+
+        button:nth-child(8) {
+            margin-left: 30%;
+        }
+    }
+
+    input[type="text"] {
+        width: 86%;
+        margin: 30px 90px;
+        padding-left: 15px;
+        font-size: 20px;
+        background: $card-color;
+        border-radius: 15px;
+        border: none;
+        height: 30px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+    .group-books {
+        padding: 30px 90px 30px 60px;
+        #education-book {
+            @include card-book;
+            .header-book {
+                @include centered;
+                .more {
+                    @include centered;
+                }
+            }
+            .body-book {
+                margin-top: 20px;
+                img {
+                    height: 321px;
+                    margin-right: 10px;
+                }
+            }
+            .footer-book-buttom {
+                margin-top: 10px;
+                button {
+                    width: 211px;
+                    @include button;
+
+                    a {
+                        color: $black-color;
+                        text-decoration: none;
+                    }
+                }
+                button:nth-child(2) {
+                    width: 206px;
+                }
+                button:nth-child(3) {
+                    width: 231px;
+                }
+                button:nth-child(4) {
+                    width: 241px;
+                }
+                button:nth-child(5) {
+                    width: 221px;
+                }
+            }
+        }
+        #Self-Development {
+            @extend #education-book;
+            .body-book {
+                margin-top: 20px;
+
+                img {
+                    height: 317px;
+                    margin-right: 10px;
+                }
+            }
+            .footer-book-buttom {
+                margin-top: 10px;
+                button {
+                    width: 222px;
+                    @include button;
+                    a {
+                        color: $black-color;
+                        text-decoration: none;
+                    }
+                }
+                button:nth-child(2) {
+                    width: 217px;
+                }
+                button:nth-child(3) {
+                    width: 228px;
+                }
+                button:nth-child(4) {
+                    width: 222px;
+                }
+                button:nth-child(5) {
+                    width: 215px;
+                }
+            }
+        }
+        #General-knowledge{
+            @extend #Self-Development;
+            .footer-book-buttom {
+                button {
+                    width: 218px;
+                    @include button;
+                    a {
+                        color: $black-color;
+                        text-decoration: none;
+                    }
+                }
+                button:nth-child(2) {
+                    width: 230px;
+                }
+                button:nth-child(3) {
+                    width: 208px;
+                }
+                button:nth-child(5) {
+                    width: 220px;
+                }
+            }
+        }
+    }
+}

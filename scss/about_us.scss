@@ -1,0 +1,56 @@
+@import "./conponents/navbar";
+@import "./conponents/variable";
+
+.about-main {
+    display: grid;
+    grid-template-rows: 0.5fr 4fr 4fr;
+    padding: 10px 90px 0px 90px;
+    gap: 20px;
+    h2 {
+        color:$orange-color;
+        display: grid;
+        align-items: center;
+        text-align: center;
+        margin: 5px;
+    }
+    .about-main-center {
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+        gap: 30px;
+        .card-header {
+            @include card-bottom-card-header;
+        }
+        .card-header-2 {
+            @include card-header-2;
+        }
+    }
+    .card-bottom {
+        @include card-bottom-card-header;
+        .card-bottom-2 {
+            @include card-bottom-2;
+            .card-header-2-left,
+            .card-bottom-right {
+                @include about-card-left-right;
+                box-icon.icons{
+                    width: 200px;
+                    height: 150px;
+                }
+                p {
+                    font-size: 35px;
+                    padding: 0px 25px 0px 25px;
+                }
+            }
+        }
+    }
+    .card-header:hover {
+        @include card-hover;
+    }
+    .card-bottom:hover {
+        @include card-hover;
+    }
+}
+.map {
+    margin-top: 30px;
+}
+
+

@@ -1,1 +1,103 @@
-/*# sourceMappingURL=about_us.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  background: #FCFFC7;
+}
+nav img {
+  width: 10%;
+  padding: 5px 90px;
+}
+nav .menu-bar {
+  padding-right: 90px;
+}
+nav .menu-bar ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+nav .menu-bar ul li {
+  list-style: none;
+  margin-top: 18px;
+}
+nav .menu-bar ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.about-main {
+  display: grid;
+  grid-template-rows: 0.5fr 4fr 4fr;
+  padding: 10px 90px 0px 90px;
+  gap: 20px;
+}
+.about-main h2 {
+  color: #FB9A29;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  margin: 5px;
+}
+.about-main .about-main-center {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
+}
+.about-main .about-main-center .card-header {
+  border: 2px solid #00B9BE;
+  padding: 0px 10px 0px 10px;
+  border-radius: 20px;
+}
+.about-main .about-main-center .card-header-2 {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 15% 85%;
+  padding: 10px 15px 10px 15px;
+}
+.about-main .card-bottom {
+  border: 2px solid #00B9BE;
+  padding: 0px 10px 0px 10px;
+  border-radius: 20px;
+}
+.about-main .card-bottom .card-bottom-2 {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 85% 15%;
+  padding: 10px 15px 10px 15px;
+}
+.about-main .card-bottom .card-bottom-2 .card-header-2-left,
+.about-main .card-bottom .card-bottom-2 .card-bottom-right {
+  display: grid;
+  align-items: center;
+  text-align: center;
+}
+.about-main .card-bottom .card-bottom-2 .card-header-2-left box-icon.icons,
+.about-main .card-bottom .card-bottom-2 .card-bottom-right box-icon.icons {
+  width: 200px;
+  height: 150px;
+}
+.about-main .card-bottom .card-bottom-2 .card-header-2-left p,
+.about-main .card-bottom .card-bottom-2 .card-bottom-right p {
+  font-size: 35px;
+  padding: 0px 25px 0px 25px;
+}
+.about-main .card-header:hover {
+  transition: 2s;
+  background-color: #000;
+  color: #00B9BE;
+}
+.about-main .card-bottom:hover {
+  transition: 2s;
+  background-color: #000;
+  color: #00B9BE;
+}
+
+.map {
+  margin-top: 30px;
+}/*# sourceMappingURL=about_us.css.map */

@@ -100,6 +100,23 @@ body{
     #leadership{
         @extend #education-book;
     }
-    
+    footer{
+        @include centered;
+        justify-content: space-around;
+        .footer-left{
+            @include centered;
+        }
+        .footer-right{
+            h2{
+                text-align: center;
+            }
+            .icon{
+                img{
+                    width: 30px;
+                }
+            }
+            
+        }
+    }
     
 }

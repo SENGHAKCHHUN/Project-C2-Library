@@ -117,4 +117,21 @@ body #education-book .books .card button, body #leadership .books .card button, 
 body #education-book .books .card button a, body #leadership .books .card button a, body #financial .books .card button a, body #book-of-legends .books .card button a, body #Technology .books .card button a, body #cooking .books .card button a, body #market .books .card button a, body #General-knowledge .books .card button a, body #Self-Development .books .card button a {
   color: #000;
   text-decoration: none;
+}
+body footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: space-around;
+}
+body footer .footer-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body footer .footer-right h2 {
+  text-align: center;
+}
+body footer .footer-right .icon img {
+  width: 30px;
 }/*# sourceMappingURL=books.css.map */

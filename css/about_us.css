@@ -77,4 +77,92 @@ footer .footer-right .icon img {
   width: 40px;
   margin-left: 15px;
   margin-top: 10px;
+<<<<<<< HEAD
+=======
+}
+
+main {
+  display: grid;
+  grid-template-rows: 20% 80%;
+  padding: 60px 90px 80px 90px;
+}
+main h2 {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 60px;
+  margin-bottom: 30px;
+}
+main .about-main-center {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10%;
+}
+main .about-main-center .card-header,
+main .about-main-center .card-bottom {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  border: 2px solid #00B9BE;
+  padding: 15px;
+  border-radius: 20px;
+}
+main .about-main-center .card-header-1,
+main .about-main-center .card-bottom-1 {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  grid-template-rows: 1fr;
+  border-radius: 18px 18px 0px 0px;
+  padding: 15px;
+  gap: 10px;
+}
+main .about-main-center .card-header-1 .bx, main .about-main-center .card-header-1 .bx-navigation,
+main .about-main-center .card-bottom-1 .bx,
+main .about-main-center .card-bottom-1 .bx-navigation {
+  display: grid;
+  color: #00B9BE;
+  font-size: 80px;
+}
+main .about-main-center .card-header-1 h3,
+main .about-main-center .card-bottom-1 h3 {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #00B9BE;
+  font-weight: 50px;
+  font-size: 25px;
+}
+main .about-main-center .card-header-2,
+main .about-main-center .card-bottom-2 {
+  background-color: #EEF0C8;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  border-radius: 0px 0px 18px 18px;
+}
+main .card-header:hover {
+  background-color: #00B9BE;
+  transition: 0.5s;
+  color: #00B9BE;
+}
+main .card-header:hover .bx, main .card-header:hover .bx-navigation, main .card-header:hover h3 {
+  color: #FB9A29;
+}
+main .card-bottom:hover {
+  background-color: #00B9BE;
+  transition: 0.5s;
+  color: #00B9BE;
+}
+main .card-bottom:hover .bx, main .card-bottom:hover .bx-navigation, main .card-bottom:hover h3 {
+  color: #FB9A29;
+}
+
+.map {
+  display: grid;
+  width: 100%;
+  margin: 0;
+>>>>>>> 580e6387592c7777431cd8cf9df629c1725d9643
 }/*# sourceMappingURL=about_us.css.map */

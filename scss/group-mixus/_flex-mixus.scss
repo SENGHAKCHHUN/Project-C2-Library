@@ -8,4 +8,9 @@
     flex-direction: column;
     gap: 10px;
 }
+@mixin contact{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 // >>>>>>> 02d181893c551a5875bac3b978b12168338f672e

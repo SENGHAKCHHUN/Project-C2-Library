@@ -9,6 +9,7 @@ body {
         background-repeat: no-repeat;
         background-position: 0;
         height: 500px;
+<<<<<<< HEAD
         @include grid;
 
         .color {
@@ -21,6 +22,12 @@ body {
 
         p>b,
         h1,
+=======
+        h1 {
+            padding-left: 90px;
+            padding: 20px;
+        }
+>>>>>>> 547e013a4b8d8a9af38008bbd29c1b6204383207
         p {
             z-index: 1;
         }

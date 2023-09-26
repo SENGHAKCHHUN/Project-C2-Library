@@ -28,14 +28,9 @@ body{
                 border-radius: 5px;
             }
         }            
-        
-        button:nth-child(8){
-            margin-left: 30%;
-        }
         button:nth-child(1){
             background: $inter;
         }
-        
     }
     input[type="text"] {
         background: $card-color;

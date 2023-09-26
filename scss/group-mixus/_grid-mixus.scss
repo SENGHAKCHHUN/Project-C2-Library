@@ -28,30 +28,3 @@
 
 // about pagge#
 
-@mixin about-card-left-right {
-    display: grid;
-    align-items: center;
-}
-@mixin card-hover {
-    transition: 2s;
-    background-color: $black-color;
-    color: $inter ;
-}
-@mixin card-header-2 {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 15% 85%;
-    padding: 10px 15px 10px 15px;
-}
-@mixin card-bottom-2 {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 85% 15%;
-    padding: 10px 15px 10px 15px;
-}
-
-@mixin card-bottom-card-header {
-    border: 2px solid $inter;
-    padding: 0px 10px 0px 10px;
-    border-radius: 20px;
-}

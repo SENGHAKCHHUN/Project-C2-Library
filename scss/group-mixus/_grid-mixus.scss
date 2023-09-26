@@ -1,6 +1,6 @@
 @mixin format {
     display: grid;
-    grid-template-columns: 1fr 1.5fr;
+    grid-template-columns: 1fr  1.5fr;
 }
 @mixin formated {
     display: grid;
@@ -13,7 +13,7 @@
 @mixin fiverow {
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    gap: 15px;
+    gap: 20px;
 }
 @mixin button {
     background: $inter;
@@ -22,8 +22,8 @@
     border-radius: 5px;
     height: 30px;
     font-size: 20px;
-    width: 215px;
-
+    width: 140px;
+    margin-left: 20px;
 }
 
 // about pagge#

@@ -7,7 +7,11 @@
 nav {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
-  background: #FCFFC7;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #ffffff;
+  border-bottom: 1px solid #EEF0C8;
 }
 nav img {
   width: 10%;
@@ -25,10 +29,12 @@ nav .menu-bar ul li {
   margin-top: 18px;
 }
 nav .menu-bar ul li a {
-  text-decoration: none;
   color: #000;
   font-size: 20px;
   text-transform: uppercase;
+}
+nav .menu-bar ul li a:hover {
+  color: #00B9BE;
 }
 
 body header img {
@@ -65,6 +71,7 @@ body input[type=text] {
   border: none;
   margin: 20px 90px;
   font-size: 20px;
+  outline: none;
 }
 body h1 {
   text-align: center;
@@ -73,7 +80,7 @@ body h3 {
   padding: 15px 0px;
 }
 body #education-book, body #leadership, body #financial, body #book-of-legends, body #Technology, body #cooking, body #market, body #General-knowledge, body #Self-Development {
-  margin-top: 70px;
+  margin-top: 50px;
   padding: 0px 90px;
   display: flex;
   flex-direction: column;
@@ -103,7 +110,7 @@ body #education-book .title-book .more .fa, body #leadership .title-book .more .
 body #education-book .books, body #leadership .books, body #financial .books, body #book-of-legends .books, body #Technology .books, body #cooking .books, body #market .books, body #General-knowledge .books, body #Self-Development .books {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 15px;
+  gap: 20px;
 }
 body #education-book .books .card, body #leadership .books .card, body #financial .books .card, body #book-of-legends .books .card, body #Technology .books .card, body #cooking .books .card, body #market .books .card, body #General-knowledge .books .card, body #Self-Development .books .card {
   display: flex;
@@ -111,9 +118,10 @@ body #education-book .books .card, body #leadership .books .card, body #financia
   gap: 10px;
 }
 body #education-book .books .card img, body #leadership .books .card img, body #financial .books .card img, body #book-of-legends .books .card img, body #Technology .books .card img, body #cooking .books .card img, body #market .books .card img, body #General-knowledge .books .card img, body #Self-Development .books .card img {
-  height: 300px;
-  width: 210px;
-  border: 2px solid gray;
+  height: 200px;
+  width: 140px;
+  border: 2px solid #EEF0C8;
+  padding: 20px;
 }
 body #education-book .books .card button, body #leadership .books .card button, body #financial .books .card button, body #book-of-legends .books .card button, body #Technology .books .card button, body #cooking .books .card button, body #market .books .card button, body #General-knowledge .books .card button, body #Self-Development .books .card button {
   background: #00B9BE;
@@ -122,7 +130,8 @@ body #education-book .books .card button, body #leadership .books .card button, 
   border-radius: 5px;
   height: 30px;
   font-size: 20px;
-  width: 215px;
+  width: 140px;
+  margin-left: 20px;
 }
 body #education-book .books .card button a, body #leadership .books .card button a, body #financial .books .card button a, body #book-of-legends .books .card button a, body #Technology .books .card button a, body #cooking .books .card button a, body #market .books .card button a, body #General-knowledge .books .card button a, body #Self-Development .books .card button a {
   color: white;

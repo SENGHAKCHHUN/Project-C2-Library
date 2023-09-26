@@ -3,7 +3,11 @@
 @import './main';
 nav{
     @include format;
+    position: sticky;
+    top: 0;
+    z-index: 100;
     background: $navbar-color;
+    border-bottom: 1px solid $card-color;
     img{
         width: 10%;
         padding: 5px 90px; 
@@ -16,10 +20,13 @@ nav{
                 list-style: none;
                 margin-top:18px;
                 a{
-                    text-decoration: none;
+                    // text-decoration: none;
                     color: $black-color;
                     font-size: 20px;
                     text-transform: uppercase;
+                }
+                a:hover{
+                    color: $inter;
                 }
             }
         }

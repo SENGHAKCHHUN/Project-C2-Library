@@ -40,6 +40,7 @@ body{
         border: none;
         margin: 20px 90px;
         font-size: 20px;
+        outline: none;
     }
     h1{
         text-align: center;
@@ -48,7 +49,7 @@ body{
         padding: 15px 0px;
     }
     #education-book{
-        margin-top: 70px;
+        margin-top: 50px;
         padding: 0px 90px;
         @include flex-coloum;
         .title-book{
@@ -73,9 +74,10 @@ body{
             .card{
                 @include flex-coloum;
                 img{
-                    height: 300px;
-                    width: 210px;
-                    border: 2px solid gray
+                    height: 200px;
+                    width: 140px;
+                    border: 2px solid $card-color;
+                    padding: 20px;
                 }
                 button{
                     @include button;

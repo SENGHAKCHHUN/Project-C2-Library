@@ -21,11 +21,14 @@ nav{
                 a{
                     text-decoration: none;
                     color: $black-color;
-                    font-size: 20px;
+                    font-size: 17px;
+                    font-weight: 520;
                     text-transform: uppercase;
                 }
                 a:hover{
                     color: $inter;
+                    transition: .3s;
+                    font-weight: 520;
                 }
             }
         }

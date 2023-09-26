@@ -1,22 +1,22 @@
 @import "./conponents/navbar";
 body{
-    margin: auto;
     form{
-        margin: 8% 20%;
+        box-shadow: 0px 0px 3px 0px;
+        margin: 8% 25%;
         background: $card-color;
-        border-radius: 20px;
+        border-radius: 15px;
         padding: 0px 50px;
         h1{
             text-align: center;
-            margin: 20px 0px;
+            margin: 10px 0px;
         }
-        h3{
+        h4{
             text-align: center;
-            margin: 20px;
+            margin-top: 20px;
         }
         img{
-            margin-top: -70px;
-            margin-left: 40%;
+            margin-top: -60px;
+            margin-left: 38%;
         }
         input{
             width: 97%;
@@ -28,8 +28,8 @@ body{
             outline: none;
         }
         button{
-            width: 100%;
-            padding: 7px;
+            width: 20%;
+            padding: 5px;
             background: $inter;
             border: none;
             border-radius: 10px;
@@ -41,11 +41,14 @@ body{
             }
         }
         .icon{
-            padding: 10px;
-            margin: 1% 31%;
+            @include contact;
+            align-items: flex-start;
+            margin-left:35%;
+            margin-bottom: 50px;
             img{
-                width: 40px;
-                margin-left: 15px;
+                width: 29px;
+                margin-top: 5px;
+
             }
         }
     }

@@ -54,14 +54,16 @@ main {
     .card-header:hover {
         background-color: $inter;
         transition: .5s;
+        font-weight: 500;
         color: $inter;
-        .bx,.bx-navigation,h3 {
+        .bx,.bxs-donate-heart,h3 {
         color: $h2-color;
         }
     }
     .card-bottom:hover {
         background-color: $inter;
         transition: .5s;
+        font-weight: 500;
         color: $inter;
         .bx,.bx-navigation,h3 {
             color: $h2-color;

@@ -1,0 +1,38 @@
+footer{
+    background: $card-color;
+    height: 180px;
+    margin-top: 40px;
+    @include centered;
+    padding: 0px 90px;
+    .footer-left{
+        @include flex-coloum;
+        .email{
+            @include contact;
+            img{
+                width: 30px;
+            }
+        }
+        .phone-call{
+            @include contact;
+            img{
+                width: 30px;
+            }
+        }
+    }
+    .footer-right{
+        h2{
+            text-align: center;
+
+        }
+        .icon{
+            padding: 10px;
+            
+            img{
+                width: 40px;
+                margin-left: 15px;
+                margin-top: 10px;
+            }
+        }
+        
+    }
+}

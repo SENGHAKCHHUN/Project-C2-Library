@@ -31,11 +31,14 @@ nav .menu-bar ul li {
 nav .menu-bar ul li a {
   text-decoration: none;
   color: #000;
-  font-size: 20px;
+  font-size: 17px;
+  font-weight: 520;
   text-transform: uppercase;
 }
 nav .menu-bar ul li a:hover {
   color: #00B9BE;
+  transition: 0.3s;
+  font-weight: 520;
 }
 
 footer {

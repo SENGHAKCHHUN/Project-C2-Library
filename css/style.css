@@ -31,11 +31,14 @@ nav .menu-bar ul li {
 nav .menu-bar ul li a {
   text-decoration: none;
   color: #000;
-  font-size: 20px;
+  font-size: 17px;
+  font-weight: 520;
   text-transform: uppercase;
 }
 nav .menu-bar ul li a:hover {
   color: #00B9BE;
+  transition: 0.3s;
+  font-weight: 520;
 }
 
 footer {
@@ -88,24 +91,32 @@ body .cover {
   background-position: 0;
   height: 500px;
 }
+body .cover h1 {
+  font-size: 50px;
+  color: #00B9BE;
+}
 body .cover h1, body .cover p {
-  margin-left: 90px;
-  padding: 50px 0px;
+  font-weight: 600;
+  padding: 50px 0px 0px 90px;
 }
 body .cover p {
-  margin-left: 90px;
   font-size: 20px;
+  color: #FB9A29;
 }
 body .cover .open {
   display: flex;
+  justify-content: center;
   align-items: center;
   background: #00B9BE;
+  color: #ffffff;
   width: 300px;
   height: 30px;
   border-radius: 10px;
   margin-left: 90px;
   margin-left: 90px;
   padding: 0px;
+  margin-top: 170px;
+  font-size: 17px;
 }
 body .popular-book h2 {
   text-align: center;
@@ -116,19 +127,28 @@ body .popular-book .the-book {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
+body .popular-book .the-book .first-book {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 body .popular-book .the-book .first-book img {
   width: 160px;
   height: 230px;
   margin-top: 40px;
 }
 body .popular-book .the-book .first-book p {
+  display: flex;
   background: orange;
   width: 160px;
+  height: 5vh;
   border-radius: 10px;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 body .borrow-and-return {
   display: flex;
+  gap: 30px;
   flex-direction: column;
   padding: 20px 90px;
 }
@@ -148,14 +168,12 @@ body .borrow-and-return .borrow-card .borrow-title {
   margin-bottom: 50px;
 }
 body .borrow-and-return .borrow-card .borrow-title h2 {
-  text-align: center;
   margin-top: 20px;
   margin-left: 150px;
   color: orange;
 }
 body .borrow-and-return .borrow-card .borrow-title p {
-  text-align: center;
-  margin-left: 25px;
+  margin-left: 35px;
 }
 body .borrow-and-return .borrow-card .img {
   width: 30%;
@@ -167,4 +185,41 @@ body .borrow-and-return .borrow-card .img img {
   border-radius: 5px;
   width: 100px;
   height: 140px;
+}
+body .borrow-and-return .return-card {
+  justify-content: center;
+  margin-top: 20px;
+  background: rgb(228, 194, 130);
+  border-radius: 20px;
+  height: 180px;
+  width: 96%;
+  display: flex;
+}
+body .borrow-and-return .return-card .return-img {
+  width: 30%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+body .borrow-and-return .return-card .return-img img {
+  border-radius: 5px;
+  width: 100px;
+  height: 140px;
+}
+body .borrow-and-return .return-card .return-title {
+  display: grid;
+  width: 80%;
+  grid-template-rows: repeat(2, 2.5fr);
+  margin-bottom: 50px;
+}
+body .borrow-and-return .return-card .return-title h2 {
+  margin-top: 20px;
+  margin-left: 150px;
+  color: orange;
+}
+body .borrow-and-return .return-card .return-title p {
+  margin-right: 25px;
+}
+body #address {
+  padding: 3%;
 }/*# sourceMappingURL=style.css.map */

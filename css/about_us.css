@@ -31,11 +31,14 @@ nav .menu-bar ul li {
 nav .menu-bar ul li a {
   text-decoration: none;
   color: #000;
-  font-size: 20px;
+  font-size: 17px;
+  font-weight: 520;
   text-transform: uppercase;
 }
 nav .menu-bar ul li a:hover {
   color: #00B9BE;
+  transition: 0.3s;
+  font-weight: 520;
 }
 
 footer {
@@ -145,14 +148,16 @@ main .about-main-center .card-bottom-2 {
 main .card-header:hover {
   background-color: #00B9BE;
   transition: 0.5s;
+  font-weight: 500;
   color: #00B9BE;
 }
-main .card-header:hover .bx, main .card-header:hover .bx-navigation, main .card-header:hover h3 {
+main .card-header:hover .bx, main .card-header:hover .bxs-donate-heart, main .card-header:hover h3 {
   color: #FB9A29;
 }
 main .card-bottom:hover {
   background-color: #00B9BE;
   transition: 0.5s;
+  font-weight: 500;
   color: #00B9BE;
 }
 main .card-bottom:hover .bx, main .card-bottom:hover .bx-navigation, main .card-bottom:hover h3 {

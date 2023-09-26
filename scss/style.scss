@@ -8,25 +8,32 @@ body {
         background-repeat: no-repeat;
         background-position: 0;
         height: 500px;
+        h1 {
+            font-size: 50px;
+            color:$inter ;
+        }
         h1,p{
-            margin-left:  90px;
-            padding: 50px 0px;
+            font-weight: 600;
+            padding: 50px 0px 0px 90px;
         }
         p{
-            margin-left: 90px;
             font-size: 20px;
+            color: $h2-color;
         }
         .open{
             display: flex;
+            justify-content: center;
             align-items: center;
             background: $inter;
+            color: $navbar-color;
             width: 300px;
             height: 30px;
             border-radius: 10px;
             margin-left: 90px;
             margin-left:  90px;
             padding: 0px;
-            
+            margin-top: 170px;
+            font-size: 17px;
         }
     }
     .popular-book{
@@ -36,26 +43,34 @@ body {
             margin-top: 30px;
         }
         .the-book{
+            
             margin-left: 90px;
             @include formated;
             .first-book{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
                 img{
                     width: 160px;
                     height: 230px;
                     margin-top: 40px;
                 }
                 p{
+                    display: flex;
                     background: orange;
                     width: 160px;
+                    height: 5vh;
                     border-radius: 10px;
-                    text-align: center;
+                    // text-align: center;
+                    justify-content: center;
+                    align-items: center;
                 }
             }
         }        
     }
     .borrow-and-return{
-        
         display: flex;
+        gap: 30px;
         flex-direction: column;
         padding: 20px 90px;
         .borrow-card{
@@ -72,14 +87,12 @@ body {
                 grid-template-rows: repeat(2, 2.5fr);
                 margin-bottom: 50px;
                 h2{
-                    text-align: center;
                     margin-top: 20px;
                     margin-left: 150px;
                     color: orange;
                 }
                 p{
-                    text-align: center;
-                    margin-left: 25px;
+                    margin-left: 35px;
                 }
             }
             .img{
@@ -95,7 +108,42 @@ body {
                 }
             }
         }
-
+        .return-card{
+            justify-content: center;
+            margin-top: 20px;
+            background: rgb(228, 194, 130);
+            border-radius: 20px;
+            height: 180px;
+            width: 96%;
+            display: flex;
+            .return-img{
+                width: 30%;
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                img{
+                    border-radius: 5px;
+                    width: 100px;
+                    height: 140px;
+                }
+            }
+            .return-title{
+                display: grid;
+                width: 80%;
+                grid-template-rows: repeat(2, 2.5fr);
+                margin-bottom: 50px;
+                h2{
+                    margin-top: 20px;
+                    margin-left: 150px;
+                    color: orange;
+                }
+                p{
+                    margin-right: 25px;
+                }
+            }
+        }
     }
-
+    #address{
+        padding: 3%;
+    }
 }

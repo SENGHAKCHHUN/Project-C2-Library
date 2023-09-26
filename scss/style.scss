@@ -1,5 +1,5 @@
-@import "../scss/conponents/navbar";
-@import "./group-mixus/grid-mixus";
+@import "./conponents/navbar";
+@import "./conponents/footer";
 body {
     .cover {
         position: relative;
@@ -8,31 +8,94 @@ body {
         background-repeat: no-repeat;
         background-position: 0;
         height: 500px;
-        h1 {
-            padding-left: 90px;
-            padding: 20px;
+        h1,p{
+            margin-left:  90px;
+            padding: 50px 0px;
         }
-        p {
-            z-index: 1;
-        }
-        h1,
-        p {
-            padding: 5%;
-        }
-        h1 {
-            color: $h1-color;
-            width: 25%;
-        }
-        :nth-child(3) {
+        p{
+            margin-left: 90px;
             font-size: 20px;
-            color: $navbar-color;
         }
-        p>b {
-            border: 1px solid;
-            width: 18%;
-            padding: 10px;
-            background-color: $navbar-color ;
-            border-radius: 25px;
+        .open{
+            display: flex;
+            align-items: center;
+            background: $inter;
+            width: 300px;
+            height: 30px;
+            border-radius: 10px;
+            margin-left: 90px;
+            margin-left:  90px;
+            padding: 0px;
+            
         }
     }
+    .popular-book{
+        
+        h2{
+            text-align: center;
+            margin-top: 30px;
+        }
+        .the-book{
+            margin-left: 90px;
+            @include formated;
+            .first-book{
+                img{
+                    width: 160px;
+                    height: 230px;
+                    margin-top: 40px;
+                }
+                p{
+                    background: orange;
+                    width: 160px;
+                    border-radius: 10px;
+                    text-align: center;
+                }
+            }
+        }        
+    }
+    .borrow-and-return{
+        
+        display: flex;
+        flex-direction: column;
+        padding: 20px 90px;
+        .borrow-card{
+            justify-content: center;
+            margin-top: 20px;
+            background: rgb(228, 194, 130);
+            border-radius: 20px;
+            height: 180px;
+            width: 96%;
+            display: flex;
+            .borrow-title{
+                display: grid;
+                width: 80%;
+                grid-template-rows: repeat(2, 2.5fr);
+                margin-bottom: 50px;
+                h2{
+                    text-align: center;
+                    margin-top: 20px;
+                    margin-left: 150px;
+                    color: orange;
+                }
+                p{
+                    text-align: center;
+                    margin-left: 25px;
+                }
+            }
+            .img{
+                width: 30%;
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                
+                img{
+                    border-radius: 5px;
+                    width: 100px;
+                    height: 140px;
+                }
+            }
+        }
+
+    }
+
 }

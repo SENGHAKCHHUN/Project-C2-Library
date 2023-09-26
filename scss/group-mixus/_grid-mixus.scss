@@ -25,6 +25,13 @@
     width: 140px;
     margin-left: 20px;
 }
-
+@mixin grid{
+    display: grid;
+}
+@mixin upsolut{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 // about pagge#
 

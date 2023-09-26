@@ -1,9 +1,1 @@
-<<<<<<< HEAD
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"about_us.min.css"}
-=======
-<<<<<<< HEAD
-{"version":3,"sources":[],"names":[],"mappings":"","file":"about_us.min.css"}
-=======
-{"version":3,"sources":["../../scss/conponents/_main.scss","../../scss/group-mixus/_grid-mixus.scss","../../scss/conponents/_navbar.scss","../../scss/conponents/_variable.scss","../../scss/about_us.scss"],"names":[],"mappings":"AAAA,EACI,SAAA,CACA,QAAA,CACA,sCAAA,CAAA,ICFA,YAAA,CACA,+BAAA,CCGA,kBCDW,CDEX,QACI,SAAA,CACA,gBAAA,CAEJ,cACI,kBAAA,CACA,iBDPJ,YAAA,CACA,oCAAA,CCQQ,oBACI,eAAA,CACA,eAAA,CACA,sBACI,oBAAA,CACA,UCjBN,CDkBM,cAAA,CACA,wBAAA,CElBpB,YACI,YAAA,CACA,+BAAA,CACA,0BAAA,CACA,QAAA,CACA,eACI,aDRO,CCSP,YAAA,CACA,kBAAA,CACA,iBAAA,CACA,UAAA,CAEJ,+BACI,YAAA,CACA,iCAAA,CACA,QAAA,CACA,4CHgCJ,wBAAA,CACA,yBAAA,CACA,kBAAA,CG/BI,8CHuBJ,YAAA,CACA,kBAAA,CACA,6BAAA,CACA,2BAAA,CGtBA,yBHyBA,wBAAA,CACA,yBAAA,CACA,kBAAA,CGzBI,wCHWJ,YAAA,CACA,kBAAA,CACA,6BAAA,CACA,2BAAA,CGZQ,uHHDR,YAAA,CACA,kBAAA,CACA,iBAAA,CGEY,qJACI,WAAA,CACA,YAAA,CAEJ,2HACI,cAAA,CACA,yBAAA,CAKhB,+BHVA,aAAA,CACA,qBEjCU,CFkCV,aEpCK,CC+CL,+BHbA,aAAA,CACA,qBEjCU,CFkCV,aEpCK,CCmDT,KACI,eAAA","file":"about_us.min.css"}
->>>>>>> 346e20f2f7bc7170f19ce3837c1920c2d3c91e90
->>>>>>> 15f855ab4bde8f104de6c778ddf3a7ee9925d7d8
+{"version":3,"sourceRoot":"","sources":["../../scss/conponents/_main.scss","../../scss/group-mixus/_grid-mixus.scss","../../scss/conponents/_navbar.scss","../../scss/conponents/_variable.scss","../../scss/about_us.scss"],"names":[],"mappings":"AAAA,EACI,UACA,SACA,2CCFA,aACA,gCCGA,WCDW,QDEX,QACI,UACA,iBAEJ,cACI,mBACA,iBDPJ,aACA,qCCQQ,oBACI,gBACA,gBACA,sBACI,qBACA,MCjBN,KDkBM,eACA,yBElBpB,YACI,aACA,gCACA,2BACA,SACA,eACI,MDRO,QCSP,aACA,mBACA,kBACA,WAEJ,+BACI,aACA,kCACA,SACA,4CHgCJ,yBACA,0BACA,mBG/BI,8CHuBJ,aACA,mBACA,8BACA,4BGtBA,yBHyBA,yBACA,0BACA,mBGzBI,wCHWJ,aACA,mBACA,8BACA,4BGZQ,uHHDR,aACA,mBACA,kBGEY,qJACI,YACA,aAEJ,2HACI,eACA,0BAKhB,+BHVA,cACA,iBEjCU,KFkCV,MEpCK,QC+CL,+BHbA,cACA,iBEjCU,KFkCV,MEpCK,QCmDT,KACI","file":"about_us.min.css"}

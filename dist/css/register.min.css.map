@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"register.min.css"}
-=======
-{"version":3,"sources":[],"names":[],"mappings":"","file":"register.min.css"}
->>>>>>> 15f855ab4bde8f104de6c778ddf3a7ee9925d7d8
+{"version":3,"sourceRoot":"","sources":["../../scss/conponents/_main.scss","../../scss/group-mixus/_grid-mixus.scss","../../scss/conponents/_navbar.scss","../../scss/conponents/_variable.scss","../../scss/register.scss"],"names":[],"mappings":"AAAA,EACI,UACA,SACA,2CCFA,aACA,gCCGA,WCDW,QDEX,QACI,UACA,iBAEJ,cACI,mBACA,iBDPJ,aACA,qCCQQ,oBACI,gBACA,gBACA,sBACI,qBACA,MCjBN,KDkBM,eACA,yBEjBpB,KACI,YACA,UACI,cACA,WDLK,QCML,mBACA,iBACA,aACI,kBACA,gBAEJ,aACI,kBACA,YAEJ,cACI,iBACA,gBAEJ,gBACI,UACA,aACA,YACA,gBACA,mBACA,eAEJ,iBACI,WACA,YACA,WDlCH,QCmCG,YACA,mBACA,eACA,gBACA,mBACI,qBACA,MDvCF,KC0CN,gBACI,aACA,cACA,oBACI,WACA","file":"register.min.css"}

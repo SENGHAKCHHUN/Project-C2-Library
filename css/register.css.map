@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"register.css"}
-=======
-{"version":3,"sources":[],"names":[],"mappings":"","file":"register.css"}
->>>>>>> 15f855ab4bde8f104de6c778ddf3a7ee9925d7d8
+{"version":3,"sourceRoot":"","sources":["../scss/conponents/_main.scss","../scss/conponents/_navbar.scss","../scss/group-mixus/_grid-mixus.scss","../scss/conponents/_variable.scss","../scss/register.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;;;ACAJ;ECFI;EACA;EDGA,YEDW;;AFEX;EACI;EACA;;AAEJ;EACI;;AACA;ECPJ;EACA;;ADQQ;EACI;EACA;;AACA;EACI;EACA,OEjBN;EFkBM;EACA;;;AGjBpB;EACI;;AACA;EACI;EACA,YDLK;ECML;EACA;;AACA;EACI;EACA;;AAEJ;EACI;EACA;;AAEJ;EACI;EACA;;AAEJ;EACI;EACA;EACA;EACA;EACA;EACA;;AAEJ;EACI;EACA;EACA,YDlCH;ECmCG;EACA;EACA;EACA;;AACA;EACI;EACA,ODvCF;;AC0CN;EACI;EACA;;AACA;EACI;EACA","file":"register.css"}

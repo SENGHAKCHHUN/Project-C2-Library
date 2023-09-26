@@ -45,15 +45,24 @@ body .group-book button {
   padding: 5px;
   font-size: 20px;
   margin-top: 5px;
+  background: #EEF0C8;
+}
+body .group-book button a {
+  text-decoration: none;
+  color: #000;
 }
 body .group-book button:nth-child(8) {
   margin-left: 30%;
 }
+body .group-book button:nth-child(1) {
+  background: #00B9BE;
+}
 body input[type=text] {
+  background: #EEF0C8;
   width: 84%;
   padding: 5px;
   border-radius: 15px;
-  border: 1px solid orange;
+  border: none;
   margin: 20px 90px;
   font-size: 20px;
 }
@@ -64,7 +73,7 @@ body h3 {
   padding: 15px 0px;
 }
 body #education-book, body #leadership, body #financial, body #book-of-legends, body #Technology, body #cooking, body #market, body #General-knowledge, body #Self-Development {
-  margin-top: 30px;
+  margin-top: 70px;
   padding: 0px 90px;
   display: flex;
   flex-direction: column;
@@ -74,6 +83,7 @@ body #education-book .title-book, body #leadership .title-book, body #financial 
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: #FB9A29;
 }
 body #education-book .title-book .more, body #leadership .title-book .more, body #financial .title-book .more, body #book-of-legends .title-book .more, body #Technology .title-book .more, body #cooking .title-book .more, body #market .title-book .more, body #General-knowledge .title-book .more, body #Self-Development .title-book .more {
   display: flex;
@@ -83,7 +93,7 @@ body #education-book .title-book .more, body #leadership .title-book .more, body
 body #education-book .title-book .more .fa, body #leadership .title-book .more .fa, body #financial .title-book .more .fa, body #book-of-legends .title-book .more .fa, body #Technology .title-book .more .fa, body #cooking .title-book .more .fa, body #market .title-book .more .fa, body #General-knowledge .title-book .more .fa, body #Self-Development .title-book .more .fa {
   width: 25px;
   height: 25px;
-  background: orange;
+  background: rgb(230, 224, 224);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -115,23 +125,47 @@ body #education-book .books .card button, body #leadership .books .card button, 
   width: 215px;
 }
 body #education-book .books .card button a, body #leadership .books .card button a, body #financial .books .card button a, body #book-of-legends .books .card button a, body #Technology .books .card button a, body #cooking .books .card button a, body #market .books .card button a, body #General-knowledge .books .card button a, body #Self-Development .books .card button a {
-  color: #000;
+  color: white;
   text-decoration: none;
 }
 body footer {
+  background: #EEF0C8;
+  height: 180px;
+  margin-top: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  justify-content: space-around;
+  padding: 0px 90px;
 }
 body footer .footer-left {
   display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+body footer .footer-left .email {
+  display: flex;
   justify-content: space-between;
   align-items: center;
+}
+body footer .footer-left .email img {
+  width: 30px;
+}
+body footer .footer-left .phone-call {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body footer .footer-left .phone-call img {
+  width: 30px;
 }
 body footer .footer-right h2 {
   text-align: center;
 }
+body footer .footer-right .icon {
+  padding: 10px;
+}
 body footer .footer-right .icon img {
-  width: 30px;
+  width: 40px;
+  margin-left: 15px;
+  margin-top: 10px;
 }/*# sourceMappingURL=books.css.map */

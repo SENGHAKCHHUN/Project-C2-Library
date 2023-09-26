@@ -18,16 +18,26 @@ body{
             padding: 5px;
             font-size: 20px;
             margin-top: 5px;
+            background: $card-color;
+            a{
+                text-decoration: none;
+                color: $black-color;
+            }
         }
         button:nth-child(8){
             margin-left: 30%;
         }
+        button:nth-child(1){
+            background: $inter;
+        }
+        
     }
     input[type="text"] {
+        background: $card-color;
         width: 84%;
         padding: 5px;
         border-radius: 15px;
-        border: 1px solid orange;
+        border: none;
         margin: 20px 90px;
         font-size: 20px;
     }
@@ -38,17 +48,18 @@ body{
         padding: 15px 0px;
     }
     #education-book{
-        margin-top: 30px;
+        margin-top: 70px;
         padding: 0px 90px;
         @include flex-coloum;
         .title-book{
             @include centered;
+            color: $h2-color;
             .more{
                 @include centered;
                 .fa{
                     width: 25px;
                     height: 25px;
-                    background: orange;
+                    background: $button-more;
                     border-radius: 50%;
                     display: flex;
                     align-items: center;
@@ -69,7 +80,7 @@ body{
                 button{
                     @include button;
                     a{
-                        color: $black-color;
+                        color: white;
                         text-decoration: none;
                     }
                 }
@@ -101,18 +112,38 @@ body{
         @extend #education-book;
     }
     footer{
+        background: $card-color;
+        height: 180px;
+        margin-top: 40px;
         @include centered;
-        justify-content: space-around;
+        padding: 0px 90px;
         .footer-left{
-            @include centered;
+            @include flex-coloum;
+            .email{
+                @include centered;
+                img{
+                    width: 30px;
+                }
+            }
+            .phone-call{
+                @include centered;
+                img{
+                    width: 30px;
+                }
+            }
         }
         .footer-right{
             h2{
                 text-align: center;
+
             }
             .icon{
+                padding: 10px;
+                
                 img{
-                    width: 30px;
+                    width: 40px;
+                    margin-left: 15px;
+                    margin-top: 10px;
                 }
             }
             

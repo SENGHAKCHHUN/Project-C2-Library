@@ -92,7 +92,8 @@ body .cover h1 {
   font-size: 50px;
   color: #00B9BE;
 }
-body .cover h1, body .cover p {
+body .cover h1,
+body .cover p {
   font-weight: 600;
   padding: 50px 0px 0px 90px;
 }
@@ -152,7 +153,7 @@ body .borrow-and-return {
 body .borrow-and-return .borrow-card {
   justify-content: center;
   margin-top: 20px;
-  background: rgb(228, 194, 130);
+  background: rgb(238, 225, 202);
   border-radius: 20px;
   height: 180px;
   width: 96%;
@@ -186,7 +187,7 @@ body .borrow-and-return .borrow-card .img img {
 body .borrow-and-return .return-card {
   justify-content: center;
   margin-top: 20px;
-  background: rgb(228, 194, 130);
+  background: rgb(238, 225, 202);
   border-radius: 20px;
   height: 180px;
   width: 96%;

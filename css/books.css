@@ -201,6 +201,15 @@ body #leadership .books .card {
   flex-direction: column;
   gap: 10px;
 }
+body #education-book .books .card .image-card, body #Self-Development .books .card .image-card, body #General-knowledge .books .card .image-card,
+body #market .books .card .image-card,
+body #cooking .books .card .image-card,
+body #Technology .books .card .image-card,
+body #book-of-legends .books .card .image-card,
+body #financial .books .card .image-card,
+body #leadership .books .card .image-card {
+  box-shadow: 0px 0px 2xp 0px;
+}
 body #education-book .books .card .image-card img, body #Self-Development .books .card .image-card img, body #General-knowledge .books .card .image-card img,
 body #market .books .card .image-card img,
 body #cooking .books .card .image-card img,
@@ -210,8 +219,9 @@ body #financial .books .card .image-card img,
 body #leadership .books .card .image-card img {
   border: 2px solid #EEF0C8;
   padding: 20px;
-  width: 170px;
-  height: 230px;
+  width: 180px;
+  height: 240px;
+  margin-right: 25px;
 }
 body #education-book .books .card button, body #Self-Development .books .card button, body #General-knowledge .books .card button,
 body #market .books .card button,
@@ -220,13 +230,11 @@ body #Technology .books .card button,
 body #book-of-legends .books .card button,
 body #financial .books .card button,
 body #leadership .books .card button {
-  background: #FB9A29;
   margin-right: 10px;
-  border: none;
   border-radius: 5px;
   height: 30px;
-  font-size: 20px;
-  width: 140px;
+  font-size: 15px;
+  width: 100px;
   margin-left: 20px;
 }
 body #education-book .books .card button a, body #Self-Development .books .card button a, body #General-knowledge .books .card button a,
@@ -237,7 +245,7 @@ body #book-of-legends .books .card button a,
 body #financial .books .card button a,
 body #leadership .books .card button a {
   text-decoration: none;
-  color: white;
+  font-weight: bold;
 }
 body #education-book .books .card button:hover, body #Self-Development .books .card button:hover, body #General-knowledge .books .card button:hover,
 body #market .books .card button:hover,
@@ -246,6 +254,6 @@ body #Technology .books .card button:hover,
 body #book-of-legends .books .card button:hover,
 body #financial .books .card button:hover,
 body #leadership .books .card button:hover {
-  background: #00B9BE;
+  background: #EEF0C8;
   transition: 2s;
 }/*# sourceMappingURL=books.css.map */

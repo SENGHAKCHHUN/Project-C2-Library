@@ -139,7 +139,7 @@ main .about-main-center .card-bottom-2 {
   display: grid;
   align-items: center;
   text-align: center;
-  padding: 30px;
+  padding: 40px;
   border-radius: 0px 0px 18px 18px;
 }
 main .card-header:hover {

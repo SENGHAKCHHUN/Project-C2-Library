@@ -35,3 +35,12 @@
 }
 // about pagge#
 
+@mixin display-center {
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+@mixin grid-repeat {
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+}

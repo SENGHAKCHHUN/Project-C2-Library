@@ -1,3 +1,6 @@
+@import "./variable";
+@import "../group-mixus/flex-mixus";
+@import "../group-mixus/grid-mixus";
 footer{
     background: $card-color;
     height: 180px;

@@ -1,3 +1,75 @@
 @import "./conponents/navbar";
 @import "./conponents/footer";
 
+main {
+    display: grid;
+    grid-template-rows: 20% 80%;
+    padding: 60px 90px 80px 90px;
+    h2 {
+        @include display-center;
+        font-size: 30px;
+        font-weight: 60px;
+        margin-bottom: 30px;
+        
+    }
+    .about-main-center {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10%;
+        .card-header,
+        .card-bottom {
+            @include grid-repeat;
+            border: 2px solid $inter;
+            padding: 15px;
+            border-radius: 20px;
+        }
+        .card-header-1,
+        .card-bottom-1 {
+            @include display-center;
+            grid-template-rows: 1fr;
+            border-radius: 18px 18px 0px 0px;
+            padding: 15px;
+            gap: 10px;
+            .bx,.bx-navigation {
+                display: grid;
+                color:$inter;
+                font-size: 80px;
+            }
+            h3 {
+                @include display-center;
+                margin-bottom: 10px;
+                color: $inter;
+                font-weight: 50px;
+                font-size: 25px;
+            }
+        }
+        .card-header-2,
+        .card-bottom-2 {
+            background-color: $card-color;
+            @include display-center;
+            padding:30px;
+            border-radius: 0px 0px 18px 18px;
+        }
+    }
+    .card-header:hover {
+        background-color: $inter;
+        transition: .5s;
+        color: $inter;
+        .bx,.bx-navigation,h3 {
+        color: $h2-color;
+        }
+    }
+    .card-bottom:hover {
+        background-color: $inter;
+        transition: .5s;
+        color: $inter;
+        .bx,.bx-navigation,h3 {
+            color: $h2-color;
+        }
+    }
+}
+.map {
+    display: grid;
+    width: 100%;
+    margin: 0;
+}

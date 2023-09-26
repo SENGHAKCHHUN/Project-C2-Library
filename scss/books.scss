@@ -1,6 +1,4 @@
 @import "./conponents/navbar";
-@import "./group-mixus/grid-mixus";
-@import "./group-mixus/flex-mixus";
 @import "./conponents/footer";
 body{
     header{
@@ -77,21 +75,19 @@ body{
             @include fiverow;
             .card{
                 @include flex-coloum;
-                img{
-                    height: 200px;
-                    width: 140px;
-                    border: 2px solid $card-color;
-                    padding: 20px;
-                }
-                img:hover{
-                    padding: 0px;
-                    width: 170px;
-                    height: 230px;
-                    border: 5px solid $card-color;
-                    transition: 0.3s;
+                .image-card{
+                    // border: 5px solid orange;
+                    // background: #000;
+                    // height: 200px;
+                    // width: 140px;
+                    img{
+                        border: 2px solid $card-color;
+                        padding: 20px;
+                        width: 170px;
+                        height: 230px;
+                    }
                 }
                 button{
-                    
                     @include button;
                     a{
                         text-decoration: none;
@@ -100,34 +96,19 @@ body{
                 }
                 button:hover{
                     background: $inter;
+                    transition: 2s;
                 }
             }
         }
     }
-    #Self-Development{
+    #Self-Development
+    ,#General-knowledge
+    ,#market
+    ,#cooking
+    ,#Technology
+    ,#book-of-legends
+    ,#financial
+    ,#leadership{
         @extend #education-book;
     }
-    #General-knowledge{
-        @extend #education-book;
-    }
-    #market{
-        @extend #education-book;
-    }
-    #cooking{
-        @extend #education-book;
-    }
-    #Technology{
-        @extend #education-book;
-    }
-    #book-of-legends{
-        @extend #education-book;
-    }
-    #financial{
-        @extend #education-book;
-    }
-    #leadership{
-        @extend #education-book;
-    }
-    
-    
 }

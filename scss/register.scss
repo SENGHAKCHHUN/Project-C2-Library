@@ -1,19 +1,5 @@
 @import "./conponents/navbar";
 body{
-    nav{
-        .menu-bar{
-            ul{
-                li:nth-child(4){                    
-                    a{
-                     color: $inter;
-                     border-radius: 2px;
-                     border-bottom: 2px solid orange;
-                    
-                    }
-                }
-            }
-        }
-    }
     margin: auto;
     form{
         margin: 8% 20%;

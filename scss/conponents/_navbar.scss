@@ -1,5 +1,4 @@
 @import './variable';
-@import '../group-mixus/grid-mixus';
 @import './main';
 nav{
     @include format;
@@ -9,7 +8,7 @@ nav{
     background: $navbar-color;
     border-bottom: 1px solid $card-color;
     img{
-        width: 10%;
+        width: 12%;
         padding: 5px 90px; 
     }
     .menu-bar{

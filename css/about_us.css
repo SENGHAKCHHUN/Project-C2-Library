@@ -14,7 +14,7 @@ nav {
   border-bottom: 1px solid #EEF0C8;
 }
 nav img {
-  width: 10%;
+  width: 12%;
   padding: 5px 90px;
 }
 nav .menu-bar {
@@ -29,6 +29,7 @@ nav .menu-bar ul li {
   margin-top: 18px;
 }
 nav .menu-bar ul li a {
+  text-decoration: none;
   color: #000;
   font-size: 20px;
   text-transform: uppercase;
@@ -77,8 +78,6 @@ footer .footer-right .icon img {
   width: 40px;
   margin-left: 15px;
   margin-top: 10px;
-<<<<<<< HEAD
-=======
 }
 
 main {
@@ -164,5 +163,4 @@ main .card-bottom:hover .bx, main .card-bottom:hover .bx-navigation, main .card-
   display: grid;
   width: 100%;
   margin: 0;
->>>>>>> 580e6387592c7777431cd8cf9df629c1725d9643
 }/*# sourceMappingURL=about_us.css.map */

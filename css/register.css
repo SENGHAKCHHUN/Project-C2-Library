@@ -14,7 +14,7 @@ nav {
   border-bottom: 1px solid #EEF0C8;
 }
 nav img {
-  width: 10%;
+  width: 12%;
   padding: 5px 90px;
 }
 nav .menu-bar {
@@ -40,11 +40,6 @@ nav .menu-bar ul li a:hover {
 
 body {
   margin: auto;
-}
-body nav .menu-bar ul li:nth-child(4) a {
-  color: #00B9BE;
-  border-radius: 2px;
-  border-bottom: 2px solid orange;
 }
 body form {
   margin: 8% 20%;

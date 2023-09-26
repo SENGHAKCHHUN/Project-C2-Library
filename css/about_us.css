@@ -7,7 +7,11 @@
 nav {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
-  background: #FCFFC7;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #ffffff;
+  border-bottom: 1px solid #EEF0C8;
 }
 nav img {
   width: 10%;
@@ -25,10 +29,12 @@ nav .menu-bar ul li {
   margin-top: 18px;
 }
 nav .menu-bar ul li a {
-  text-decoration: none;
   color: #000;
   font-size: 20px;
   text-transform: uppercase;
+}
+nav .menu-bar ul li a:hover {
+  color: #00B9BE;
 }
 
 .about-main {

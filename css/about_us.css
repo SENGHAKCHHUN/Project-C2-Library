@@ -93,6 +93,7 @@ footer .footer-right .icon img {
 
 main {
   display: grid;
+  height: 70%;
   grid-template-rows: 20% 80%;
   padding: 60px 90px 80px 90px;
 }
@@ -105,37 +106,48 @@ main h2 {
   margin-bottom: 30px;
 }
 main .about-main-center {
+  height: 50%;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10%;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 50%;
 }
 main .about-main-center .card-header,
 main .about-main-center .card-bottom {
   display: grid;
-  grid-template-rows: repeat(2, 1fr);
-  border: 2px solid #00B9BE;
-  padding: 15px;
+  grid-template-columns: 30% 70%;
+  border: 0.5px solid #000;
+  height: 100%;
+  padding: 25px;
   border-radius: 20px;
 }
+main .about-main-center .card-header {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+main .about-main-center .card-bottom {
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
 main .about-main-center .card-header-1,
-main .about-main-center .card-bottom-1 {
+main .about-main-center .card-bottom-2 {
   display: grid;
   align-items: center;
   text-align: center;
   grid-template-rows: 1fr;
   border-radius: 18px 18px 0px 0px;
-  padding: 15px;
   gap: 10px;
 }
 main .about-main-center .card-header-1 .bx, main .about-main-center .card-header-1 .bx-navigation,
-main .about-main-center .card-bottom-1 .bx,
-main .about-main-center .card-bottom-1 .bx-navigation {
+main .about-main-center .card-bottom-2 .bx,
+main .about-main-center .card-bottom-2 .bx-navigation {
   display: grid;
+  align-items: center;
+  text-align: center;
   color: #00B9BE;
   font-size: 80px;
 }
 main .about-main-center .card-header-1 h3,
-main .about-main-center .card-bottom-1 h3 {
+main .about-main-center .card-bottom-2 h3 {
   display: grid;
   align-items: center;
   text-align: center;
@@ -145,16 +157,14 @@ main .about-main-center .card-bottom-1 h3 {
   font-size: 25px;
 }
 main .about-main-center .card-header-2,
-main .about-main-center .card-bottom-2 {
-  background-color: #EEF0C8;
+main .about-main-center .card-bottom-1 {
   display: grid;
   align-items: center;
   text-align: center;
-  padding: 40px;
-  border-radius: 0px 0px 18px 18px;
+  border-radius: 18px 18px 18px 18px;
 }
 main .card-header:hover {
-  background-color: #00B9BE;
+  box-shadow: rgba(5, 5, 5, 0.247) 1px 0px 5px 2px;
   transition: 0.5s;
   font-weight: 500;
   color: #00B9BE;
@@ -163,7 +173,7 @@ main .card-header:hover .bx, main .card-header:hover .bxs-donate-heart, main .ca
   color: #FB9A29;
 }
 main .card-bottom:hover {
-  background-color: #00B9BE;
+  box-shadow: rgba(5, 5, 5, 0.247) 1px 0px 5px 2px;
   transition: 0.5s;
   font-weight: 500;
   color: #00B9BE;
@@ -175,5 +185,5 @@ main .card-bottom:hover .bx, main .card-bottom:hover .bx-navigation, main .card-
 .map {
   display: grid;
   width: 100%;
-  margin: 0;
+  margin-top: 80px;
 }/*# sourceMappingURL=about_us.css.map */

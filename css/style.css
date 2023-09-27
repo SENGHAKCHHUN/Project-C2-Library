@@ -50,7 +50,7 @@ nav .menu-bar .icon-menu {
 }
 
 footer {
-  background: #EEF0C8;
+  background: #00B9BE;
   height: 180px;
   margin-top: 40px;
   display: flex;
@@ -113,16 +113,15 @@ body .cover p > b {
   margin-top: 10px;
   transition: 0.3s;
   font-size: 20px;
-  color: black;
+  color: rgba(0, 0, 0, 0.695);
 }
 body .cover .open {
-  box-shadow: 0px 2px 5px 2px #e8e8e8;
-  transition: 0.3s;
+  box-shadow: 0px 2px 5px 2px #f8f8f8;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #00B9BE;
-  color: #ffffff;
+  background: #ffffff;
+  color: black;
   width: 300px;
   height: 35px;
   border-radius: 10px;
@@ -145,10 +144,9 @@ body .popular-book #popular-title h2 {
 body .popular-book .the-book {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  margin-top: 50px;
   padding: 0px 90px;
 }
-body .popular-book .the-book .first-book:hover {
+body .popular-book .the-book #first-book a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -159,21 +157,22 @@ body .popular-book .the-book .first-book:hover {
   box-shadow: 0px 2px 5px 2px rgb(235, 232, 232);
   transition: 0.3s;
   border-radius: 10px;
+  text-decoration: none;
 }
-body .popular-book .the-book .first-book:hover .the-image {
+body .popular-book .the-book #first-book a:hover .the-image {
   width: 200px;
   height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-body .popular-book .the-book .first-book:hover .the-image img {
+body .popular-book .the-book #first-book a:hover .the-image img {
   width: 190px;
   height: 260px;
 }
-body .popular-book .the-book .first-book:hover p {
+body .popular-book .the-book #first-book a:hover p {
   background: #FB9A29;
-  transition: 0s;
+  transition: 0.3s;
   border: none;
   display: flex;
   background: #00B9BE;
@@ -184,7 +183,7 @@ body .popular-book .the-book .first-book:hover p {
   justify-content: center;
   align-items: center;
 }
-body .popular-book .the-book .first-book {
+body .popular-book .the-book #first-book a {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -193,19 +192,20 @@ body .popular-book .the-book .first-book {
   width: 230px;
   border: 0.5px #dadada solid;
   border-radius: 10px;
+  text-decoration: none;
 }
-body .popular-book .the-book .first-book .the-image {
+body .popular-book .the-book #first-book a .the-image {
   width: 200px;
   height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-body .popular-book .the-book .first-book .the-image img {
+body .popular-book .the-book #first-book a .the-image img {
   width: 190px;
   height: 260px;
 }
-body .popular-book .the-book .first-book p {
+body .popular-book .the-book #first-book a p {
   display: flex;
   border: 0.5px black solid;
   width: 120px;
@@ -245,7 +245,7 @@ body .borrow-and-return .borrow-card .borrow-title h2 {
   justify-content: center;
   margin-top: 20px;
   margin-left: 150px;
-  color: orange;
+  color: #00B9BE;
 }
 body .borrow-and-return .borrow-card .borrow-title p {
   margin-left: 100px;
@@ -297,7 +297,7 @@ body .borrow-and-return .return-card .return-title h2 {
   margin-top: 20px;
   display: flex;
   justify-content: center;
-  color: orange;
+  color: #00B9BE;
 }
 body .borrow-and-return .return-card .return-title p {
   margin-right: 100px;

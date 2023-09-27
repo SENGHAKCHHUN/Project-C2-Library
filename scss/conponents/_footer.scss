@@ -4,7 +4,7 @@
 
 
 footer{
-    background: $inter;
+    background: #00b8be58 ;
     height: 180px;
     margin-top: 40px;
     @include centered;
@@ -20,7 +20,8 @@ footer{
         .phone-call{
             @include contact;
             img{
-                width: 30px;
+                width: 38px;
+                margin-left: -5px;
             }
         }
     }

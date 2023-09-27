@@ -81,7 +81,7 @@ body {
     }
     #education-book {
         margin-top: 50px;
-        padding: 0px 90px;
+        margin: 50px 90px;
         @include flex-coloum;
         .books {
             @include fiverow;

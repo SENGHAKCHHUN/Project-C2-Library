@@ -1,55 +1,61 @@
 @import "./conponents/navbar";
 body{
-    form{
-        box-shadow: 0px 0px 3px 0px;
-        margin: 8% 25%;
-        background: $card-color;
-        border-radius: 15px;
-        padding: 0px 50px;
-        height: 70vh;
-        h1{
-            text-align: center;
-            margin: 10px 0px;
-        }
-        h4{
-            text-align: center;
-            margin-top: 20px;
-        }
+    .container-form{
+        @include contact;
         img{
-            margin-top: -60px;
-            margin-left: 38%;
+            width: 40%;
         }
-        input{
-            width: 97%;
-            padding: 10px;
-            border: none;
-            margin-top: 20px;
-            border-radius: 10px;
-            font-size: 15px;
-            outline: none;
-        }
-        button{
-            width: 100%;
-            padding: 5px;
-            background: $inter;
-            border: none;
-            border-radius: 10px;
-            font-size: 20px;
-            margin-top: 20px;
-            a{
-                text-decoration: none;
-                color: $black-color;
+        form{
+            margin: auto;
+            width: 45%;
+            background: rgba(233, 204, 149, 0.894);
+            border-radius: 15px;
+            padding: 0px 50px;
+            height: 80vh;
+            h1{
+                text-align: center;
+                margin: 10px 0px;
             }
-        }
-        .icon{
-            @include contact;
-            align-items: flex-start;
-            margin-left:35%;
-            margin-bottom: 50px;
+            h4{
+                text-align: center;
+                margin-top: 20px;
+            }
             img{
-                width: 29px;
-                margin-top: 5px;
-
+                margin-left: 40%;
+                width: 100px;
+            }
+            input{
+                width: 97%;
+                padding: 10px;
+                border: none;
+                margin-top: 20px;
+                border-radius: 10px;
+                font-size: 15px;
+                outline: none;
+            }
+            button{
+                width: 100%;
+                padding: 5px;
+                background: $inter;
+                border: none;
+                border-radius: 10px;
+                font-size: 20px;
+                margin-top: 20px;
+                a{
+                    text-decoration: none;
+                    color: $black-color;
+                }
+            }
+            .icon{
+                @include contact;
+                align-items: flex-start;
+                margin-left:35%;
+                margin-bottom: 50px;
+                img{
+                    width: 29px;
+                    margin-top: 5px;
+    
+                }
             }
         }
     }

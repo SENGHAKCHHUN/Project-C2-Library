@@ -15,11 +15,11 @@ nav {
   box-shadow: 0px 0px 3px 0px;
 }
 nav img {
-  width: 12%;
-  padding: 5px 90px;
+  width: 30%;
+  padding-left: 90px;
+  margin-top: 2px;
 }
 nav .menu-bar {
-  margin-top: 8px;
   padding-right: 90px;
 }
 nav .menu-bar ul {
@@ -255,7 +255,7 @@ body #Technology .books .image-card:hover,
 body #book-of-legends .books .image-card:hover,
 body #financial .books .image-card:hover,
 body #leadership .books .image-card:hover {
-  box-shadow: 0px 2px 5px 2px rgb(235, 232, 232);
+  box-shadow: 0px 5px 5px 5px rgb(235, 232, 232);
   transition: 0.3s;
 }
 body #education-book .books .image-card:hover button, body #Self-Development .books .image-card:hover button,

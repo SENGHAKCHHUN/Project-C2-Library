@@ -15,11 +15,11 @@ nav {
   box-shadow: 0px 0px 3px 0px;
 }
 nav img {
-  width: 12%;
-  padding: 5px 90px;
+  width: 30%;
+  padding-left: 90px;
+  margin-top: 2px;
 }
 nav .menu-bar {
-  margin-top: 8px;
   padding-right: 90px;
 }
 nav .menu-bar ul {

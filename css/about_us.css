@@ -96,58 +96,56 @@ main {
   display: grid;
   height: 70%;
   grid-template-rows: 20% 80%;
-  padding: 60px 90px 80px 90px;
+  padding: 90px 90px 40px 90px;
 }
 main h2 {
   display: grid;
   align-items: center;
   text-align: center;
   font-weight: 60px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 main .about-main-center {
-  height: 50%;
   display: grid;
-  grid-template-rows: repeat(2, 1fr);
-  gap: 50%;
+  align-items: center;
+  text-align: center;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0 10%;
+  gap: 5%;
 }
 main .about-main-center .card-header,
 main .about-main-center .card-bottom {
   display: grid;
-  grid-template-columns: 30% 70%;
-  border: 0.5px solid #000;
-  height: 100%;
-  padding: 25px;
-  border-radius: 20px;
+  align-items: center;
+  text-align: center;
+  grid-template-rows: repeat(2, 1fr);
+  border-radius: 2px;
+  box-shadow: #000 0px 0px 2px 0px;
+  padding: 10px;
 }
-main .about-main-center .card-header {
-  display: grid;
-  grid-template-columns: 20% 80%;
-}
-main .about-main-center .card-bottom {
-  display: grid;
-  grid-template-columns: 80% 20%;
-}
-main .about-main-center .card-header-1,
-main .about-main-center .card-bottom-2 {
+main .about-main-center .card-header .card-header-1,
+main .about-main-center .card-header .card-bottom-1,
+main .about-main-center .card-bottom .card-header-1,
+main .about-main-center .card-bottom .card-bottom-1 {
   display: grid;
   align-items: center;
   text-align: center;
   grid-template-rows: 1fr;
-  border-radius: 18px 18px 0px 0px;
+  border-radius: 15px;
   gap: 10px;
 }
-main .about-main-center .card-header-1 .bx, main .about-main-center .card-header-1 .bx-navigation,
-main .about-main-center .card-bottom-2 .bx,
-main .about-main-center .card-bottom-2 .bx-navigation {
-  display: grid;
-  align-items: center;
-  text-align: center;
-  color: #00B9BE;
-  font-size: 80px;
+main .about-main-center .card-header .card-header-1 img,
+main .about-main-center .card-header .card-bottom-1 img,
+main .about-main-center .card-bottom .card-header-1 img,
+main .about-main-center .card-bottom .card-bottom-1 img {
+  padding-left: 40%;
+  width: 100px;
+  display: flex;
 }
-main .about-main-center .card-header-1 h3,
-main .about-main-center .card-bottom-2 h3 {
+main .about-main-center .card-header .card-header-1 h3,
+main .about-main-center .card-header .card-bottom-1 h3,
+main .about-main-center .card-bottom .card-header-1 h3,
+main .about-main-center .card-bottom .card-bottom-1 h3 {
   display: grid;
   align-items: center;
   text-align: center;
@@ -156,34 +154,30 @@ main .about-main-center .card-bottom-2 h3 {
   font-weight: 50px;
   font-size: 25px;
 }
-main .about-main-center .card-header-2,
-main .about-main-center .card-bottom-1 {
+main .about-main-center .card-header .card-header-2,
+main .about-main-center .card-header .card-bottom-2,
+main .about-main-center .card-bottom .card-header-2,
+main .about-main-center .card-bottom .card-bottom-2 {
   display: grid;
   align-items: center;
   text-align: center;
   border-radius: 18px 18px 18px 18px;
 }
 main .card-header:hover {
-  box-shadow: rgba(5, 5, 5, 0.247) 1px 0px 5px 2px;
+  box-shadow: rgba(5, 5, 5, 0.404) 1px 0px 5px 2px;
   transition: 0.5s;
   font-weight: 500;
   color: #00B9BE;
-}
-main .card-header:hover .bx, main .card-header:hover .bxs-donate-heart, main .card-header:hover h3 {
-  color: #FB9A29;
 }
 main .card-bottom:hover {
-  box-shadow: rgba(5, 5, 5, 0.247) 1px 0px 5px 2px;
+  box-shadow: rgba(5, 5, 5, 0.404) 1px 0px 5px 2px;
   transition: 0.5s;
   font-weight: 500;
   color: #00B9BE;
-}
-main .card-bottom:hover .bx, main .card-bottom:hover .bx-navigation, main .card-bottom:hover h3 {
-  color: #FB9A29;
 }
 
 .map {
   display: grid;
   width: 100%;
-  margin-top: 80px;
+  margin-top: 2%;
 }/*# sourceMappingURL=about_us.css.map */

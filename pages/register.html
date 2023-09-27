@@ -20,19 +20,61 @@
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="./books.html">Books</a></li>
                 <li><a href="./about_us.html">About us</a></li>
-                <li><a href="../pages/register.html"><i class="material-icons"style="font-size: 35px; color: #00B9BE ; margin-top: -9px; margin-left: 110px;">account_circle</i></a>
-                </li>
+                <li><a href="../pages/register.html"><i class="material-icons" style="font-size: 35px; color: #00B9BE ; margin-top: -9px; margin-left: 110px;">account_circle</i></a></li>
             </ul>
         </div>
     </nav>
     <div class="container-form">
-        <img src="../images/re.png" alt="register">
+        <!-- <img src="../images/re.png" alt="register"> -->
         <form action="register">
-            <img src="../images/logo-register.png" alt="logo">
             <h1>Register</h1>
-            <input type="text" placeholder="Full name">
-            <input type="email" placeholder="Emaill Adress">
-            <input type="password" placeholder="Password">
+            <div class="info">
+                <div class="card">
+                    <div class="card-input">
+                        <label for="First Name">First Name</label>
+                        <input type="text" placeholder="First name...">
+                    </div>
+                    <div class="card-input">
+                        <label for="Email">Email</label>
+                        <input type="email" placeholder="Emaill Adress..">
+                    </div>
+                    <div class="card-input">
+                        <label for="Phone Number">Phone Number</label>
+                        <input type="text" placeholder="Phone number...">
+                    </div>
+                    <div class="card-input">
+                        <label for="Gender">Gender</label>
+                        <select name="Gender" id="select">
+                            <option value="..."></option>
+                            <option value="Femle">Femle</option>
+                            <option value="Male">Male</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-input">
+                        <label for="Last Name">Last Name</label>
+                        <input type="text" placeholder="Last name">
+                    </div>
+                    <div class="card-input">
+                        <label for="Date">Date</label>
+                        <input type="date" placeholder="date of birth">
+                    </div>
+                    <div class="card-input">
+                        <label for="password">Password</label>
+                        <input type="password" placeholder="Password">
+                    </div>
+                    <div class="card-input">
+                        <label for="kind of book"> kinds of book do you choose</label>
+                        <select name="book" id="book" placeholder="Choose book" >
+                            <option value="..."></option>
+                            <option value="">Education</option>
+                            <option value="">Book Of Legend</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            
             <button><a href="../index.html">Register</a></button>
             <h4>OR</h4>
             <div class="icon">
@@ -42,9 +84,9 @@
                 <a href="../index.html"><img src="../images/follow us/twitter.png" alt="twitter"></a>
             </div>
         </form>
-        
+
     </div>
-    
+
 </body>
 
 </html>

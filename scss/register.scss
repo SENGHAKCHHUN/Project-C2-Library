@@ -2,16 +2,14 @@
 body{
     .container-form{
         @include contact;
-        img{
-            width: 40%;
-        }
+        margin-top: 40px;
         form{
-            margin: auto;
             width: 45%;
-            background: rgba(233, 204, 149, 0.894);
+            background: rgba(125, 237, 254, 0.369);
             border-radius: 15px;
             padding: 0px 50px;
             height: 80vh;
+            margin-left: 90px;
             h1{
                 text-align: center;
                 margin: 10px 0px;
@@ -21,7 +19,7 @@ body{
                 margin-top: 20px;
             }
             img{
-                margin-left: 40%;
+                margin-left: 42%;
                 width: 100px;
             }
             input{
@@ -54,9 +52,12 @@ body{
                 img{
                     width: 29px;
                     margin-top: 5px;
-    
                 }
             }
+        }
+        img{
+            width: 30%;
+            margin-left: 45px;
         }
     }
 }

@@ -53,17 +53,15 @@ body .container-form {
   display: flex;
   align-items: center;
   gap: 10px;
-}
-body .container-form img {
-  width: 40%;
+  margin-top: 40px;
 }
 body .container-form form {
-  margin: auto;
   width: 45%;
-  background: rgba(233, 204, 149, 0.894);
+  background: rgba(125, 237, 254, 0.369);
   border-radius: 15px;
   padding: 0px 50px;
   height: 80vh;
+  margin-left: 90px;
 }
 body .container-form form h1 {
   text-align: center;
@@ -74,7 +72,7 @@ body .container-form form h4 {
   margin-top: 20px;
 }
 body .container-form form img {
-  margin-left: 40%;
+  margin-left: 42%;
   width: 100px;
 }
 body .container-form form input {
@@ -110,4 +108,8 @@ body .container-form form .icon {
 body .container-form form .icon img {
   width: 29px;
   margin-top: 5px;
+}
+body .container-form img {
+  width: 30%;
+  margin-left: 45px;
 }/*# sourceMappingURL=register.css.map */

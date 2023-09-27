@@ -91,21 +91,34 @@ body{
         }
         .books{
             @include fiverow;
+            justify-content: space-between;
             .card{
                 @include flex-coloum;
                 .image-card{
-                    height: 310px;
-                    width: 220px;
-                    border: 5px solid orange;
-                    box-shadow: 0px 0px 2xp 0px;
+                    height: 320px;
+                    width: 230px;
+                    border: 2px solid $card-menu-hover;
+                    box-shadow: 0px 0px 8xp 0px;
                     display: flex;
                     align-items: center;
-                    
+                    justify-content: center;
+                    margin-right: 50px;
                     img{
                         border: 1px solid $card-color;
                         width: 190px;
                         height: 280px;
-                        margin-right: 40px
+                    }
+                }
+                .image-card:hover{
+                    display: img;
+                    background: $inter;
+                    img{
+                        width: 220px;
+                        height: 310px;
+                        transition: 0.5s;
+                    }
+                    button{
+                        background: orange;
                     }
                 }
                 button{
@@ -113,13 +126,14 @@ body{
                     @include button;
                     a{
                         text-decoration: none;
-                        // color: $hover-color;
+                        color: black;
                         font-weight: bold;
                     }
                 }
                 button:hover{
-                    background: $card-color;
-                    transition: 2s;
+                    background: $h2-color;
+                    transition: 1s;
+                    border: none
                 }
             }
         }

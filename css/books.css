@@ -216,6 +216,7 @@ body #leadership .books {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 20px;
+  justify-content: space-between;
 }
 body #education-book .books .card, body #Self-Development .books .card, body #General-knowledge .books .card,
 body #market .books .card,
@@ -235,12 +236,14 @@ body #Technology .books .card .image-card,
 body #book-of-legends .books .card .image-card,
 body #financial .books .card .image-card,
 body #leadership .books .card .image-card {
-  height: 310px;
-  width: 220px;
-  border: 5px solid orange;
-  box-shadow: 0px 0px 2xp 0px;
+  height: 320px;
+  width: 230px;
+  border: 2px solid #FB9A29;
+  box-shadow: 0px 0px 8xp 0px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  margin-right: 50px;
 }
 body #education-book .books .card .image-card img, body #Self-Development .books .card .image-card img, body #General-knowledge .books .card .image-card img,
 body #market .books .card .image-card img,
@@ -252,7 +255,36 @@ body #leadership .books .card .image-card img {
   border: 1px solid #EEF0C8;
   width: 190px;
   height: 280px;
-  margin-right: 40px;
+}
+body #education-book .books .card .image-card:hover, body #Self-Development .books .card .image-card:hover, body #General-knowledge .books .card .image-card:hover,
+body #market .books .card .image-card:hover,
+body #cooking .books .card .image-card:hover,
+body #Technology .books .card .image-card:hover,
+body #book-of-legends .books .card .image-card:hover,
+body #financial .books .card .image-card:hover,
+body #leadership .books .card .image-card:hover {
+  display: img;
+  background: #00B9BE;
+}
+body #education-book .books .card .image-card:hover img, body #Self-Development .books .card .image-card:hover img, body #General-knowledge .books .card .image-card:hover img,
+body #market .books .card .image-card:hover img,
+body #cooking .books .card .image-card:hover img,
+body #Technology .books .card .image-card:hover img,
+body #book-of-legends .books .card .image-card:hover img,
+body #financial .books .card .image-card:hover img,
+body #leadership .books .card .image-card:hover img {
+  width: 220px;
+  height: 310px;
+  transition: 0.5s;
+}
+body #education-book .books .card .image-card:hover button, body #Self-Development .books .card .image-card:hover button, body #General-knowledge .books .card .image-card:hover button,
+body #market .books .card .image-card:hover button,
+body #cooking .books .card .image-card:hover button,
+body #Technology .books .card .image-card:hover button,
+body #book-of-legends .books .card .image-card:hover button,
+body #financial .books .card .image-card:hover button,
+body #leadership .books .card .image-card:hover button {
+  background: orange;
 }
 body #education-book .books .card button, body #Self-Development .books .card button, body #General-knowledge .books .card button,
 body #market .books .card button,
@@ -267,7 +299,7 @@ body #leadership .books .card button {
   border-radius: 5px;
   height: 30px;
   font-size: 15px;
-  width: 90px;
+  width: 100px;
   margin-left: 20px;
 }
 body #education-book .books .card button a, body #Self-Development .books .card button a, body #General-knowledge .books .card button a,
@@ -278,6 +310,7 @@ body #book-of-legends .books .card button a,
 body #financial .books .card button a,
 body #leadership .books .card button a {
   text-decoration: none;
+  color: black;
   font-weight: bold;
 }
 body #education-book .books .card button:hover, body #Self-Development .books .card button:hover, body #General-knowledge .books .card button:hover,
@@ -287,6 +320,7 @@ body #Technology .books .card button:hover,
 body #book-of-legends .books .card button:hover,
 body #financial .books .card button:hover,
 body #leadership .books .card button:hover {
-  background: #EEF0C8;
-  transition: 2s;
+  background: #FB9A29;
+  transition: 1s;
+  border: none;
 }/*# sourceMappingURL=books.css.map */

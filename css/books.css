@@ -238,7 +238,7 @@ body #financial .books .card .image-card,
 body #leadership .books .card .image-card {
   height: 320px;
   width: 230px;
-  border: 2px solid #FB9A29;
+  border: 2px solid rgb(230, 224, 224);
   box-shadow: 0px 0px 8xp 0px;
   display: flex;
   align-items: center;

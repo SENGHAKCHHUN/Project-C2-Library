@@ -15,11 +15,11 @@ nav {
   box-shadow: 0px 0px 3px 0px;
 }
 nav img {
-  width: 12%;
-  padding: 5px 90px;
+  width: 30%;
+  padding-left: 90px;
+  margin-top: 2px;
 }
 nav .menu-bar {
-  margin-top: 8px;
   padding-right: 90px;
 }
 nav .menu-bar ul {
@@ -50,7 +50,7 @@ nav .menu-bar .icon-menu {
 }
 
 footer {
-  background: #00B9BE;
+  background: rgba(0, 184, 190, 0.3450980392);
   height: 180px;
   margin-top: 40px;
   display: flex;
@@ -77,7 +77,8 @@ footer .footer-left .phone-call {
   gap: 10px;
 }
 footer .footer-left .phone-call img {
-  width: 30px;
+  width: 38px;
+  margin-left: -5px;
 }
 footer .footer-right h3 {
   text-align: center;
@@ -171,7 +172,7 @@ body #book-of-legends,
 body #financial,
 body #leadership {
   margin-top: 50px;
-  padding: 0px 90px;
+  margin: 50px 90px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -254,7 +255,7 @@ body #Technology .books .image-card:hover,
 body #book-of-legends .books .image-card:hover,
 body #financial .books .image-card:hover,
 body #leadership .books .image-card:hover {
-  box-shadow: 0px 2px 5px 2px rgb(235, 232, 232);
+  box-shadow: 0px 5px 5px 5px rgb(235, 232, 232);
   transition: 0.3s;
 }
 body #education-book .books .image-card:hover button, body #Self-Development .books .image-card:hover button,

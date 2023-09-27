@@ -7,11 +7,13 @@ nav{
     z-index: 100;
     background: $navbar-color;
     border-bottom: 1px solid $card-color;
+    box-shadow: 0px 0px 3px 0px;
     img{
         width: 12%;
         padding: 5px 90px; 
     }
     .menu-bar{
+        margin-top: 8px;
         padding-right: 90px;
         ul{
             @include formated;
@@ -31,6 +33,11 @@ nav{
                     font-weight: 520;
                 }
             }
+        }
+        .icon-menu{
+            @include centered;
+            margin-top: 10px;
+
         }
     }
 }

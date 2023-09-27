@@ -176,48 +176,6 @@ body #leadership {
   flex-direction: column;
   gap: 10px;
 }
-body #education-book .title-book, body #Self-Development .title-book,
-body #General-knowledge .title-book,
-body #market .title-book,
-body #cooking .title-book,
-body #Technology .title-book,
-body #book-of-legends .title-book,
-body #financial .title-book,
-body #leadership .title-book {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: #FB9A29;
-}
-body #education-book .title-book .more, body #Self-Development .title-book .more,
-body #General-knowledge .title-book .more,
-body #market .title-book .more,
-body #cooking .title-book .more,
-body #Technology .title-book .more,
-body #book-of-legends .title-book .more,
-body #financial .title-book .more,
-body #leadership .title-book .more {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-body #education-book .title-book .more .fa, body #Self-Development .title-book .more .fa,
-body #General-knowledge .title-book .more .fa,
-body #market .title-book .more .fa,
-body #cooking .title-book .more .fa,
-body #Technology .title-book .more .fa,
-body #book-of-legends .title-book .more .fa,
-body #financial .title-book .more .fa,
-body #leadership .title-book .more .fa {
-  width: 25px;
-  height: 25px;
-  background: rgb(230, 224, 224);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 20px;
-}
 body #education-book .books, body #Self-Development .books,
 body #General-knowledge .books,
 body #market .books,
@@ -244,13 +202,8 @@ body #leadership .books .image-card {
   gap: 10px;
   height: 350px;
   width: 230px;
-<<<<<<< HEAD
   border: 1px solid rgb(235, 231, 231);
-  border-radius: 5px;
-=======
-  border: 2px solid rgb(230, 224, 224);
-  box-shadow: 0px 0px 8xp 0px;
->>>>>>> b6221447d16d907b662cd442512b45375f3b4135
+  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -302,6 +255,7 @@ body #book-of-legends .books .image-card:hover,
 body #financial .books .image-card:hover,
 body #leadership .books .image-card:hover {
   box-shadow: 0px 2px 5px 2px rgb(235, 232, 232);
+  transition: 0.3s;
 }
 body #education-book .books .image-card:hover button, body #Self-Development .books .image-card:hover button,
 body #General-knowledge .books .image-card:hover button,
@@ -313,6 +267,7 @@ body #financial .books .image-card:hover button,
 body #leadership .books .image-card:hover button {
   background: #00B9BE;
   border: none;
+  transition: 0.2s;
 }
 body #education-book .books .image-card:hover button a, body #Self-Development .books .image-card:hover button a,
 body #General-knowledge .books .image-card:hover button a,

@@ -41,5 +41,5 @@
 }
 @mixin grid-repeat {
     display: grid;
-    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: 30% 70%;
 }

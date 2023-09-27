@@ -6,6 +6,7 @@ body{
         background: $card-color;
         border-radius: 15px;
         padding: 0px 50px;
+        height: 70vh;
         h1{
             text-align: center;
             margin: 10px 0px;
@@ -28,7 +29,7 @@ body{
             outline: none;
         }
         button{
-            width: 20%;
+            width: 100%;
             padding: 5px;
             background: $inter;
             border: none;

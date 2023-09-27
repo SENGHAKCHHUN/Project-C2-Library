@@ -33,7 +33,7 @@ nav .menu-bar ul li {
 nav .menu-bar ul li a {
   text-decoration: none;
   color: #000;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 520;
   text-transform: uppercase;
 }
@@ -55,6 +55,7 @@ body form {
   background: #EEF0C8;
   border-radius: 15px;
   padding: 0px 50px;
+  height: 70vh;
 }
 body form h1 {
   text-align: center;
@@ -78,7 +79,7 @@ body form input {
   outline: none;
 }
 body form button {
-  width: 20%;
+  width: 100%;
   padding: 5px;
   background: #00B9BE;
   border: none;

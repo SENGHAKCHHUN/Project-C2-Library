@@ -204,6 +204,7 @@ body #leadership .books .image-card {
   height: 350px;
   width: 230px;
   border: 1px solid rgb(235, 231, 231);
+  border-bottom: 4px solid #00B9BE;
   border-radius: 10px;
   display: flex;
   align-items: center;

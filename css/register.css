@@ -15,11 +15,11 @@ nav {
   box-shadow: 0px 0px 3px 0px;
 }
 nav img {
-  width: 12%;
-  padding: 5px 90px;
+  width: 30%;
+  padding-left: 90px;
+  margin-top: 2px;
 }
 nav .menu-bar {
-  margin-top: 8px;
   padding-right: 90px;
 }
 nav .menu-bar ul {
@@ -56,7 +56,7 @@ body .container-form {
   margin-top: 40px;
 }
 body .container-form form {
-  width: 45%;
+  width: 40%;
   background: rgba(125, 237, 254, 0.369);
   border-radius: 15px;
   padding: 0px 50px;

@@ -41,7 +41,7 @@ body {
         margin: 50px 90px;
         input[type="text"] {
             background: $card-color;
-            width: 30%;
+            width: 40%;
             border-radius: 10px;
             border: none;
             padding: 5px;
@@ -86,27 +86,27 @@ body {
             justify-content: space-between;
             .image-card {
                 @include flex-coloum;
-                height: 350px;
-                width: 230px;
+                height: 420px;
+                width: 280px;
                 border: 1px solid rgb(235, 231, 231);
                 border-bottom: 4px solid $inter;
                 border-radius: 10px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-right: 50px;
+                margin-right: 90px;
                 img {
                     border: 1px solid $card-color;
-                    width: 190px;
-                    height: 280px;
+                    width: 250px;
+                    height: 350px;
                 }
             }
             button{
-                width: 130px;
+                width: 180px;
                 border-radius: 5px;
                 border: 1px solid;
-                font-size: 15px;
-                height: 28px;
+                font-size: 18px;
+                height: 35px;
                 background: none;
                 a{
                     text-decoration: none;
@@ -138,4 +138,4 @@ body {
         @extend #education-book;
     }
 }
-@import "../scss/responsive/template/books";
+// @import "./responsive/template/books";

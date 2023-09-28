@@ -94,8 +94,8 @@ footer .footer-right .icon img {
 
 main {
   display: grid;
-  height: 70%;
-  grid-template-rows: 20% 80%;
+  height: auto;
+  grid-template-rows: 10% 45% 45%;
   padding: 90px 90px 40px 90px;
 }
 main h2 {
@@ -103,7 +103,6 @@ main h2 {
   align-items: center;
   text-align: center;
   font-weight: 60px;
-  margin-bottom: 50px;
 }
 main .about-main-center {
   display: grid;
@@ -119,7 +118,7 @@ main .about-main-center .card-bottom {
   align-items: center;
   text-align: center;
   grid-template-rows: repeat(2, 1fr);
-  background-color: rgb(255, 255, 255);
+  border-radius: 18px 18px 0px 0px;
   box-shadow: rgba(18, 17, 17, 0.336) 0px 1px 5px 0px;
   padding: 1%;
 }
@@ -175,6 +174,73 @@ main .card-bottom:hover {
   font-weight: 500;
   scale: 0.98;
   color: #00B9BE;
+}
+main .card-ceo {
+  height: 400px;
+  display: grid;
+  grid-template-columns: 30% 65%;
+  gap: 5%;
+  padding: 5% 0;
+}
+main .card-ceo .card-ceo-left {
+  display: grid;
+  grid-template-rows: 70% 30%;
+}
+main .card-ceo .card-ceo-left .ceo-bootom {
+  background-color: rgb(230, 224, 224);
+  display: grid;
+  align-items: center;
+  text-align: center;
+  padding: 4% 0;
+  font-size: 15px;
+}
+main .card-ceo .card-ceo-left .ceo-bootom .contact-ceo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 0 32%;
+  align-items: center;
+  text-align: center;
+}
+main .card-ceo .card-ceo-left .ceo-bootom .contact-ceo a, main .card-ceo .card-ceo-left .ceo-bootom .contact-ceo img {
+  display: grid;
+  align-items: center;
+  width: 20px;
+}
+main .card-ceo .card-ceo-left .ceo-bootom .contact-ceo a img:hover {
+  transition: 0.3s;
+  scale: 1.1;
+  box-shadow: 0px 0px 3px 3px;
+  border-radius: 20px;
+}
+main .card-ceo .card-ceo-left:hover {
+  box-shadow: rgba(62, 183, 240, 0.231) 0px 8px 10px 4px;
+  transition: 0.5s;
+  scale: 0.98;
+}
+main .card-ceo .card-ceo-left,
+main .card-ceo .card-ceo-right {
+  height: 80%;
+  display: grid;
+}
+main .card-ceo .card-ceo-left .ceo,
+main .card-ceo .card-ceo-right .ceo {
+  display: grid;
+  background-image: url(/images/CEO.jpg);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: cover;
+}
+main .card-ceo .card-ceo-left div.ceo-ifo,
+main .card-ceo .card-ceo-right div.ceo-ifo {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 0 0 5%;
+  gap: 5%;
+}
+main .card-ceo .card-ceo-left div.ceo-ifo span,
+main .card-ceo .card-ceo-right div.ceo-ifo span {
+  font-weight: 600;
+  font-size: 25px;
 }
 
 .map {

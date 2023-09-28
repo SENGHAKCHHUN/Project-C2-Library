@@ -86,8 +86,8 @@ body {
             justify-content: space-between;
             .image-card {
                 @include flex-coloum;
-                height: 420px;
-                width: 280px;
+                height: 310px;
+                width: 210px;
                 border: 1px solid rgb(235, 231, 231);
                 border-bottom: 4px solid $inter;
                 border-radius: 10px;
@@ -97,16 +97,16 @@ body {
                 margin-right: 90px;
                 img {
                     border: 1px solid $card-color;
-                    width: 250px;
-                    height: 350px;
+                    width: 185px;
+                    height: 255px;
                 }
             }
             button{
-                width: 180px;
+                width: 130px;
                 border-radius: 5px;
                 border: 1px solid;
                 font-size: 18px;
-                height: 35px;
+                height: 25px;
                 background: none;
                 a{
                     text-decoration: none;

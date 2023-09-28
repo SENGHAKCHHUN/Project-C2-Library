@@ -119,8 +119,8 @@ main .about-main-center .card-bottom {
   align-items: center;
   text-align: center;
   grid-template-rows: repeat(2, 1fr);
-  border-radius: 2px;
-  box-shadow: #000 0px 0px 2px 0px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(18, 17, 17, 0.336) 0px 1px 5px 0px;
   padding: 1%;
 }
 main .about-main-center .card-header .card-header-1,
@@ -131,7 +131,7 @@ main .about-main-center .card-bottom .card-bottom-1 {
   align-items: center;
   text-align: center;
   grid-template-rows: 1fr;
-  border-radius: 15px;
+  border-radius: 4px;
   gap: 10px;
 }
 main .about-main-center .card-header .card-header-1 img,
@@ -163,15 +163,17 @@ main .about-main-center .card-bottom .card-bottom-2 {
   border-radius: 18px 18px 18px 18px;
 }
 main .card-header:hover {
-  box-shadow: rgba(5, 5, 5, 0.404) 1px 0px 5px 2px;
+  box-shadow: rgba(62, 183, 240, 0.231) 0px 8px 10px 4px;
   transition: 0.5s;
   font-weight: 500;
+  scale: 0.98;
   color: #00B9BE;
 }
 main .card-bottom:hover {
-  box-shadow: rgba(5, 5, 5, 0.404) 1px 0px 5px 2px;
+  box-shadow: rgba(62, 183, 240, 0.231) 0px 8px 10px 4px;
   transition: 0.5s;
   font-weight: 500;
+  scale: 0.98;
   color: #00B9BE;
 }
 
@@ -179,4 +181,17 @@ main .card-bottom:hover {
   display: grid;
   width: 100%;
   margin-top: 2%;
+}
+
+@media (max-width: 800px) {
+  body {
+    height: auto;
+    width: auto;
+  }
+}
+@media (max-width: 500px) {
+  nav {
+    display: none;
+    display: grid;
+  }
 }/*# sourceMappingURL=about_us.css.map */

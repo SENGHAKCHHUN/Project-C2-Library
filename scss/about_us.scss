@@ -3,13 +3,12 @@
 
 main {
     display: grid;
-    height: 70%;
-    grid-template-rows: 20% 80%;
+    height: auto;
+    grid-template-rows: 10% 45% 45%;
     padding: 90px 90px 40px 90px;
     h2 {
         @include display-center;
         font-weight: 60px;
-        margin-bottom: 50px;
     }
     .about-main-center {
         @include display-center;
@@ -21,14 +20,14 @@ main {
         .card-bottom {
             @include display-center;
             grid-template-rows: repeat(2, 1fr);
-            border-radius: 2px;
-            box-shadow: $black-color 0px 0px 2px 0px;
+            border-radius: 18px 18px 0px 0px;
+            box-shadow: rgba(18, 17, 17, 0.336) 0px 1px 5px 0px;
             padding: 1%;
             .card-header-1,
             .card-bottom-1 {
                 @include display-center;
                 grid-template-rows: 1fr;
-                border-radius: 15px;
+                border-radius: 4px;
                 gap: 10px;
                 img {
                     padding-left: 40%;
@@ -50,16 +49,84 @@ main {
         }
     }
     .card-header:hover {
-        box-shadow: rgba(5, 5, 5, 0.404) 1px 0px 5px 2px;
+        box-shadow: $about-hover 0px 8px 10px 4px;
+        // border-radius: 200px 200px 0px 0px;
         transition: .5s;
         font-weight: 500;
+        scale: 0.98;
         color: $inter;
     }
     .card-bottom:hover {
-        box-shadow: rgba(5, 5, 5, 0.404) 1px 0px 5px 2px;
+        box-shadow: $about-hover 0px 8px 10px 4px;
         transition: .5s;
         font-weight: 500;
+        scale: 0.98;
         color: $inter;
+    }
+    .card-ceo {
+        height: 400px;
+        // background-color: beige;
+        display: grid;
+        grid-template-columns: 30% 65%;
+        gap: 5%;
+        padding: 5% 0;
+        .card-ceo-left {
+            display: grid;
+            grid-template-rows: 70% 30%;
+            .ceo-bootom {
+                background-color: $card-menu-hover ;
+                display: grid;
+                align-items: center;
+                text-align: center;
+                padding: 4% 0;
+                font-size: 15px;
+                .contact-ceo {
+                    display: grid;
+                    grid-template-columns: repeat(4,1fr);
+                    padding: 0 32%;
+                    align-items: center;
+                    text-align: center;
+                    a, img {
+                        display: grid;
+                        align-items: center;
+                        width: 20px;
+                    }
+                    a img:hover {
+                        transition: .3s;
+                        scale: 1.1;
+                        box-shadow: 0px 0px 3px 3px;
+                        border-radius: 20px;
+                    }
+                }
+            }
+        }
+        .card-ceo-left:hover {
+            box-shadow: $about-hover 0px 8px 10px 4px;
+            transition: .5s;
+            scale: .98;
+        }
+        .card-ceo-left,
+        .card-ceo-right {
+            height: 80%;
+            display: grid;
+            .ceo {
+                display: grid;
+                background-image: url(/images/CEO.jpg);
+                background-repeat: no-repeat;
+                background-position: 100%;
+                background-size: cover;
+            }
+            div.ceo-ifo {
+                display: flex;
+                flex-direction: column;
+                padding: 5% 0 0 5%;
+                gap: 5%;
+                span {
+                    font-weight: 600;
+                    font-size: 25px;
+                }
+            }
+        }
     }
 }
 .map {
@@ -67,4 +134,25 @@ main {
     width: 100%;
     margin-top: 2%;
 }
+<<<<<<< HEAD
 @import "../scss/responsive/template/about-us";
+=======
+<<<<<<< HEAD
+
+@media (max-width:800px) {
+    body {
+        height: auto;
+        width: auto;
+    }
+}
+@media (max-width:500px) {
+    nav {
+        display: none;
+        display: grid;
+        
+    }
+}
+=======
+@import "../scss/about_us.scss";
+>>>>>>> df6e5bdbe54effb0f699225ac40cf2596786b69d
+>>>>>>> 8f443c3079fa4fd480c23ece06352f33a9923fb9

@@ -10,26 +10,22 @@ body {
             background-repeat: no-repeat;
             background-position: 0;
             height: 500px;
-
             h1 {
                 text-shadow: 1px 3px #d2d8b0;
                 font-size: 50px;
                 color: $inter ;
             }
-
             h1,
             p {
                 font-weight: 600;
                 padding: 50px 90px;
             }
-
             p {
                 b {
                     font-size: 20px;
                     color: rgba(0, 0, 0, 0.819);
                 }
             }
-
             .open {
                 box-shadow: 0px 2px 5px 2px #9d9d9d;
                 display: flex;
@@ -45,7 +41,6 @@ body {
                 margin-top: 170px;
                 font-size: 17px;
             }
-
             .open:hover {
                 box-shadow: none;
                 display: flex;
@@ -62,37 +57,30 @@ body {
                 font-size: 17px;
             }
         }
-
     }
     .popular-book {
         margin-top: 50px;
-
         @include flex-coloum;
-
         h2 {
             color: $inter;
             text-align: center;
             margin-bottom: 40px;
         }
-
         //     
         // }
-
         // me
         .books {
-            
             @include fiverow;
             justify-content: space-between;
             margin-left: 50px;
             display: flex;
             flex-direction: row;
             justify-content: center;
-
             .image-card {
                 border-bottom: 4px solid $inter;
                 @include flex-coloum;
-                height: 350px;
-                width: 230px;
+                height: 310px;
+                width: 210px;
                 border: 1px solid rgb(235, 231, 231);
                 border-radius: 10px;
                 display: flex;
@@ -100,14 +88,12 @@ body {
                 align-items: center;
                 justify-content: center;
                 margin-right: 20px;
-
                 img {
                     border: 1px solid $card-color;
-                    max-width: 15%;
-                    height: 250px;
+                    width: 185px;
+                    height: 255px;
                 }
             }
-
             button {
                 width: 130px;
                 border-radius: 5px;
@@ -115,36 +101,29 @@ body {
                 font-size: 15px;
                 height: 28px;
                 background: none;
-
                 a {
                     text-decoration: none;
                 }
             }
-
             .image-card:hover {
                 box-shadow: 0px 2px 5px 2px $shadow-card;
                 transition: 0.3s;
                 border-bottom: 4px solid $inter;
-        
-
                 button {
                     background: $inter;
                     border: none;
                     transition: 0.2s;
-
                     a {
                         color: $hover-color;
                     }
                 }
             }
         }
-
         .borrow-and-return {
             display: flex;
             align-items: center;
             gap: 30px;
             flex-direction: column;
-
             .borrow-card {
                 box-shadow: 0px 2px 5px 2px $shadow-card;
                 margin-top: 20px;
@@ -154,13 +133,11 @@ body {
                 width: 89%;
                 margin-top: 60px;
                 display: flex;
-
                 .borrow-title {
                     display: grid;
                     width: 80%;
                     grid-template-rows: repeat(2, 2.5fr);
                     margin-bottom: 50px;
-
                     h2 {
                         display: flex;
                         justify-content: center;
@@ -168,19 +145,16 @@ body {
                         margin-left: 150px;
                         color: $inter;
                     }
-
                     p {
                         line-height: 25px;
                         margin-left: 100px;
                     }
                 }
-
                 .img {
                     width: 30%;
                     align-items: center;
                     display: flex;
                     justify-content: center;
-
                     img {
                         box-shadow: 0px 2px 5px 2px rgba(128, 128, 128, 0.736);
                         border-radius: 5px;
@@ -189,7 +163,6 @@ body {
                     }
                 }
             }
-
             .return-card {
                 box-shadow: 0px 2px 5px 2px $shadow-card;
                 justify-content: center;
@@ -199,13 +172,11 @@ body {
                 height: 200px;
                 width: 89%;
                 display: flex;
-
                 .return-img {
                     width: 30%;
                     align-items: center;
                     display: flex;
                     justify-content: center;
-
                     img {
                         box-shadow: 0px 2px 5px 2px rgba(128, 128, 128, 0.736);
                         border-radius: 5px;
@@ -213,20 +184,17 @@ body {
                         height: 140px;
                     }
                 }
-
                 .return-title {
                     display: grid;
                     width: 80%;
                     grid-template-rows: repeat(2, 2.5fr);
                     margin-bottom: 50px;
-
                     h2 {
                         margin-top: 20px;
                         display: flex;
                         justify-content: center;
                         color: $inter;
                     }
-
                     p {
                         line-height: 25px;
                         margin-right: 100px;
@@ -234,10 +202,8 @@ body {
                 }
             }
         }
-
         #address {
             padding: 1%;
-
             p {
                 a {
                     list-style: none;
@@ -245,8 +211,6 @@ body {
             }
         }
     }
-
-
 }
 // responsive template
 @import "./responsive/template/style";

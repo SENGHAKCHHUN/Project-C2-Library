@@ -1,14 +1,13 @@
-@media (max-width: 834px) {
+@media (max-width: 1024px) {
     body{
-        
         nav{
             img{
-                width: 30%;
+                max-width: 30%;
                 padding-left: 50px;
                 margin-top: 8px;
             }
             .menu-bar{
-                margin-top: -8px;
+                margin-top: -5px;
             }
         }
         .group-book {
@@ -23,17 +22,15 @@
         #education-book{
             margin-top: 50px;
             margin: 50px 50px;
-            @include flex-coloum;
             .books {
                 .image-card {
-                    @include flex-coloum;
                     height: 260px;
                     width: 150px;
-                    margin-right: 25px;
+                    margin-right: 60px;
                     img {
                         border: 1px solid $card-color;
-                        width: 140px;
-                        height: 210px;
+                        max-width: 150px;
+                        max-height: 210px;
                     }
                 }
                 button{

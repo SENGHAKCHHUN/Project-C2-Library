@@ -94,7 +94,7 @@ body {
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-right: 90px;
+                margin-right: 60px;
                 img {
                     border: 1px solid $card-color;
                     width: 185px;
@@ -138,4 +138,5 @@ body {
         @extend #education-book;
     }
 }
-// @import "./responsive/template/books";
+// responsive template
+@import "./responsive/template/books";

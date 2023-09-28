@@ -119,6 +119,7 @@ body {
                     background:$inter;
                     border: none;
                     transition: 0.2s;
+                    margin-top: -20px;
                     a{
                         color: $hover-color;
                     }
@@ -137,3 +138,4 @@ body {
         @extend #education-book;
     }
 }
+@import "../scss/responsive/template/books";

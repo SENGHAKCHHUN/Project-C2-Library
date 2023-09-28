@@ -6,7 +6,7 @@
 
 nav {
   display: grid;
-  grid-template-columns: 1fr 1.5fr;
+  grid-template-columns: 0.8fr 1.5fr;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -15,7 +15,7 @@ nav {
   box-shadow: 0px 0px 3px 0px;
 }
 nav img {
-  width: 30%;
+  width: 35%;
   padding-left: 90px;
   margin-top: 2px;
 }
@@ -28,13 +28,12 @@ nav .menu-bar ul {
 }
 nav .menu-bar ul li {
   list-style: none;
-  margin-top: 18px;
+  margin-top: 25px;
 }
 nav .menu-bar ul li a {
   text-decoration: none;
   color: #000;
-  font-size: 18px;
-  font-weight: 520;
+  font-size: 20px;
   text-transform: uppercase;
 }
 nav .menu-bar ul li a:hover {
@@ -50,6 +49,7 @@ nav .menu-bar .icon-menu {
 }
 
 footer {
+  font-size: 20px;
   background: rgba(0, 184, 190, 0.3450980392);
   height: 180px;
   margin-top: 40px;
@@ -128,7 +128,7 @@ body .search {
 }
 body .search input[type=text] {
   background: #EEF0C8;
-  width: 30%;
+  width: 40%;
   border-radius: 10px;
   border: none;
   padding: 5px;
@@ -201,15 +201,15 @@ body #leadership .books .image-card {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  height: 350px;
-  width: 230px;
+  height: 420px;
+  width: 280px;
   border: 1px solid rgb(235, 231, 231);
   border-bottom: 4px solid #00B9BE;
   border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 50px;
+  margin-right: 90px;
 }
 body #education-book .books .image-card img, body #Self-Development .books .image-card img,
 body #General-knowledge .books .image-card img,
@@ -220,8 +220,8 @@ body #book-of-legends .books .image-card img,
 body #financial .books .image-card img,
 body #leadership .books .image-card img {
   border: 1px solid #EEF0C8;
-  width: 190px;
-  height: 280px;
+  width: 250px;
+  height: 350px;
 }
 body #education-book .books button, body #Self-Development .books button,
 body #General-knowledge .books button,
@@ -231,11 +231,11 @@ body #Technology .books button,
 body #book-of-legends .books button,
 body #financial .books button,
 body #leadership .books button {
-  width: 130px;
+  width: 180px;
   border-radius: 5px;
   border: 1px solid;
-  font-size: 15px;
-  height: 28px;
+  font-size: 18px;
+  height: 35px;
   background: none;
 }
 body #education-book .books button a, body #Self-Development .books button a,

@@ -12,7 +12,6 @@ body{
             border-radius: 0px 20px;
             width: 40%;
             background : rgba(237, 244, 244, 0.76);
-            // color: white;
             box-shadow: 0px 0px 10px 5px ;
             height: 83vh;
             h1{
@@ -32,13 +31,11 @@ body{
                 gap: 15px;
                 .card{
                     .card-input{
-                        // background: #000;
                         display: flex;
                         flex-direction: column;
                         gap: 5px;
                         height: 70px;
                         margin: 5px 0px;
-                        
                         label{
                             font-size: 17px;
                         }
@@ -64,7 +61,6 @@ body{
                 }
             }
             button{
-
                 background: $inter;
                 width: 89%;
                 height: 35px;
@@ -98,4 +94,4 @@ body{
         }
     }
 }
-@import "../scss/responsive/template/register";
+// @import "../scss/responsive/template/register";

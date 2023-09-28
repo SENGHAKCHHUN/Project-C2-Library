@@ -1,0 +1,63 @@
+@media (max-width: 834px) {
+    body{
+        
+        nav{
+            img{
+                width: 30%;
+                padding-left: 50px;
+                margin-top: 8px;
+            }
+            .menu-bar{
+                margin-top: -8px;
+            }
+        }
+        .group-book {
+            padding: 0px 50px;
+            input{
+                padding: 5px;
+            }
+        }
+        .search {
+            margin: 20px 50px;
+        }
+        #education-book{
+            margin-top: 50px;
+            margin: 50px 50px;
+            @include flex-coloum;
+            .books {
+                .image-card {
+                    @include flex-coloum;
+                    height: 260px;
+                    width: 150px;
+                    margin-right: 25px;
+                    img {
+                        border: 1px solid $card-color;
+                        width: 140px;
+                        height: 210px;
+                    }
+                }
+                button{
+                    height: 25px;
+                }
+                .image-card:hover{
+                    button{
+                        transition: 0.2s;
+                        margin-top: 0px;
+                        a{
+                            color: $hover-color;
+                        }
+                    }
+                }
+            }
+
+        }
+        footer{
+            padding: 0px 50px;
+        }
+    }
+}
+
+
+
+
+

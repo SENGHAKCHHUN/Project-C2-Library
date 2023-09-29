@@ -1,13 +1,15 @@
-@media (max-width: 834px) {
+@media (max-width: 1024px) {
     body{
         nav{
             img{
-                width: 30%;
+                max-width: 30%;
                 padding-left: 50px;
-                margin-top: 8px;
+                margin-top: 12px;
             }
             .menu-bar{
-                margin-top: -8px;
+                margin-top: -5px;
+                display: flex;
+                align-items: center;
             }
         }
     }

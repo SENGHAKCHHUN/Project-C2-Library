@@ -69,7 +69,7 @@ main {
         display: grid;
         grid-template-columns: 30% 65%;
         gap: 5%;
-        padding: 5% 0;
+        padding: 5% 10%;
         .card-ceo-left {
             display: grid;
             grid-template-rows: 70% 30%;
@@ -135,4 +135,3 @@ main {
     margin-top: 2%;
 }
 
-@import "../scss/responsive/template/about-us";

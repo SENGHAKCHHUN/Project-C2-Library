@@ -1,11 +1,15 @@
 @import './variable';
 @import './main';
+@import '../responsive/responsive';
 nav{
     @include format;
     position: sticky;
     top: 0;
     z-index: 100;
     background: $navbar-color;
+    @include responsive(Tablet){
+        
+    }
     border-bottom: 1px solid $card-color;
     box-shadow: 0px 0px 3px 0px;
     img{

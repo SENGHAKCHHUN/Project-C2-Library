@@ -28,7 +28,7 @@ nav .menu-bar ul {
 }
 nav .menu-bar ul li {
   list-style: none;
-  margin-top: 25px;
+  margin-top: 17px;
 }
 nav .menu-bar ul li a {
   text-decoration: none;
@@ -201,8 +201,8 @@ body #leadership .books .image-card {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  height: 420px;
-  width: 280px;
+  height: 310px;
+  width: 210px;
   border: 1px solid rgb(235, 231, 231);
   border-bottom: 4px solid #00B9BE;
   border-radius: 10px;
@@ -220,8 +220,8 @@ body #book-of-legends .books .image-card img,
 body #financial .books .image-card img,
 body #leadership .books .image-card img {
   border: 1px solid #EEF0C8;
-  width: 250px;
-  height: 350px;
+  width: 185px;
+  height: 255px;
 }
 body #education-book .books button, body #Self-Development .books button,
 body #General-knowledge .books button,
@@ -231,11 +231,11 @@ body #Technology .books button,
 body #book-of-legends .books button,
 body #financial .books button,
 body #leadership .books button {
-  width: 180px;
+  width: 130px;
   border-radius: 5px;
   border: 1px solid;
   font-size: 18px;
-  height: 35px;
+  height: 25px;
   background: none;
 }
 body #education-book .books button a, body #Self-Development .books button a,

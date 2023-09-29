@@ -28,7 +28,7 @@ nav .menu-bar ul {
 }
 nav .menu-bar ul li {
   list-style: none;
-  margin-top: 25px;
+  margin-top: 17px;
 }
 nav .menu-bar ul li a {
   text-decoration: none;
@@ -247,28 +247,4 @@ main .card-ceo .card-ceo-right div.ceo-ifo span {
   display: grid;
   width: 100%;
   margin-top: 2%;
-}
-
-<<<<<<< HEAD
-@media (max-width: 834px) {
-  body nav img {
-    width: 30%;
-    padding-left: 50px;
-    margin-top: 8px;
-  }
-  body nav .menu-bar {
-    margin-top: -8px;
-=======
-@media (max-width: 800px) {
-  body {
-    height: auto;
-    width: auto;
-  }
-}
-@media (max-width: 500px) {
-  nav {
-    display: none;
-    display: grid;
->>>>>>> 8f443c3079fa4fd480c23ece06352f33a9923fb9
-  }
 }/*# sourceMappingURL=about_us.css.map */

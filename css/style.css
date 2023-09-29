@@ -28,7 +28,7 @@ nav .menu-bar ul {
 }
 nav .menu-bar ul li {
   list-style: none;
-  margin-top: 25px;
+  margin-top: 17px;
 }
 nav .menu-bar ul li a {
   text-decoration: none;
@@ -109,7 +109,7 @@ footer .footer-right .icon img {
   body .cover h1,
   body .cover p {
     font-weight: 600;
-    padding: 50px 0px 0px 63px;
+    padding: 50px 0px 0px 90px;
   }
   body .cover p b {
     font-size: 20px;

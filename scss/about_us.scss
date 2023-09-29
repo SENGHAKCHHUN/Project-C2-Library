@@ -4,8 +4,11 @@
 main {
     display: grid;
     height: auto;
-    grid-template-rows: 10% 45% 45%;
+    grid-template-rows: 10% 45%;
     padding: 90px 90px 40px 90px;
+    @include responsive(Tablet){
+        padding: 20px 20px;
+    }
     .about-main-center {
         @include display-center;
         grid-template-columns: repeat(2, 1fr);
@@ -60,73 +63,89 @@ main {
     }
 }
     .card-ceo {
-        height: 400px;
-        // background-color: beige;
+        height: 370px;
         display: grid;
         grid-template-columns: 30% 65%;
         gap: 5%;
-        margin: 30px 200px;
-        border: 1px solid gray;
-        .card-ceo-left {
+        margin: 50px 200px;
+        box-shadow: 0px 0px 3px 0px gray;
+        @include responsive(Laptop){
+            margin: 50px 90px;
+        }
+        @include responsive(Tablet){
+            grid-template-columns: 50% 50%;
+        }
+        .card-ceo-left{
+            background: rgb(218, 215, 211);
             display: grid;
-            grid-template-rows: 70% 30%;
-            .ceo-bootom {
-                background-color: $card-menu-hover ;
-                display: grid;
-                align-items: center;
+            grid-template-rows: 0.7fr 0.2fr;
+            
+            img{
+                width: 240px;
+                height: 230px;
+                padding: 20px;
+                border-radius: 30px;
+                @include responsive(Laptop){
+                    width: 215px;
+                }
+            }
+            h3{
                 text-align: center;
-                padding: 4% 0;
-                font-size: 15px;
-                .contact-ceo {
-                    display: grid;
-                    grid-template-columns: repeat(4,1fr);
-                    padding: 0 32%;
-                    align-items: center;
-                    text-align: center;
-                    a, img {
-                        display: grid;
-                        align-items: center;
-                        width: 20px;
-                    }
-                    a img:hover {
-                        transition: .3s;
-                        scale: 1.1;
-                        box-shadow: 0px 0px 3px 3px;
-                        border-radius: 20px;
-                    }
-                }
             }
-        }
-    }
-    .card-ceo:hover{
-        box-shadow: 1px 1px 5px 0px rgb(220, 220, 213);
-        .card-ceo-left:hover {
-            box-shadow: $about-hover 0px 8px 10px 4px;
-            transition: .5s;
-            // scale: .98;
-        }
-        .card-ceo-left,
-        .card-ceo-right {
-            display: grid;
-            .ceo {
-                display: grid;
-                background-image: url(/images/CEO.jpg);
-                background-repeat: no-repeat;
-                background-position: 100%;
-                background-size: cover;
-            }
-            div.ceo-ifo {
+            .contact-ceo{
                 display: flex;
-                flex-direction: column;
-                padding: 5% 0 0 5%;
-                gap: 5%;
-                span {
-                    font-weight: 600;
-                    font-size: 25px;
+                align-items: center;
+                gap: 5px;
+                padding-left: 40px;
+                margin-top: -30px;
+                a{
+                    img{
+                        width: 27px;
+                        height: 25px;
+                        margin-left: -19px;
+                    }
+                }
+            }
+        }
+        .card-ceo-right{
+            margin-top: 60px;
+            p{
+                margin-top: 50px;
+                @include responsive(Tablet){
+                    margin-right: 50px;
                 }
             }
         }
     }
+    // .card-ceo:hover{
+    //     box-shadow: 1px 1px 5px 0px rgb(220, 220, 213);
+    //     .card-ceo-left:hover {
+    //         box-shadow: $about-hover 0px 8px 10px 4px;
+    //         transition: .5s;
+    //         // scale: .98;
+    //     }
+    //     .card-ceo-left,
+    //     .card-ceo-right {
+    //         display: grid;
+    //         .ceo {
+    //             display: grid;
+    //             background-image: url(/images/CEO.jpg);
+    //             background-repeat: no-repeat;
+    //             background-position: 100%;
+    //             background-size: cover;
+    //         }
+    //         div.ceo-ifo {
+    //             display: flex;
+    //             flex-direction: column;
+    //             padding: 5% 0 0 5%;
+    //             gap: 5%;
+    //             span {
+    //                 font-weight: 600;
+    //                 font-size: 25px;
+    //             }
+    //         }
+    //     }
+    // }
 
 .map {
     display: grid;

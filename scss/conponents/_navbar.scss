@@ -14,9 +14,13 @@ nav {
         width: 35%;
         padding-left: 90px;
         margin-top: 2px;
+        @include responsive(Laptop){
+            margin-top: 7px;
+        }
         @include responsive(Tablet) {
             padding-left: 50px;
-            margin-top: 8px;
+            margin-top: 9px;
+            width: 40%;
         }
         @include responsive(Mobile){
             margin-top: 6px;
@@ -24,10 +28,15 @@ nav {
         }
     }
     .menu-bar {
+<<<<<<< HEAD
+        @include responsive(Laptop){
+            margin-bottom: 10px;
+=======
         @include responsive(Tablet) {
             margin-top: -1px;
+>>>>>>> 269f44e5f20dc2bef11869d8b03a223439e206b1
         }
-        padding-right: 90px;
+        margin-top: -2px;
         ul {
             @include formated;
             li {
@@ -38,9 +47,11 @@ nav {
                     color: $black-color;
                     font-size: 20px;
                     text-transform: uppercase;
-
+                    @include responsive(Laptop){
+                        font-size: 18px;
+                    }
                     @include responsive(Tablet) {
-                        font-size: 13px;
+                        font-size: 15px;
                     }
                     @include responsive(Mobile){
                         font-size: 10px;
@@ -53,6 +64,11 @@ nav {
                 }
             }
         }
+    }
+    .icons-color{
+        font-size: 30px;
+        color: #00B9BE ;
+        margin-top: 10px;
     }
     .icon-menu {
         @include centered;

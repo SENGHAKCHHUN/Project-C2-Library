@@ -140,4 +140,43 @@ body .container-form form:hover {
 }
 body .container-form form:hover h1 {
   color: white;
+}
+
+@media (max-width: 1024px) {
+  body nav img {
+    max-width: 30%;
+    padding-left: 50px;
+    margin-top: 8px;
+  }
+  body nav .menu-bar {
+    margin-top: -5px;
+  }
+  body .container-form {
+    background-position: 60;
+    height: 100vh;
+  }
+  body .container-form form {
+    margin-top: 40px;
+    width: 80%;
+    height: 80vh;
+  }
+  body .container-form form h1 {
+    width: 40%;
+    margin-left: 30%;
+  }
+  body .container-form form .info {
+    margin-top: 30px;
+  }
+  body .container-form form .icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    align-items: flex-start;
+    margin-left: 40%;
+    margin-bottom: 50px;
+  }
+  body .container-form form .icon img {
+    width: 35px;
+    margin-top: 5px;
+  }
 }/*# sourceMappingURL=register.css.map */

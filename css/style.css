@@ -92,6 +92,7 @@ footer .footer-right .icon img {
   margin-top: 10px;
 }
 
+<<<<<<< HEAD
 body .cover {
   position: relative;
   background-image: url("../images/Home/cover-home-page.jpg");
@@ -143,6 +144,65 @@ body .cover .open:hover {
   padding: 0px;
   margin-top: 170px;
   font-size: 17px;
+=======
+@media (min-width: 1024px) {
+  body .cover {
+    position: relative;
+    background-image: url("../images/Home/cover-home-page.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0;
+    height: 500px;
+  }
+  body .cover h1 {
+    text-shadow: 1px 3px #d2d8b0;
+    font-size: 50px;
+    color: #00B9BE;
+  }
+  body .cover h1,
+  body .cover p {
+    font-weight: 600;
+<<<<<<< HEAD
+    padding: 50px 90px;
+=======
+    padding: 50px 0px 0px 90px;
+>>>>>>> bead1fa3aee5dde404734c57eab990bbbffe9ca8
+  }
+  body .cover p b {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.819);
+  }
+  body .cover .open {
+    box-shadow: 0px 2px 5px 2px #9d9d9d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: black;
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    margin-left: 63px;
+    padding: 0px;
+    margin-top: 170px;
+    font-size: 17px;
+  }
+  body .cover .open:hover {
+    box-shadow: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #00B9BE;
+    color: rgb(255, 255, 255);
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    margin-left: 63px;
+    padding: 0px;
+    margin-top: 170px;
+    font-size: 17px;
+  }
+>>>>>>> 523f4d71975ebce03410602e8ffcd27e540ffe04
 }
 body .popular-book {
   margin-top: 50px;
@@ -178,7 +238,11 @@ body .popular-book .books .image-card {
   border-bottom: 4px solid #00B9BE;
   align-items: center;
   justify-content: center;
+<<<<<<< HEAD
   margin-right: 54px;
+=======
+  margin-right: 20px;
+>>>>>>> 523f4d71975ebce03410602e8ffcd27e540ffe04
 }
 body .popular-book .books .image-card img {
   border: 1px solid #EEF0C8;
@@ -298,7 +362,7 @@ body #address p a {
   list-style: none;
 }
 
-@media (min-width: 834px) {
+@media (max-width: 834px) {
   .cover {
     height: 450px;
     width: 100%;

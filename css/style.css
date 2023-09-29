@@ -99,6 +99,53 @@ body .cover {
   background-repeat: no-repeat;
   background-position: 0;
   height: 500px;
+<<<<<<< HEAD
+=======
+}
+body .cover h1 {
+  text-shadow: 1px 3px #d2d8b0;
+  font-size: 50px;
+  color: #00B9BE;
+}
+body .cover h1,
+body .cover p {
+  font-weight: 600;
+  padding: 50px 0px 0px 90px;
+}
+body .cover p b {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.819);
+}
+body .cover .open {
+  box-shadow: 0px 2px 5px 2px #9d9d9d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  color: black;
+  width: 300px;
+  height: 45px;
+  border-radius: 10px;
+  margin-left: 90px;
+  padding: 0px;
+  margin-top: 170px;
+  font-size: 17px;
+}
+body .cover .open:hover {
+  box-shadow: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #00B9BE;
+  color: rgb(255, 255, 255);
+  width: 300px;
+  height: 45px;
+  border-radius: 10px;
+  margin-left: 90px;
+  padding: 0px;
+  margin-top: 170px;
+  font-size: 17px;
+>>>>>>> b92797786baad98a71e90b8b26035dbd303a6123
 }
 body .cover h1 {
   text-shadow: 1px 3px #d2d8b0;
@@ -179,7 +226,7 @@ body .cover .open:hover {
   border-bottom: 4px solid #00B9BE;
   align-items: center;
   justify-content: center;
-  margin-right: 20px;
+  margin-right: 54px;
 }
 .popular-book .books .image-card img {
   border: 1px solid #EEF0C8;
@@ -210,86 +257,134 @@ body .cover .open:hover {
 .popular-book .image-card:hover button a {
   color: white;
 }
+<<<<<<< HEAD
 
 .borrow-and-return {
+=======
+body .borrow-and-return {
+>>>>>>> b92797786baad98a71e90b8b26035dbd303a6123
   display: flex;
   align-items: center;
   gap: 30px;
   flex-direction: column;
 }
+<<<<<<< HEAD
 .borrow-and-return .borrow-card {
+=======
+body .borrow-and-return .borrow-card {
+>>>>>>> b92797786baad98a71e90b8b26035dbd303a6123
   box-shadow: 0px 2px 5px 2px rgb(235, 232, 232);
-  margin-top: 20px;
   background: rgba(246, 246, 246, 0.441);
   border-radius: 20px;
   height: 200px;
-  width: 89%;
-  margin-top: 60px;
+  width: 84%;
+  margin-top: 80px;
   display: flex;
 }
+<<<<<<< HEAD
 .borrow-and-return .borrow-card .borrow-title {
+=======
+body .borrow-and-return .borrow-card .borrow-title {
+>>>>>>> b92797786baad98a71e90b8b26035dbd303a6123
   display: grid;
   width: 80%;
   grid-template-rows: repeat(2, 2.5fr);
   margin-bottom: 50px;
 }
+<<<<<<< HEAD
 .borrow-and-return .borrow-card .borrow-title h2 {
+=======
+body .borrow-and-return .borrow-card .borrow-title h2 {
+>>>>>>> b92797786baad98a71e90b8b26035dbd303a6123
   display: flex;
   justify-content: center;
   margin-top: 20px;
   margin-left: 150px;
   color: #00B9BE;
 }
+<<<<<<< HEAD
 .borrow-and-return .borrow-card .borrow-title p {
   line-height: 25px;
   margin-left: 100px;
 }
 .borrow-and-return .borrow-card .img {
+=======
+body .borrow-and-return .borrow-card .borrow-title p {
+  line-height: 25px;
+  margin-left: 100px;
+}
+body .borrow-and-return .borrow-card .img {
+>>>>>>> b92797786baad98a71e90b8b26035dbd303a6123
   width: 30%;
   align-items: center;
   display: flex;
   justify-content: center;
 }
+<<<<<<< HEAD
 .borrow-and-return .borrow-card .img img {
+=======
+body .borrow-and-return .borrow-card .img img {
+>>>>>>> b92797786baad98a71e90b8b26035dbd303a6123
   box-shadow: 0px 2px 5px 2px rgba(128, 128, 128, 0.736);
   border-radius: 5px;
   width: 100px;
   height: 140px;
 }
+<<<<<<< HEAD
 .borrow-and-return .return-card {
+=======
+body .borrow-and-return .return-card {
+>>>>>>> b92797786baad98a71e90b8b26035dbd303a6123
   box-shadow: 0px 2px 5px 2px rgb(235, 232, 232);
   justify-content: center;
   margin-top: 20px;
   background: rgba(246, 246, 246, 0.441);
   border-radius: 20px;
   height: 200px;
-  width: 89%;
+  width: 84%;
   display: flex;
 }
+<<<<<<< HEAD
 .borrow-and-return .return-card .return-img {
+=======
+body .borrow-and-return .return-card .return-img {
+>>>>>>> b92797786baad98a71e90b8b26035dbd303a6123
   width: 30%;
   align-items: center;
   display: flex;
   justify-content: center;
 }
+<<<<<<< HEAD
 .borrow-and-return .return-card .return-img img {
+=======
+body .borrow-and-return .return-card .return-img img {
+>>>>>>> b92797786baad98a71e90b8b26035dbd303a6123
   box-shadow: 0px 2px 5px 2px rgba(128, 128, 128, 0.736);
   border-radius: 5px;
   width: 100px;
   height: 140px;
 }
+<<<<<<< HEAD
 .borrow-and-return .return-card .return-title {
+=======
+body .borrow-and-return .return-card .return-title {
+>>>>>>> b92797786baad98a71e90b8b26035dbd303a6123
   display: grid;
   width: 80%;
   grid-template-rows: repeat(2, 2.5fr);
   margin-bottom: 50px;
 }
+<<<<<<< HEAD
 .borrow-and-return .return-card .return-title h2 {
+=======
+body .borrow-and-return .return-card .return-title h2 {
+>>>>>>> b92797786baad98a71e90b8b26035dbd303a6123
   margin-top: 20px;
   display: flex;
   justify-content: center;
   color: #00B9BE;
 }
+<<<<<<< HEAD
 .borrow-and-return .return-card .return-title p {
   line-height: 25px;
   margin-right: 100px;
@@ -300,4 +395,55 @@ body .cover .open:hover {
 }
 #address p a {
   list-style: none;
+=======
+body .borrow-and-return .return-card .return-title p {
+  line-height: 25px;
+  margin-right: 100px;
+}
+body #address {
+  padding: 1%;
+}
+body #address p a {
+  list-style: none;
+}
+
+@media (min-width: 834px) {
+  .cover {
+    height: 450px;
+    width: 100%;
+    position: relative;
+    background-image: url("../images/Home/cover-home-page.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0;
+  }
+  .cover h1 {
+    text-shadow: 1px 3px #d2d8b0;
+    color: #00B9BE;
+    font-size: 40px;
+    color: #00B9BE;
+  }
+  .cover h1,
+  .cover p {
+    font-weight: 600;
+    padding: 50px 0px 0px 63px;
+  }
+  .cover p b {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.819);
+  }
+  .cover .popular-book .books .image-card {
+    max-height: 260px;
+    max-width: 165px;
+    margin-right: 40px;
+  }
+  .cover .popular-book .books .image-card img {
+    border: 1px solid #EEF0C8;
+    max-width: 150px;
+    max-height: 210px;
+  }
+  .cover .popular-book .books button {
+    height: 25px;
+  }
+>>>>>>> b92797786baad98a71e90b8b26035dbd303a6123
 }/*# sourceMappingURL=style.css.map */

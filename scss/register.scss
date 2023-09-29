@@ -15,6 +15,11 @@ body{
             background : rgba(237, 244, 244, 0.76);
             box-shadow: 0px 0px 10px 5px ;
             height: 83vh;
+            @include responsive(Laptop){
+                width: 60%;
+                margin: 26px;
+                height: 100vh;
+            }
             @include responsive(Tablet){
                 width: 60%;
                 margin: 26px;

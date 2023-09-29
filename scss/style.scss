@@ -18,7 +18,11 @@ body {
             h1,
             p {
                 font-weight: 600;
+<<<<<<< HEAD
+                padding: 50px 0px 0px 90px;
+=======
                 padding: 50px 90px;
+>>>>>>> d5a19b6bf1282111a8dfb7c5f95c427f19558bcd
             }
             p {
                 b {
@@ -66,6 +70,16 @@ body {
             text-align: center;
             margin-bottom: 40px;
         }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+        //     
+        // }
+        // me
+>>>>>>> d5a19b6bf1282111a8dfb7c5f95c427f19558bcd
+>>>>>>> bead1fa3aee5dde404734c57eab990bbbffe9ca8
         .books {
             @include fiverow;
             justify-content: space-between;
@@ -105,11 +119,18 @@ body {
             .image-card:hover {
                 box-shadow: 0px 2px 5px 2px $shadow-card;
                 transition: 0.3s;
+<<<<<<< HEAD
+=======
                 border-bottom: 4px solid $inter;
+>>>>>>> d5a19b6bf1282111a8dfb7c5f95c427f19558bcd
                 button {
                     background: $inter;
                     border: none;
                     transition: 0.2s;
+<<<<<<< HEAD
+                    margin-top: -20px;
+=======
+>>>>>>> d5a19b6bf1282111a8dfb7c5f95c427f19558bcd
                     a {
                         color: $hover-color;
                     }

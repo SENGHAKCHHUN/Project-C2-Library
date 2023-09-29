@@ -1,6 +1,7 @@
 @import "./conponents/navbar";
 @import "./conponents/footer";
 @import "./responsive/responsive";
+
 body {
     .cover {
         position: relative;
@@ -9,122 +10,46 @@ body {
         background-repeat: no-repeat;
         background-position: 0;
         height: 500px;
+
+        @include responsive(Tablet) {
+            height: 300px;
+        }
+        @include responsive(Mobile) {
+            // height: 300px;
+        }
+
+
         h1 {
             text-shadow: 1px 3px #d2d8b0;
             font-size: 50px;
             color: $inter ;
-            @include responsive(Tablet){
-                font-size: 30px;
+
+            @include responsive(Tablet) {
+                font-size: 28px;
             }
         }
+
         h1,
         p {
             font-weight: 600;
             padding: 50px 90px;
-            @include responsive(Tablet){
-                padding: 50px 50px;
+
+            @include responsive(Tablet) {
+                padding: 30px 50px;
             }
         }
+
         p {
             b {
                 font-size: 20px;
                 color: rgba(0, 0, 0, 0.819);
-            }
-        }
-        .open {
-            box-shadow: 0px 2px 5px 2px #9d9d9d;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: $hover-color ;
-            color: black;
-            width: 300px;
-            height: 45px;
-            border-radius: 10px;
-            margin-left: 63px;
-            padding: 0px;
-            margin-top: 170px;
-            font-size: 17px;
-        }
 
-        .open:hover {
-            box-shadow: none;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: $inter ;
-            color: rgb(255, 255, 255);
-            width: 300px;
-            height: 45px;
-            border-radius: 10px;
-            margin-left: 63px;
-            padding: 0px;
-            margin-top: 170px;
-            font-size: 17px;
-        }
-    }
-}
-
-.popular-book {
-    margin-top: 50px;
-    @include flex-coloum;
-
-    h2 {
-        color: $inter;
-        text-align: center;
-        margin-bottom: 40px;
-    }
-    .books {
-        @include fiverow;
-        justify-content: space-between;
-        margin-left: 50px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        @include responsive(Tablet){
-            margin-left: 40px;
-        }
-        .image-card {
-            border-bottom: 4px solid $inter;
-            @include flex-coloum;
-            height: 310px;
-            width: 210px;
-            border: 1px solid rgb(235, 231, 231);
-            border-radius: 10px;
-            display: flex;
-            border-bottom: 4px solid $inter;
-            align-items: center;
-            justify-content: center;
-            margin-right: 20px;
-            @include responsive(Tablet){
-                height: 230px;
-                width: 170px;
-                margin-right: 10px;
-            }
-            img {
-                border: 1px solid $card-color;
-                width: 185px;
-                height: 255px;
-                @include responsive(Tablet){
-                    width: 120px;
-                    height: 180px;
+                @include responsive(Tablet) {
+                    font-size: 15px;
                 }
             }
         }
-        button {
-            width: 130px;
-            border-radius: 5px;
-            border: 1px solid;
-            font-size: 15px;
-            height: 28px;
-            background: none;
-            @include responsive(Tablet){
-                width: 100px;
-            }
-            a {
-                text-decoration: none;
-            }
-        }
+
         .open {
             box-shadow: 0px 2px 5px 2px #9d9d9d;
             display: flex;
@@ -132,160 +57,296 @@ body {
             align-items: center;
             background: $hover-color ;
             color: black;
-            width: 300px;
-            height: 45px;
-            border-radius: 10px;
+            width: 280px;
+            height: 40px;
+            border-radius: 10px 15px 0px 10px  ;
             margin-left: 90px;
             padding: 0px;
-            margin-top: 170px;
+            margin-top: 70px;
             font-size: 17px;
+
+            @include responsive(Tablet) {
+                width: 250px;
+                height: 35px;
+                margin-left: 54px;
+                margin-top: 20px;
+                font-size: 15px;
+                box-shadow: 4px 4px 4px 0px rgb(116, 116, 116);
+            }
         }
 
         .open:hover {
-            box-shadow: none;
             display: flex;
             justify-content: center;
             align-items: center;
             background: $inter ;
             color: rgb(255, 255, 255);
-            width: 300px;
-            height: 45px;
-            border-radius: 10px;
+            width: 280px;
+            height: 40px;
+            border-radius: 10px 15px 0px 10px;
             margin-left: 90px;
             padding: 0px;
-            margin-top: 170px;
+            margin-top: 70px;
             font-size: 17px;
+
+            @include responsive(Tablet) {
+                width: 250px;
+                height: 35px;
+                margin-left: 54px;
+                margin-top: 20px;
+                font-size: 15px;
+            }
         }
     }
 
-    .image-card:hover {
-        box-shadow: 0px 2px 5px 2px $shadow-card;
-        transition: 0.3s;
-        border-bottom: 4px solid $inter;
 
-        button {
-            background: $inter;
-            border: none;
-            transition: 0.2s;
+    .popular-book {
+        margin-top: 50px;
+        @include flex-coloum;
+        @include responsive(Tablet) {
+            margin-top: 15px;
+        }
 
-            a {
-                color: $hover-color;
+        h2 {
+            color: $inter;
+            text-align: center;
+            margin-bottom: 40px;
+            @include responsive(Tablet) {
+                margin-bottom: 15px;
+            }
+        }
+
+        .books {
+            @include fiverow;
+            justify-content: space-between;
+            margin-left: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            @include responsive(Tablet) {
+                margin-left: 0;
+                margin-right: 5;
+            }
+
+            .image-card {
+                border-bottom: 4px solid $inter;
+                @include flex-coloum;
+                height: 310px;
+                width: 210px;
+                border: 1px solid rgb(235, 231, 231);
+                border-radius: 10px;
+                display: flex;
+                border-bottom: 4px solid $inter;
+                align-items: center;
+                justify-content: center;
+                margin-right: 54px;
+
+                @include responsive(Tablet) {
+                    height: 200px;
+                    width: 137px;
+                    margin-right: 4px;
+                }
+
+                img {
+                    border: 1px solid $card-color;
+                    width: 185px;
+                    height: 255px;
+
+                    @include responsive(Tablet) {
+                        width: 100px;
+                        height: 120px;
+                    }
+                }
+            }
+
+            button {
+                width: 130px;
+                border-radius: 5px;
+                border: 1px solid;
+                font-size: 15px;
+                height: 28px;
+                background: none;
+
+                @include responsive(Tablet) {
+                    width: 100px;
+                }
+
+                a {
+                    text-decoration: none;
+                }
+            }
+
+        }
+
+        .image-card:hover {
+            border-bottom: 4px solid $inter;
+            box-shadow: 0px 5px 5px 5px $shadow-card;
+            transition: 0.3s;
+            height: 310px;
+            width: 210px;
+
+            button {
+                background: $inter;
+                border: none;
+                transition: 0.2s;
+                margin-top: -20px;
+
+                a {
+                    color: $hover-color;
+                }
+            }
+        }
+    }
+
+    .borrow-and-return {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        flex-direction: column;
+
+        @include responsive(Tablet) {
+            gap: 15px;
+        }
+
+        .borrow-card {
+            box-shadow: 0px 2px 5px 2px $shadow-card;
+            margin-top: 20px;
+            background: rgba(246, 246, 246, 0.441);
+            border-radius: 20px;
+            height: 200px;
+            width: 85%;
+            margin-top: 60px;
+            display: flex;
+
+            @include responsive(Tablet) {
+                height: 210px;
+                margin-top: 30px;
+            }
+
+            .borrow-title {
+                display: grid;
+                width: 80%;
+                grid-template-rows: repeat(2, 2.5fr);
+                margin-bottom: 50px;
+
+                h2 {
+                    a {
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 20px;
+                        margin-left: 150px;
+                        color: $inter;
+                        text-decoration: none;
+
+                        @include responsive(Tablet) {
+                            margin-left: 30px;
+                        }
+                    }
+
+                }
+
+                p {
+                    line-height: 25px;
+                    margin-left: 100px;
+
+                    @include responsive(Tablet) {
+                        margin-left: 35px;
+                        margin-top: 5px;
+                    }
+                }
+            }
+
+            .img {
+                width: 30%;
+                align-items: center;
+                display: flex;
+                justify-content: center;
+
+                img {
+                    box-shadow: 0px 2px 5px 2px rgba(128, 128, 128, 0.736);
+                    border-radius: 5px;
+                    width: 100px;
+                    height: 140px;
+                }
+            }
+        }
+
+        .return-card {
+            box-shadow: 0px 2px 5px 2px $shadow-card;
+            justify-content: center;
+            margin-top: 20px;
+            background: rgba(246, 246, 246, 0.441);
+            border-radius: 20px;
+            height: 200px;
+            width: 85%;
+            display: flex;
+
+            @include responsive(Tablet) {
+                height: 210px;
+            }
+
+            .return-img {
+                width: 30%;
+                align-items: center;
+                display: flex;
+                justify-content: center;
+
+                img {
+                    box-shadow: 0px 2px 5px 2px rgba(128, 128, 128, 0.736);
+                    border-radius: 5px;
+                    width: 100px;
+                    height: 140px;
+                }
+            }
+
+            .return-title {
+                display: grid;
+                width: 80%;
+                grid-template-rows: repeat(2, 2.5fr);
+                margin-bottom: 50px;
+
+                h2 {
+                    a{
+                        margin-top: 20px;
+                    display: flex;
+                    justify-content: center;
+                    color: $inter;
+                    text-decoration: none;
+
+                    @include responsive(Tablet) {
+                        margin-right: 50px;
+                    }
+                    }
+                    
+                }
+
+                p {
+                    line-height: 25px;
+                    margin-right: 100px;
+
+                    @include responsive(Tablet) {
+                        margin-right: 30px;
+                        margin-top: 5px;
+                    }
+                }
             }
         }
     }
 
     #address {
         padding: 1%;
-
+        @include responsive(Tablet) {
+            margin-bottom: -10px;
+        }
         p {
             a {
                 list-style: none;
             }
-        }
-    }
 
-}
-.borrow-and-return {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    flex-direction: column;
-
-    .borrow-card {
-        box-shadow: 0px 2px 5px 2px $shadow-card;
-        margin-top: 20px;
-        background: rgba(246, 246, 246, 0.441);
-        border-radius: 20px;
-        height: 200px;
-        width: 89%;
-        margin-top: 60px;
-        display: flex;
-
-        .borrow-title {
-            display: grid;
-            width: 80%;
-            grid-template-rows: repeat(2, 2.5fr);
-            margin-bottom: 50px;
-
-            h2 {
-                display: flex;
-                justify-content: center;
-                margin-top: 20px;
-                margin-left: 150px;
-                color: $inter;
+            @include responsive(Tablet) {
+                font-size: 15px;
             }
-
-            p {
-                line-height: 25px;
-                margin-left: 100px;
-            }
-        }
-        .img {
-            width: 30%;
-            align-items: center;
-            display: flex;
-            justify-content: center;
-
-            img {
-                box-shadow: 0px 2px 5px 2px rgba(128, 128, 128, 0.736);
-                border-radius: 5px;
-                width: 100px;
-                height: 140px;
-            }
-        }
-    }
-    .return-card {
-        box-shadow: 0px 2px 5px 2px $shadow-card;
-        justify-content: center;
-        margin-top: 20px;
-        background: rgba(246, 246, 246, 0.441);
-        border-radius: 20px;
-        height: 200px;
-        width: 89%;
-        display: flex;
-
-        .return-img {
-            width: 30%;
-            align-items: center;
-            display: flex;
-            justify-content: center;
-
-            img {
-                box-shadow: 0px 2px 5px 2px rgba(128, 128, 128, 0.736);
-                border-radius: 5px;
-                width: 100px;
-                height: 140px;
-            }
-        }
-
-        .return-title {
-            display: grid;
-            width: 80%;
-            grid-template-rows: repeat(2, 2.5fr);
-            margin-bottom: 50px;
-
-            h2 {
-                margin-top: 20px;
-                display: flex;
-                justify-content: center;
-                color: $inter;
-            }
-
-            p {
-                line-height: 25px;
-                margin-right: 100px;
-            }
-        }
-    }
-}
-
-
-#address {
-    padding: 1%;
-
-    p {
-        a {
-            list-style: none;
         }
     }
 }

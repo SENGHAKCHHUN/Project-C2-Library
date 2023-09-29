@@ -1,21 +1,16 @@
 @import "./conponents/navbar";
 @import "./conponents/footer";
-
+@import "./responsive/responsive";
 main {
     display: grid;
     height: auto;
     grid-template-rows: 10% 45% 45%;
     padding: 90px 90px 40px 90px;
-    h2 {
-        @include display-center;
-        font-weight: 60px;
-    }
     .about-main-center {
         @include display-center;
         grid-template-columns: repeat(2, 1fr);
         padding: 0 10%;
         gap: 5%;
-
         .card-header,
         .card-bottom {
             @include display-center;
@@ -63,13 +58,15 @@ main {
         scale: 0.98;
         color: $inter;
     }
+}
     .card-ceo {
         height: 400px;
         // background-color: beige;
         display: grid;
         grid-template-columns: 30% 65%;
         gap: 5%;
-        padding: 5% 10%;
+        margin: 30px 200px;
+        border: 1px solid gray;
         .card-ceo-left {
             display: grid;
             grid-template-rows: 70% 30%;
@@ -100,14 +97,16 @@ main {
                 }
             }
         }
+    }
+    .card-ceo:hover{
+        box-shadow: 1px 1px 5px 0px rgb(220, 220, 213);
         .card-ceo-left:hover {
             box-shadow: $about-hover 0px 8px 10px 4px;
             transition: .5s;
-            scale: .98;
+            // scale: .98;
         }
         .card-ceo-left,
         .card-ceo-right {
-            height: 80%;
             display: grid;
             .ceo {
                 display: grid;
@@ -128,10 +127,10 @@ main {
             }
         }
     }
-}
+
 .map {
     display: grid;
     width: 100%;
-    margin-top: 2%;
+    margin-top: 0%;
 }
 

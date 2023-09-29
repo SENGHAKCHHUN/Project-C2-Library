@@ -1,7 +1,7 @@
 @import "./variable";
 @import "../group-mixus/flex-mixus";
 @import "../group-mixus/grid-mixus";
-
+@import "../responsive/responsive";
 
 footer{
     font-size: 20px;
@@ -10,6 +10,11 @@ footer{
     margin-top: 40px;
     @include centered;
     padding: 0px 90px;
+    @include responsive(Tablet){
+        font-size: 15px;
+        padding: 0px 50px;
+        height: 150px;
+    }
     .footer-left{
         @include flex-coloum;
         .email{
@@ -17,12 +22,24 @@ footer{
             img{
                 width: 30px;
             }
+            p{
+                margin-top: -5px;
+                @include responsive(Tablet){
+                    font-size: 15px;
+                }
+            }
         }
         .phone-call{
             @include contact;
             img{
                 width: 38px;
                 margin-left: -5px;
+            }
+            p{
+                margin-top: 2px;
+                @include responsive(Tablet){
+                    font-size: 15px;
+                }
             }
         }
     }

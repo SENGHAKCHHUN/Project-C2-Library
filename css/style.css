@@ -6,7 +6,7 @@
 
 nav {
   display: grid;
-  grid-template-columns: 0.8fr 1.5fr;
+  grid-template-columns: 0.8fr 1.7fr;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -25,12 +25,17 @@ nav img {
     margin-top: 8px;
   }
 }
+@media screen and (max-width: 620px) {
+  nav img {
+    margin-top: 6px;
+  }
+}
 nav .menu-bar {
   padding-right: 90px;
 }
 @media screen and (max-width: 730px) {
   nav .menu-bar {
-    margin-top: -5px;
+    margin-top: -10px;
   }
 }
 nav .menu-bar ul {
@@ -52,21 +57,17 @@ nav .menu-bar ul li a {
     font-size: 13px;
   }
 }
+@media screen and (max-width: 620px) {
+  nav .menu-bar ul li a {
+    font-size: 10px;
+  }
+}
 nav .menu-bar ul li a:hover {
   color: #00B9BE;
   transition: 0.3s;
   font-weight: 520;
 }
-nav .menu-bar ul li i {
-  font-size: 35px;
-}
-@media screen and (max-width: 730px) {
-  nav .menu-bar ul li i {
-    font-size: 30px;
-    margin-top: 10px;
-  }
-}
-nav .menu-bar .icon-menu {
+nav .icon-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -83,6 +84,13 @@ footer {
   align-items: center;
   padding: 0px 90px;
 }
+@media screen and (max-width: 730px) {
+  footer {
+    font-size: 15px;
+    padding: 0px 50px;
+    height: 150px;
+  }
+}
 footer .footer-left {
   display: flex;
   flex-direction: column;
@@ -96,6 +104,14 @@ footer .footer-left .email {
 footer .footer-left .email img {
   width: 30px;
 }
+footer .footer-left .email p {
+  margin-top: -5px;
+}
+@media screen and (max-width: 730px) {
+  footer .footer-left .email p {
+    font-size: 15px;
+  }
+}
 footer .footer-left .phone-call {
   display: flex;
   align-items: center;
@@ -104,6 +120,14 @@ footer .footer-left .phone-call {
 footer .footer-left .phone-call img {
   width: 38px;
   margin-left: -5px;
+}
+footer .footer-left .phone-call p {
+  margin-top: 2px;
+}
+@media screen and (max-width: 730px) {
+  footer .footer-left .phone-call p {
+    font-size: 15px;
+  }
 }
 footer .footer-right h3 {
   text-align: center;

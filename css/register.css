@@ -6,7 +6,7 @@
 
 nav {
   display: grid;
-  grid-template-columns: 0.8fr 1.5fr;
+  grid-template-columns: 0.8fr 1.7fr;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -25,12 +25,17 @@ nav img {
     margin-top: 8px;
   }
 }
+@media screen and (max-width: 620px) {
+  nav img {
+    margin-top: 6px;
+  }
+}
 nav .menu-bar {
   padding-right: 90px;
 }
 @media screen and (max-width: 730px) {
   nav .menu-bar {
-    margin-top: -5px;
+    margin-top: -10px;
   }
 }
 nav .menu-bar ul {
@@ -52,21 +57,17 @@ nav .menu-bar ul li a {
     font-size: 13px;
   }
 }
+@media screen and (max-width: 620px) {
+  nav .menu-bar ul li a {
+    font-size: 10px;
+  }
+}
 nav .menu-bar ul li a:hover {
   color: #00B9BE;
   transition: 0.3s;
   font-weight: 520;
 }
-nav .menu-bar ul li i {
-  font-size: 35px;
-}
-@media screen and (max-width: 730px) {
-  nav .menu-bar ul li i {
-    font-size: 30px;
-    margin-top: 10px;
-  }
-}
-nav .menu-bar .icon-menu {
+nav .icon-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -89,6 +90,12 @@ body .container-form form {
   box-shadow: 0px 0px 10px 5px;
   height: 83vh;
 }
+@media screen and (max-width: 730px) {
+  body .container-form form {
+    width: 60%;
+    margin: 26px;
+  }
+}
 body .container-form form h1 {
   text-align: center;
   margin-top: 10px;
@@ -97,6 +104,12 @@ body .container-form form h1 {
   width: 25%;
   margin-left: 38%;
   padding: 5px;
+}
+@media screen and (max-width: 730px) {
+  body .container-form form h1 {
+    font-size: 20px;
+    margin-left: 35%;
+  }
 }
 body .container-form form .info {
   margin-top: 15px;
@@ -112,8 +125,18 @@ body .container-form form .info .card .card-input {
   height: 70px;
   margin: 5px 0px;
 }
+@media screen and (max-width: 730px) {
+  body .container-form form .info .card .card-input {
+    height: 50px;
+  }
+}
 body .container-form form .info .card .card-input label {
   font-size: 17px;
+}
+@media screen and (max-width: 730px) {
+  body .container-form form .info .card .card-input label {
+    font-size: 13px;
+  }
 }
 body .container-form form .info .card .card-input input {
   padding: 3px;
@@ -124,6 +147,13 @@ body .container-form form .info .card .card-input input {
   box-shadow: 0px 0px 3px 0px black;
   font-size: 17px;
 }
+@media screen and (max-width: 730px) {
+  body .container-form form .info .card .card-input input {
+    height: 20px;
+    width: 90%;
+    font-size: 13px;
+  }
+}
 body .container-form form .info .card .card-input select {
   padding: 3px;
   border-radius: 3px;
@@ -133,6 +163,13 @@ body .container-form form .info .card .card-input select {
   box-shadow: 0px 0px 3px 0px black;
   font-size: 17px;
 }
+@media screen and (max-width: 730px) {
+  body .container-form form .info .card .card-input select {
+    height: 28px;
+    width: 95%;
+    font-size: 13px;
+  }
+}
 body .container-form form button {
   background: #00B9BE;
   width: 89%;
@@ -141,12 +178,24 @@ body .container-form form button {
   border-radius: 5px;
   font-size: 18px;
 }
+@media screen and (max-width: 730px) {
+  body .container-form form button {
+    height: 30px;
+    width: 84%;
+    font-size: 15px;
+  }
+}
 body .container-form form button a {
   text-decoration: none;
   color: black;
 }
 body .container-form form h3 {
   text-align: center;
+}
+@media screen and (max-width: 730px) {
+  body .container-form form h3 {
+    font-size: 15px;
+  }
 }
 body .container-form form .icon {
   display: flex;
@@ -155,6 +204,11 @@ body .container-form form .icon {
   align-items: flex-start;
   margin-left: 35%;
   margin-bottom: 50px;
+}
+@media screen and (max-width: 730px) {
+  body .container-form form .icon {
+    margin-left: 30%;
+  }
 }
 body .container-form form .icon img {
   width: 35px;

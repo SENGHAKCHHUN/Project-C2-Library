@@ -1,7 +1,8 @@
 @import './variable';
 @import './main';
 @import '../responsive/responsive';
-nav{
+
+nav {
     @include format;
     position: sticky;
     top: 0;
@@ -9,52 +10,52 @@ nav{
     background: $navbar-color;
     border-bottom: 1px solid $card-color;
     box-shadow: 0px 0px 3px 0px;
-    img{
+    img {
         width: 35%;
         padding-left: 90px;
         margin-top: 2px;
-        @include responsive(Tablet){
+        @include responsive(Tablet) {
             padding-left: 50px;
             margin-top: 8px;
         }
+        @include responsive(Mobile){
+            margin-top: 6px;
+
+        }
     }
-    .menu-bar{
-        @include responsive(Tablet){
-            margin-top: -5px;
+    .menu-bar {
+        @include responsive(Tablet) {
+            margin-top: -10px;
         }
         padding-right: 90px;
-        ul{
+        ul {
             @include formated;
             li {
                 list-style: none;
-                margin-top:17px;
-                a{
+                margin-top: 17px;
+                a {
                     text-decoration: none;
                     color: $black-color;
                     font-size: 20px;
                     text-transform: uppercase;
-                    @include responsive(Tablet){
+
+                    @include responsive(Tablet) {
                         font-size: 13px;
                     }
+                    @include responsive(Mobile){
+                        font-size: 10px;
+                    }
                 }
-                a:hover{
+                a:hover {
                     color: $inter;
                     transition: .3s;
                     font-weight: 520;
                 }
-                i{
-                    font-size: 35px;
-                    @include responsive(Tablet){
-                        font-size: 30px;
-                        margin-top: 10px;
-                    }
-                }
             }
         }
-        .icon-menu{
-            @include centered;
-            margin-top: 10px;
-
-        }
+    }
+    .icon-menu {
+        @include centered;
+        margin-top: 10px;
     }
 }

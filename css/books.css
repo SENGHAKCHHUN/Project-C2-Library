@@ -209,7 +209,7 @@ body #leadership .books .image-card {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 90px;
+  margin-right: 60px;
 }
 body #education-book .books .image-card img, body #Self-Development .books .image-card img,
 body #General-knowledge .books .image-card img,
@@ -281,4 +281,92 @@ body #book-of-legends .books .image-card:hover button a,
 body #financial .books .image-card:hover button a,
 body #leadership .books .image-card:hover button a {
   color: white;
+}
+@media (max-width: 1024px) {
+  body nav img {
+    max-width: 30%;
+    padding-left: 50px;
+    margin-top: 8px;
+  }
+  body nav .menu-bar {
+    margin-top: -5px;
+  }
+  body .group-book {
+    padding: 0px 50px;
+  }
+  body .group-book input {
+    padding: 5px;
+  }
+  body .search {
+    margin: 20px 50px;
+  }
+  body #education-book, body #Self-Development,
+  body #General-knowledge,
+  body #market,
+  body #cooking,
+  body #Technology,
+  body #book-of-legends,
+  body #financial,
+  body #leadership {
+    margin-top: 50px;
+    margin: 50px 50px;
+  }
+  body #education-book .books .image-card, body #Self-Development .books .image-card,
+  body #General-knowledge .books .image-card,
+  body #market .books .image-card,
+  body #cooking .books .image-card,
+  body #Technology .books .image-card,
+  body #book-of-legends .books .image-card,
+  body #financial .books .image-card,
+  body #leadership .books .image-card {
+    height: 260px;
+    width: 165px;
+    margin-right: 60px;
+  }
+  body #education-book .books .image-card img, body #Self-Development .books .image-card img,
+  body #General-knowledge .books .image-card img,
+  body #market .books .image-card img,
+  body #cooking .books .image-card img,
+  body #Technology .books .image-card img,
+  body #book-of-legends .books .image-card img,
+  body #financial .books .image-card img,
+  body #leadership .books .image-card img {
+    border: 1px solid #EEF0C8;
+    max-width: 150px;
+    max-height: 210px;
+  }
+  body #education-book .books button, body #Self-Development .books button,
+  body #General-knowledge .books button,
+  body #market .books button,
+  body #cooking .books button,
+  body #Technology .books button,
+  body #book-of-legends .books button,
+  body #financial .books button,
+  body #leadership .books button {
+    height: 25px;
+  }
+  body #education-book .books .image-card:hover button, body #Self-Development .books .image-card:hover button,
+  body #General-knowledge .books .image-card:hover button,
+  body #market .books .image-card:hover button,
+  body #cooking .books .image-card:hover button,
+  body #Technology .books .image-card:hover button,
+  body #book-of-legends .books .image-card:hover button,
+  body #financial .books .image-card:hover button,
+  body #leadership .books .image-card:hover button {
+    transition: 0.2s;
+    margin-top: 0px;
+  }
+  body #education-book .books .image-card:hover button a, body #Self-Development .books .image-card:hover button a,
+  body #General-knowledge .books .image-card:hover button a,
+  body #market .books .image-card:hover button a,
+  body #cooking .books .image-card:hover button a,
+  body #Technology .books .image-card:hover button a,
+  body #book-of-legends .books .image-card:hover button a,
+  body #financial .books .image-card:hover button a,
+  body #leadership .books .image-card:hover button a {
+    color: white;
+  }
+  body footer {
+    padding: 0px 50px;
+  }
 }/*# sourceMappingURL=books.css.map */

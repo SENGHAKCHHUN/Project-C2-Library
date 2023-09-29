@@ -247,4 +247,17 @@ main .card-ceo .card-ceo-right div.ceo-ifo span {
   display: grid;
   width: 100%;
   margin-top: 2%;
+}
+
+@media (max-width: 1024px) {
+  body nav img {
+    max-width: 30%;
+    padding-left: 50px;
+    margin-top: 12px;
+  }
+  body nav .menu-bar {
+    margin-top: -5px;
+    display: flex;
+    align-items: center;
+  }
 }/*# sourceMappingURL=about_us.css.map */

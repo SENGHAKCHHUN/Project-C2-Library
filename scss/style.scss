@@ -14,6 +14,7 @@ body {
         @include responsive(Tablet) {
             height: 300px;
         }
+
         @include responsive(Mobile) {
             // height: 300px;
         }
@@ -59,7 +60,7 @@ body {
             color: black;
             width: 280px;
             height: 40px;
-            border-radius: 10px 15px 0px 10px  ;
+            border-radius: 10px 15px 0px 10px;
             margin-left: 90px;
             padding: 0px;
             margin-top: 70px;
@@ -103,6 +104,7 @@ body {
     .popular-book {
         margin-top: 50px;
         @include flex-coloum;
+
         @include responsive(Tablet) {
             margin-top: 15px;
         }
@@ -111,6 +113,7 @@ body {
             color: $inter;
             text-align: center;
             margin-bottom: 40px;
+
             @include responsive(Tablet) {
                 margin-bottom: 15px;
             }
@@ -177,23 +180,31 @@ body {
                 }
             }
 
-        }
+            .image-card:hover {
+                border-bottom: 4px solid $inter;
+                box-shadow: 0px 5px 5px 5px $shadow-card;
+                transition: 0.3s;
+                height: 310px;
+                width: 210px;
 
-        .image-card:hover {
-            border-bottom: 4px solid $inter;
-            box-shadow: 0px 5px 5px 5px $shadow-card;
-            transition: 0.3s;
-            height: 310px;
-            width: 210px;
+                @include responsive(Tablet) {
+                    height: 180px;
+                    width: 137px;
+                    margin-right: 4px;
+                }
 
-            button {
-                background: $inter;
-                border: none;
-                transition: 0.2s;
-                margin-top: -20px;
+                button {
+                    background: $inter;
+                    border: none;
+                    transition: 0.2s;
+                    margin-top: -20px;
+                    @include responsive(Tablet) {
+                        width: 100px;
+                    }
 
-                a {
-                    color: $hover-color;
+                    a {
+                        color: $hover-color;
+                    }
                 }
             }
         }
@@ -307,18 +318,18 @@ body {
                 margin-bottom: 50px;
 
                 h2 {
-                    a{
+                    a {
                         margin-top: 20px;
-                    display: flex;
-                    justify-content: center;
-                    color: $inter;
-                    text-decoration: none;
+                        display: flex;
+                        justify-content: center;
+                        color: $inter;
+                        text-decoration: none;
 
-                    @include responsive(Tablet) {
-                        margin-right: 50px;
+                        @include responsive(Tablet) {
+                            margin-right: 50px;
+                        }
                     }
-                    }
-                    
+
                 }
 
                 p {
@@ -336,9 +347,11 @@ body {
 
     #address {
         padding: 1%;
+
         @include responsive(Tablet) {
             margin-bottom: -10px;
         }
+
         p {
             a {
                 list-style: none;

@@ -11,11 +11,10 @@ body {
         background-position: 0;
         height: 500px;
         
-        @include responsive(Tablet) {
+        @include responsive(Mobile) {
             height: 300px;
         }
-
-        @include responsive(Mobile) {
+        @include responsive(Tablet) {
             height: 300px;
         }
         h1 {
@@ -25,7 +24,6 @@ body {
             @include responsive(Tablet) {
                 font-size: 28px;
             }
-            
         }
         h1,
         p {
@@ -33,6 +31,10 @@ body {
             padding: 50px 90px;
 
             @include responsive(Tablet) {
+                padding: 30px 50px;
+            }
+            @include responsive(Mobile) {
+                font-size: 25px;
                 padding: 30px 50px;
             }
         }

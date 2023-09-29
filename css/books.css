@@ -19,8 +19,19 @@ nav img {
   padding-left: 90px;
   margin-top: 2px;
 }
+@media screen and (max-width: 730px) {
+  nav img {
+    padding-left: 50px;
+    margin-top: 8px;
+  }
+}
 nav .menu-bar {
   padding-right: 90px;
+}
+@media screen and (max-width: 730px) {
+  nav .menu-bar {
+    margin-top: -5px;
+  }
 }
 nav .menu-bar ul {
   display: grid;
@@ -36,10 +47,24 @@ nav .menu-bar ul li a {
   font-size: 20px;
   text-transform: uppercase;
 }
+@media screen and (max-width: 730px) {
+  nav .menu-bar ul li a {
+    font-size: 13px;
+  }
+}
 nav .menu-bar ul li a:hover {
   color: #00B9BE;
   transition: 0.3s;
   font-weight: 520;
+}
+nav .menu-bar ul li i {
+  font-size: 35px;
+}
+@media screen and (max-width: 730px) {
+  nav .menu-bar ul li i {
+    font-size: 30px;
+    margin-top: 10px;
+  }
 }
 nav .menu-bar .icon-menu {
   display: flex;

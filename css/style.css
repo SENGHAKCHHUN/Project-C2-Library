@@ -19,8 +19,19 @@ nav img {
   padding-left: 90px;
   margin-top: 2px;
 }
+@media screen and (max-width: 730px) {
+  nav img {
+    padding-left: 50px;
+    margin-top: 8px;
+  }
+}
 nav .menu-bar {
   padding-right: 90px;
+}
+@media screen and (max-width: 730px) {
+  nav .menu-bar {
+    margin-top: -5px;
+  }
 }
 nav .menu-bar ul {
   display: grid;
@@ -36,10 +47,24 @@ nav .menu-bar ul li a {
   font-size: 20px;
   text-transform: uppercase;
 }
+@media screen and (max-width: 730px) {
+  nav .menu-bar ul li a {
+    font-size: 13px;
+  }
+}
 nav .menu-bar ul li a:hover {
   color: #00B9BE;
   transition: 0.3s;
   font-weight: 520;
+}
+nav .menu-bar ul li i {
+  font-size: 35px;
+}
+@media screen and (max-width: 730px) {
+  nav .menu-bar ul li i {
+    font-size: 30px;
+    margin-top: 10px;
+  }
 }
 nav .menu-bar .icon-menu {
   display: flex;
@@ -99,63 +124,27 @@ body .cover {
   background-repeat: no-repeat;
   background-position: 0;
   height: 500px;
-<<<<<<< HEAD
-=======
 }
 body .cover h1 {
   text-shadow: 1px 3px #d2d8b0;
   font-size: 50px;
   color: #00B9BE;
 }
-body .cover h1,
-body .cover p {
-  font-weight: 600;
-  padding: 50px 0px 0px 90px;
-}
-body .cover p b {
-  font-size: 20px;
-  color: rgba(0, 0, 0, 0.819);
-}
-body .cover .open {
-  box-shadow: 0px 2px 5px 2px #9d9d9d;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: white;
-  color: black;
-  width: 300px;
-  height: 45px;
-  border-radius: 10px;
-  margin-left: 90px;
-  padding: 0px;
-  margin-top: 170px;
-  font-size: 17px;
-}
-body .cover .open:hover {
-  box-shadow: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #00B9BE;
-  color: rgb(255, 255, 255);
-  width: 300px;
-  height: 45px;
-  border-radius: 10px;
-  margin-left: 90px;
-  padding: 0px;
-  margin-top: 170px;
-  font-size: 17px;
->>>>>>> b92797786baad98a71e90b8b26035dbd303a6123
-}
-body .cover h1 {
-  text-shadow: 1px 3px #d2d8b0;
-  font-size: 50px;
-  color: #00B9BE;
+@media screen and (max-width: 730px) {
+  body .cover h1 {
+    font-size: 30px;
+  }
 }
 body .cover h1,
 body .cover p {
   font-weight: 600;
   padding: 50px 90px;
+}
+@media screen and (max-width: 730px) {
+  body .cover h1,
+  body .cover p {
+    padding: 50px 50px;
+  }
 }
 body .cover p b {
   font-size: 20px;
@@ -213,6 +202,11 @@ body .cover .open:hover {
   flex-direction: row;
   justify-content: center;
 }
+@media screen and (max-width: 730px) {
+  .popular-book .books {
+    margin-left: 40px;
+  }
+}
 .popular-book .books .image-card {
   border-bottom: 4px solid #00B9BE;
   display: flex;
@@ -226,12 +220,25 @@ body .cover .open:hover {
   border-bottom: 4px solid #00B9BE;
   align-items: center;
   justify-content: center;
-  margin-right: 54px;
+  margin-right: 20px;
+}
+@media screen and (max-width: 730px) {
+  .popular-book .books .image-card {
+    height: 230px;
+    width: 170px;
+    margin-right: 10px;
+  }
 }
 .popular-book .books .image-card img {
   border: 1px solid #EEF0C8;
   width: 185px;
   height: 255px;
+}
+@media screen and (max-width: 730px) {
+  .popular-book .books .image-card img {
+    width: 120px;
+    height: 180px;
+  }
 }
 .popular-book .books button {
   width: 130px;
@@ -241,8 +248,43 @@ body .cover .open:hover {
   height: 28px;
   background: none;
 }
+@media screen and (max-width: 730px) {
+  .popular-book .books button {
+    width: 100px;
+  }
+}
 .popular-book .books button a {
   text-decoration: none;
+}
+.popular-book .books .open {
+  box-shadow: 0px 2px 5px 2px #9d9d9d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  color: black;
+  width: 300px;
+  height: 45px;
+  border-radius: 10px;
+  margin-left: 90px;
+  padding: 0px;
+  margin-top: 170px;
+  font-size: 17px;
+}
+.popular-book .books .open:hover {
+  box-shadow: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #00B9BE;
+  color: rgb(255, 255, 255);
+  width: 300px;
+  height: 45px;
+  border-radius: 10px;
+  margin-left: 90px;
+  padding: 0px;
+  margin-top: 170px;
+  font-size: 17px;
 }
 .popular-book .image-card:hover {
   box-shadow: 0px 2px 5px 2px rgb(235, 232, 232);
@@ -257,134 +299,92 @@ body .cover .open:hover {
 .popular-book .image-card:hover button a {
   color: white;
 }
-<<<<<<< HEAD
+.popular-book #address {
+  padding: 1%;
+}
+.popular-book #address p a {
+  list-style: none;
+}
 
 .borrow-and-return {
-=======
-body .borrow-and-return {
->>>>>>> b92797786baad98a71e90b8b26035dbd303a6123
   display: flex;
   align-items: center;
   gap: 30px;
   flex-direction: column;
 }
-<<<<<<< HEAD
 .borrow-and-return .borrow-card {
-=======
-body .borrow-and-return .borrow-card {
->>>>>>> b92797786baad98a71e90b8b26035dbd303a6123
   box-shadow: 0px 2px 5px 2px rgb(235, 232, 232);
+  margin-top: 20px;
   background: rgba(246, 246, 246, 0.441);
   border-radius: 20px;
   height: 200px;
-  width: 84%;
-  margin-top: 80px;
+  width: 89%;
+  margin-top: 60px;
   display: flex;
 }
-<<<<<<< HEAD
 .borrow-and-return .borrow-card .borrow-title {
-=======
-body .borrow-and-return .borrow-card .borrow-title {
->>>>>>> b92797786baad98a71e90b8b26035dbd303a6123
   display: grid;
   width: 80%;
   grid-template-rows: repeat(2, 2.5fr);
   margin-bottom: 50px;
 }
-<<<<<<< HEAD
 .borrow-and-return .borrow-card .borrow-title h2 {
-=======
-body .borrow-and-return .borrow-card .borrow-title h2 {
->>>>>>> b92797786baad98a71e90b8b26035dbd303a6123
   display: flex;
   justify-content: center;
   margin-top: 20px;
   margin-left: 150px;
   color: #00B9BE;
 }
-<<<<<<< HEAD
 .borrow-and-return .borrow-card .borrow-title p {
   line-height: 25px;
   margin-left: 100px;
 }
 .borrow-and-return .borrow-card .img {
-=======
-body .borrow-and-return .borrow-card .borrow-title p {
-  line-height: 25px;
-  margin-left: 100px;
-}
-body .borrow-and-return .borrow-card .img {
->>>>>>> b92797786baad98a71e90b8b26035dbd303a6123
   width: 30%;
   align-items: center;
   display: flex;
   justify-content: center;
 }
-<<<<<<< HEAD
 .borrow-and-return .borrow-card .img img {
-=======
-body .borrow-and-return .borrow-card .img img {
->>>>>>> b92797786baad98a71e90b8b26035dbd303a6123
   box-shadow: 0px 2px 5px 2px rgba(128, 128, 128, 0.736);
   border-radius: 5px;
   width: 100px;
   height: 140px;
 }
-<<<<<<< HEAD
 .borrow-and-return .return-card {
-=======
-body .borrow-and-return .return-card {
->>>>>>> b92797786baad98a71e90b8b26035dbd303a6123
   box-shadow: 0px 2px 5px 2px rgb(235, 232, 232);
   justify-content: center;
   margin-top: 20px;
   background: rgba(246, 246, 246, 0.441);
   border-radius: 20px;
   height: 200px;
-  width: 84%;
+  width: 89%;
   display: flex;
 }
-<<<<<<< HEAD
 .borrow-and-return .return-card .return-img {
-=======
-body .borrow-and-return .return-card .return-img {
->>>>>>> b92797786baad98a71e90b8b26035dbd303a6123
   width: 30%;
   align-items: center;
   display: flex;
   justify-content: center;
 }
-<<<<<<< HEAD
 .borrow-and-return .return-card .return-img img {
-=======
-body .borrow-and-return .return-card .return-img img {
->>>>>>> b92797786baad98a71e90b8b26035dbd303a6123
   box-shadow: 0px 2px 5px 2px rgba(128, 128, 128, 0.736);
   border-radius: 5px;
   width: 100px;
   height: 140px;
 }
-<<<<<<< HEAD
 .borrow-and-return .return-card .return-title {
-=======
-body .borrow-and-return .return-card .return-title {
->>>>>>> b92797786baad98a71e90b8b26035dbd303a6123
   display: grid;
   width: 80%;
   grid-template-rows: repeat(2, 2.5fr);
   margin-bottom: 50px;
 }
-<<<<<<< HEAD
 .borrow-and-return .return-card .return-title h2 {
-=======
-body .borrow-and-return .return-card .return-title h2 {
->>>>>>> b92797786baad98a71e90b8b26035dbd303a6123
   margin-top: 20px;
   display: flex;
   justify-content: center;
   color: #00B9BE;
 }
-<<<<<<< HEAD
 .borrow-and-return .return-card .return-title p {
   line-height: 25px;
   margin-right: 100px;
@@ -395,55 +395,4 @@ body .borrow-and-return .return-card .return-title h2 {
 }
 #address p a {
   list-style: none;
-=======
-body .borrow-and-return .return-card .return-title p {
-  line-height: 25px;
-  margin-right: 100px;
-}
-body #address {
-  padding: 1%;
-}
-body #address p a {
-  list-style: none;
-}
-
-@media (min-width: 834px) {
-  .cover {
-    height: 450px;
-    width: 100%;
-    position: relative;
-    background-image: url("../images/Home/cover-home-page.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 0;
-  }
-  .cover h1 {
-    text-shadow: 1px 3px #d2d8b0;
-    color: #00B9BE;
-    font-size: 40px;
-    color: #00B9BE;
-  }
-  .cover h1,
-  .cover p {
-    font-weight: 600;
-    padding: 50px 0px 0px 63px;
-  }
-  .cover p b {
-    font-size: 18px;
-    color: rgba(0, 0, 0, 0.819);
-  }
-  .cover .popular-book .books .image-card {
-    max-height: 260px;
-    max-width: 165px;
-    margin-right: 40px;
-  }
-  .cover .popular-book .books .image-card img {
-    border: 1px solid #EEF0C8;
-    max-width: 150px;
-    max-height: 210px;
-  }
-  .cover .popular-book .books button {
-    height: 25px;
-  }
->>>>>>> b92797786baad98a71e90b8b26035dbd303a6123
 }/*# sourceMappingURL=style.css.map */

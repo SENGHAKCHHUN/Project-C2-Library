@@ -7,17 +7,21 @@ nav{
     top: 0;
     z-index: 100;
     background: $navbar-color;
-    @include responsive(Tablet){
-        
-    }
     border-bottom: 1px solid $card-color;
     box-shadow: 0px 0px 3px 0px;
     img{
         width: 35%;
         padding-left: 90px;
         margin-top: 2px;
+        @include responsive(Tablet){
+            padding-left: 50px;
+            margin-top: 8px;
+        }
     }
     .menu-bar{
+        @include responsive(Tablet){
+            margin-top: -5px;
+        }
         padding-right: 90px;
         ul{
             @include formated;
@@ -29,11 +33,21 @@ nav{
                     color: $black-color;
                     font-size: 20px;
                     text-transform: uppercase;
+                    @include responsive(Tablet){
+                        font-size: 13px;
+                    }
                 }
                 a:hover{
                     color: $inter;
                     transition: .3s;
                     font-weight: 520;
+                }
+                i{
+                    font-size: 35px;
+                    @include responsive(Tablet){
+                        font-size: 30px;
+                        margin-top: 10px;
+                    }
                 }
             }
         }

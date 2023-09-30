@@ -181,7 +181,7 @@ body .container-form form .info .card .card-input label {
 }
 @media screen and (max-width: 420px) {
   body .container-form form .info .card .card-input label {
-    font-size: 10px;
+    font-size: 9px;
   }
 }
 body .container-form form .info .card .card-input input {

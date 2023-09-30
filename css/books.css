@@ -48,14 +48,11 @@ nav .menu-bar {
 @media screen and (max-width: 1024px) {
   nav .menu-bar {
     margin-bottom: 10px;
-<<<<<<< HEAD
-=======
   }
 }
 @media screen and (max-width: 420px) {
   nav .menu-bar {
     margin-bottom: 15px;
->>>>>>> 84ad4c8d7b2e4fefdd9f600b786ebab9e69706db
   }
 }
 nav .menu-bar ul {

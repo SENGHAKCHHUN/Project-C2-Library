@@ -14,6 +14,12 @@ main {
         grid-template-columns: repeat(2, 1fr);
         padding: 0 10%;
         gap: 5%;
+        @include responsive(Mobile) {
+            display: flex;
+            flex-direction: column;
+            gap:35%;
+
+        }
         .card-header,
         .card-bottom {
             @include display-center;
@@ -65,68 +71,124 @@ main {
     .card-ceo {
         height: 370px;
         display: grid;
-        grid-template-columns: 30% 65%;
+        grid-template-columns: 35% 65%;
         gap: 5%;
-        margin: 50px 200px;
+        margin: 50px 100px;
         box-shadow: 0px 0px 3px 0px gray;
         @include responsive(Laptop){
-            // margin: 50px 90px;
             display: grid;
             padding-right: 20px;
-            grid-template-columns: 50% 50%;
-            img {
-                width: 90%;
-            }
+            grid-template-columns: 35% 65%;
         }
         @include responsive(Tablet){
             grid-template-columns: 50% 50%;
         }
+        @include responsive(Mobile) {
+            height: 100%;
+            grid-template-columns: 50% 50%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin: 14%;
+        }
+
         .card-ceo-left{
             background: rgb(218, 215, 211);
             display: grid;
             grid-template-rows: 80% 10% 10%;
             @include responsive (Laptop) {
                 width: 100%;
-               
+                height: 100%;
+            }
+            @include responsive(Mobile) {
+                width: 100%;
+                height: 100%;
+                display: grid;
+                grid-template-rows: 80% 10% 10%;
+                padding: 4%;
             }
             
             img{
-                width:100px;
-                height: 100px;
+                width:205px;
+                height: 270px;
                 padding: 20px;
                 border-radius: 30px;
                 @include responsive(Laptop){
-                    width: 75%;
+                    width: 90%;
+                    height: 80%;
+                    padding: 5%;
                 }
                 @include responsive(Tablet) {
                     width: 90%;
-                    padding: 15px;
+                    padding: 5%;
+                }
+                @include responsive(Mobile) {
+                    width: 90%;
+                    height: 90%;
+                    padding: 5%;
+                    display: grid;
+                    align-items: center;
+                    text-align: center;
                 }
             }
             h3{
+                margin-top: -20px;
                 text-align: center;
+                padding: 10px;
+                font-size: 10px;
+                @include responsive(Mobile) {
+                    margin-top: -10px;
+                }
             }
             .contact-ceo{
                 display: flex;
                 align-items: center;
                 gap: 5px;
-                padding-left: 40px;
+                padding-left: 10%;
                 margin-top: -30px;
+                @include responsive(Laptop) {
+                    display: flex;
+                    justify-content: center;
+                    gap: 20%;
+                }
+                @include responsive(Mobile) {
+                    display: grid;
+                    grid-template-columns: repeat(4,1fr);
+                    text-align: center;
+                    text-align: center;
+                    padding: 0 20%;
+                    margin-top: .3px;
+                    margin-left: 40px;
+                    gap: 0;
+                    
+                }
                 a{
                     img{
                         width: 27px;
                         height: 25px;
                         margin-left: -19px;
+                        @include responsive (Laptop) {
+                            width: 20px;
+                        }
+                        @include responsive(Mobile) {
+                            width:25px;
+                        }
                     }
                 }
             }
         }
         .card-ceo-right{
-            margin-top: 60px;
+            margin-top: 10%;
             p{
-                margin-top: 50px;
-                @include responsive(Tablet){
-                    margin-right: 50px;
+                margin-top: 10%;
+                @include responsive (Laptop) {
+                    padding: 5%;
+                }
+                @include responsive(Tablet) {
+                    padding: 5%;
+                }
+                @include responsive(Mobile) {
+                    margin-top: 10px;
                 }
             }
         }

@@ -25,6 +25,9 @@ body{
                 margin: 26px;
                 // height: 80vh;
             }
+            @include responsive(Mobile){
+                width: 90%;
+            }
             h1{
                 text-align: center;
                 margin-top: 10px;
@@ -58,6 +61,9 @@ body{
                             font-size: 17px;
                             @include responsive(Tablet){
                                 font-size: 13px;
+                            }
+                            @include responsive(Mobile){
+                                font-size: 10px;
                             }
                         }
                         input{
@@ -103,6 +109,9 @@ body{
                     width: 84%;
                     font-size: 15px;
                 }
+                @include responsive(Mobile){
+                    width: 82%;
+                }
                 a{
                     text-decoration: none;
                     color: black;
@@ -121,6 +130,9 @@ body{
                 margin-bottom: 50px;
                 @include responsive(Tablet){
                     margin-left: 30%;
+                }
+                @include responsive(Mobile){
+                    margin-left: 28%;
                 }
                 img{
                     width: 35px;

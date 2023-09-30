@@ -10,6 +10,10 @@ nav {
     background: $navbar-color;
     border-bottom: 1px solid $card-color;
     box-shadow: 0px 0px 3px 0px;
+    @include responsive(Mobile){
+        display: grid;
+        grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    }
     img {
         width: 35%;
         padding-left: 90px;
@@ -23,7 +27,7 @@ nav {
             width: 40%;
         }
         @include responsive(Mobile){
-            margin-top: 13px;
+            display: none;
         }
     }
     .menu-bar {
@@ -33,6 +37,7 @@ nav {
         @include responsive(Mobile){
             margin-bottom: 15px;
         }
+    
         margin-top: -2px;
         ul {
             @include formated;
@@ -54,6 +59,7 @@ nav {
                         font-size: 10px;
                         display: flex;
                         justify-content: center;
+                        width: 80px;
                     }
                 }
                 a:hover {
@@ -71,15 +77,7 @@ nav {
         @include responsive(Mobile){
             margin-top: 10px;
             font-size: 20px;
-        }
-    }
-    .icon-menu {
-        @include centered;
-        display: flex;
-        justify-content: center;
-        @include responsive(Mobile){
-            display: flex;
-            justify-content: center;
+            margin-left: 80px;
         }
     }
 }

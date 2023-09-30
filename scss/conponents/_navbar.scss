@@ -28,13 +28,8 @@ nav {
         }
     }
     .menu-bar {
-<<<<<<< HEAD
         @include responsive(Laptop){
             margin-bottom: 10px;
-=======
-        @include responsive(Tablet) {
-            margin-top: -1px;
->>>>>>> 269f44e5f20dc2bef11869d8b03a223439e206b1
         }
         margin-top: -2px;
         ul {

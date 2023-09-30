@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":3,"sourceRoot":"","sources":["../../scss/conponents/_main.scss","../../scss/success.scss"],"names":[],"mappings":"AAEA,EACI,UACA,SACA,uCCHJ,KACI,mBACA,aACA,uBACA,mBACA,UACI,iBACA,aACA,gBACA,kBACA,aACA,uBACA,mBACA,SACA,sBACA,gCACA,cACI,YAEJ,iBACI,YACA,mBACA,kBACA,YACA,mBACI,qBACA,WACA,eAGR,uBACI,gBACA,yBACI","file":"success.min.css"}
+=======
+{"version":3,"sources":["../../scss/conponents/_main.scss","../../scss/success.scss"],"names":[],"mappings":"AAEA,EACI,SAAA,CACA,QAAA,CACA,sCAAA,CCHJ,KACI,kBAAA,CACA,YAAA,CACA,sBAAA,CACA,kBAAA,CACA,UACI,gBAAA,CACA,YAAA,CACA,eAAA,CACA,iBAAA,CACA,YAAA,CACA,sBAAA,CACA,kBAAA,CACA,QAAA,CACA,qBAAA,CACA,+BAAA,CACA,cACI,WAAA,CAEJ,iBACI,WAAA,CACA,kBAAA,CACA,iBAAA,CACA,WAAA,CACA,mBACI,oBAAA,CACA,UAAA,CACA,cAAA,CAGR,uBACI,eAAA,CACA,yBACI,aAAA","file":"success.min.css"}
+>>>>>>> 2fab7c33029e0c14b25f1bf463dc6025225b5266

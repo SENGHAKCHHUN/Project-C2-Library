@@ -48,11 +48,14 @@ nav .menu-bar {
 @media screen and (max-width: 1024px) {
   nav .menu-bar {
     margin-bottom: 10px;
+<<<<<<< HEAD
+=======
   }
 }
 @media screen and (max-width: 420px) {
   nav .menu-bar {
     margin-bottom: 15px;
+>>>>>>> 84ad4c8d7b2e4fefdd9f600b786ebab9e69706db
   }
 }
 nav .menu-bar ul {
@@ -300,7 +303,12 @@ main .card-bottom:hover {
 }
 @media screen and (max-width: 1024px) {
   .card-ceo {
-    margin: 50px 90px;
+    display: grid;
+    padding-right: 20px;
+    grid-template-columns: 50% 50%;
+  }
+  .card-ceo img {
+    width: 90%;
   }
 }
 @media screen and (max-width: 730px) {
@@ -311,17 +319,28 @@ main .card-bottom:hover {
 .card-ceo .card-ceo-left {
   background: rgb(218, 215, 211);
   display: grid;
-  grid-template-rows: 0.7fr 0.2fr;
+  grid-template-rows: 80% 10% 10%;
+}
+@media screen and (max-width: 1024px) {
+  .card-ceo .card-ceo-left {
+    width: 100%;
+  }
 }
 .card-ceo .card-ceo-left img {
-  width: 240px;
-  height: 230px;
+  width: 100px;
+  height: 100px;
   padding: 20px;
   border-radius: 30px;
 }
 @media screen and (max-width: 1024px) {
   .card-ceo .card-ceo-left img {
-    width: 215px;
+    width: 75%;
+  }
+}
+@media screen and (max-width: 730px) {
+  .card-ceo .card-ceo-left img {
+    width: 90%;
+    padding: 15px;
   }
 }
 .card-ceo .card-ceo-left h3 {

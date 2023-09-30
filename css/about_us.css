@@ -33,7 +33,7 @@ nav img {
 }
 @media screen and (max-width: 620px) {
   nav img {
-    margin-top: 6px;
+    margin-top: 13px;
   }
 }
 nav .menu-bar {
@@ -41,11 +41,12 @@ nav .menu-bar {
 }
 @media screen and (max-width: 1024px) {
   nav .menu-bar {
-<<<<<<< HEAD
     margin-bottom: 10px;
-=======
-    margin-top: -1px;
->>>>>>> 269f44e5f20dc2bef11869d8b03a223439e206b1
+  }
+}
+@media screen and (max-width: 620px) {
+  nav .menu-bar {
+    margin-bottom: 15px;
   }
 }
 nav .menu-bar ul {
@@ -116,6 +117,11 @@ footer .footer-left {
   flex-direction: column;
   gap: 10px;
 }
+@media screen and (max-width: 620px) {
+  footer .footer-left h3 {
+    font-size: 15px;
+  }
+}
 footer .footer-left .email {
   display: flex;
   align-items: center;
@@ -124,12 +130,22 @@ footer .footer-left .email {
 footer .footer-left .email img {
   width: 30px;
 }
+@media screen and (max-width: 620px) {
+  footer .footer-left .email img {
+    width: 20px;
+  }
+}
 footer .footer-left .email p {
   margin-top: -5px;
 }
 @media screen and (max-width: 730px) {
   footer .footer-left .email p {
     font-size: 15px;
+  }
+}
+@media screen and (max-width: 620px) {
+  footer .footer-left .email p {
+    font-size: 10px;
   }
 }
 footer .footer-left .phone-call {
@@ -141,6 +157,11 @@ footer .footer-left .phone-call img {
   width: 38px;
   margin-left: -5px;
 }
+@media screen and (max-width: 620px) {
+  footer .footer-left .phone-call img {
+    width: 28px;
+  }
+}
 footer .footer-left .phone-call p {
   margin-top: 2px;
 }
@@ -149,8 +170,18 @@ footer .footer-left .phone-call p {
     font-size: 15px;
   }
 }
+@media screen and (max-width: 620px) {
+  footer .footer-left .phone-call p {
+    font-size: 10px;
+  }
+}
 footer .footer-right h3 {
   text-align: center;
+}
+@media screen and (max-width: 620px) {
+  footer .footer-right h3 {
+    font-size: 15px;
+  }
 }
 footer .footer-right .icon {
   padding: 10px;
@@ -159,6 +190,11 @@ footer .footer-right .icon img {
   width: 30px;
   margin-left: 15px;
   margin-top: 10px;
+}
+@media screen and (max-width: 620px) {
+  footer .footer-right .icon img {
+    width: 20px;
+  }
 }
 
 main {
@@ -169,7 +205,7 @@ main {
 }
 @media screen and (max-width: 730px) {
   main {
-    padding: 20px 20px;
+    padding: 50px 20px;
   }
 }
 main .about-main-center {

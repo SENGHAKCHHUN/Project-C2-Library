@@ -33,7 +33,7 @@ nav img {
 }
 @media screen and (max-width: 620px) {
   nav img {
-    margin-top: 6px;
+    margin-top: 13px;
   }
 }
 nav .menu-bar {
@@ -41,11 +41,12 @@ nav .menu-bar {
 }
 @media screen and (max-width: 1024px) {
   nav .menu-bar {
-<<<<<<< HEAD
     margin-bottom: 10px;
-=======
-    margin-top: -1px;
->>>>>>> 269f44e5f20dc2bef11869d8b03a223439e206b1
+  }
+}
+@media screen and (max-width: 620px) {
+  nav .menu-bar {
+    margin-bottom: 15px;
   }
 }
 nav .menu-bar ul {
@@ -121,13 +122,14 @@ body .container-form form {
   body .container-form form {
     width: 60%;
     margin: 26px;
+    height: 80vh;
   }
 }
 body .container-form form h1 {
   text-align: center;
   margin-top: 10px;
   background: orange;
-  border-radius: 0px 20px;
+  border-radius: 0px 10px;
   width: 25%;
   margin-left: 38%;
   padding: 5px;

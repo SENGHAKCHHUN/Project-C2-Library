@@ -54,7 +54,6 @@ main {
     }
     .card-header:hover {
         box-shadow: $about-hover 0px 8px 10px 4px;
-        // border-radius: 200px 200px 0px 0px;
         transition: .5s;
         font-weight: 500;
         scale: 0.98;
@@ -72,7 +71,6 @@ main {
         height: 370px;
         display: grid;
         grid-template-columns: 35% 65%;
-        gap: 5%;
         margin: 50px 100px;
         box-shadow: 0px 0px 3px 0px gray;
         @include responsive(Laptop){
@@ -89,12 +87,12 @@ main {
             display: flex;
             flex-direction: column;
             text-align: center;
-            margin: 14%;
+            margin: 5% 14% 11% 14%;
         }
 
         .card-ceo-left{
             background: rgb(218, 215, 211);
-            display: grid;
+            @include display-center;
             grid-template-rows: 80% 10% 10%;
             @include responsive (Laptop) {
                 width: 100%;
@@ -109,8 +107,8 @@ main {
             }
             
             img{
-                width:205px;
-                height: 270px;
+                width:270px;
+                @include display-center;
                 padding: 20px;
                 border-radius: 30px;
                 @include responsive(Laptop){
@@ -126,16 +124,14 @@ main {
                     width: 90%;
                     height: 90%;
                     padding: 5%;
-                    display: grid;
-                    align-items: center;
-                    text-align: center;
+                    @include display-center;
                 }
             }
             h3{
                 margin-top: -20px;
                 text-align: center;
                 padding: 10px;
-                font-size: 10px;
+                font-size: 20px;
                 @include responsive(Mobile) {
                     margin-top: -10px;
                 }
@@ -143,19 +139,17 @@ main {
             .contact-ceo{
                 display: flex;
                 align-items: center;
-                gap: 5px;
-                padding-left: 10%;
+                text-align: center;
                 margin-top: -30px;
+                margin-left: 25%;
                 @include responsive(Laptop) {
                     display: flex;
                     justify-content: center;
                     gap: 20%;
                 }
                 @include responsive(Mobile) {
-                    display: grid;
+                    @include display-center;
                     grid-template-columns: repeat(4,1fr);
-                    text-align: center;
-                    text-align: center;
                     padding: 0 20%;
                     margin-top: .3px;
                     margin-left: 40px;
@@ -178,9 +172,12 @@ main {
             }
         }
         .card-ceo-right{
-            margin-top: 10%;
+            padding-left: 10% 0% 0% 10%;
+            h2 {
+                padding: 5%;
+            }
             p{
-                margin-top: 10%;
+                padding: 0% 5%;
                 @include responsive (Laptop) {
                     padding: 5%;
                 }
@@ -189,43 +186,15 @@ main {
                 }
                 @include responsive(Mobile) {
                     margin-top: 10px;
+                    @include display-center;
                 }
             }
         }
     }
-    // .card-ceo:hover{
-    //     box-shadow: 1px 1px 5px 0px rgb(220, 220, 213);
-    //     .card-ceo-left:hover {
-    //         box-shadow: $about-hover 0px 8px 10px 4px;
-    //         transition: .5s;
-    //         // scale: .98;
-    //     }
-    //     .card-ceo-left,
-    //     .card-ceo-right {
-    //         display: grid;
-    //         .ceo {
-    //             display: grid;
-    //             background-image: url(/images/CEO.jpg);
-    //             background-repeat: no-repeat;
-    //             background-position: 100%;
-    //             background-size: cover;
-    //         }
-    //         div.ceo-ifo {
-    //             display: flex;
-    //             flex-direction: column;
-    //             padding: 5% 0 0 5%;
-    //             gap: 5%;
-    //             span {
-    //                 font-weight: 600;
-    //                 font-size: 25px;
-    //             }
-    //         }
-    //     }
-    // }
 
 .map {
     display: grid;
     width: 100%;
-    margin-top: 0%;
+    margin-bottom: 10%;
 }
 

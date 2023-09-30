@@ -334,7 +334,7 @@ body .library {
 }
 @media screen and (max-width: 420px) {
   body .library {
-    margin-left: 30%;
+    margin-left: 25%;
   }
 }
 body .library h1 {

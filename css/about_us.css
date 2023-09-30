@@ -122,6 +122,12 @@ footer {
     height: 150px;
   }
 }
+@media screen and (max-width: 420px) {
+  footer {
+    justify-content: center;
+    height: 70px;
+  }
+}
 footer .footer-left {
   display: flex;
   flex-direction: column;
@@ -185,6 +191,11 @@ footer .footer-left .phone-call p {
     font-size: 10px;
   }
 }
+@media screen and (max-width: 420px) {
+  footer .footer-left {
+    display: none;
+  }
+}
 footer .footer-right h3 {
   text-align: center;
 }
@@ -196,6 +207,11 @@ footer .footer-right h3 {
 footer .footer-right .icon {
   padding: 10px;
 }
+@media screen and (max-width: 420px) {
+  footer .footer-right .icon {
+    padding: 0px;
+  }
+}
 footer .footer-right .icon img {
   width: 30px;
   margin-left: 15px;
@@ -204,6 +220,7 @@ footer .footer-right .icon img {
 @media screen and (max-width: 420px) {
   footer .footer-right .icon img {
     width: 20px;
+    margin-left: 2px;
   }
 }
 

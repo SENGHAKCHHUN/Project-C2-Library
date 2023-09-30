@@ -233,7 +233,7 @@ body .container-form form button {
 }
 @media screen and (max-width: 420px) {
   body .container-form form button {
-    width: 82%;
+    width: 78%;
   }
 }
 body .container-form form button a {
@@ -263,7 +263,7 @@ body .container-form form .icon {
 }
 @media screen and (max-width: 420px) {
   body .container-form form .icon {
-    margin-left: 28%;
+    margin-left: 25%;
   }
 }
 body .container-form form .icon img {

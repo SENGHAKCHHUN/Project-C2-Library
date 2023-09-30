@@ -33,7 +33,12 @@ nav img {
 }
 @media screen and (max-width: 620px) {
   nav img {
+<<<<<<< HEAD
     margin-top: 13px;
+=======
+    display: flex;
+    justify-content: center;
+>>>>>>> 1dd7eb6b6e97822e32ddd1ca142b5c561bf6f9f1
   }
 }
 nav .menu-bar {
@@ -42,11 +47,14 @@ nav .menu-bar {
 @media screen and (max-width: 1024px) {
   nav .menu-bar {
     margin-bottom: 10px;
+<<<<<<< HEAD
   }
 }
 @media screen and (max-width: 620px) {
   nav .menu-bar {
     margin-bottom: 15px;
+=======
+>>>>>>> 1dd7eb6b6e97822e32ddd1ca142b5c561bf6f9f1
   }
 }
 nav .menu-bar ul {
@@ -76,6 +84,8 @@ nav .menu-bar ul li a {
 @media screen and (max-width: 620px) {
   nav .menu-bar ul li a {
     font-size: 10px;
+    display: flex;
+    justify-content: center;
   }
 }
 nav .menu-bar ul li a:hover {
@@ -88,11 +98,24 @@ nav .icons-color {
   color: #00B9BE;
   margin-top: 10px;
 }
+@media screen and (max-width: 620px) {
+  nav .icons-color {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+}
 nav .icon-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 620px) {
+  nav .icon-menu {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 footer {

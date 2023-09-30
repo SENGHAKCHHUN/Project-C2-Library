@@ -23,15 +23,24 @@ nav {
             width: 40%;
         }
         @include responsive(Mobile){
+<<<<<<< HEAD
             margin-top: 13px;
+=======
+            display: flex;
+            justify-content: center;
+
+>>>>>>> 1dd7eb6b6e97822e32ddd1ca142b5c561bf6f9f1
         }
     }
     .menu-bar {
         @include responsive(Laptop){
             margin-bottom: 10px;
+<<<<<<< HEAD
         }
         @include responsive(Mobile){
             margin-bottom: 15px;
+=======
+>>>>>>> 1dd7eb6b6e97822e32ddd1ca142b5c561bf6f9f1
         }
         margin-top: -2px;
         ul {
@@ -52,6 +61,8 @@ nav {
                     }
                     @include responsive(Mobile){
                         font-size: 10px;
+                        display: flex;
+                        justify-content: center;
                     }
                 }
                 a:hover {
@@ -66,9 +77,18 @@ nav {
         font-size: 30px;
         color: #00B9BE ;
         margin-top: 10px;
+        @include responsive(Mobile){
+            margin-top: 10px;
+            font-size: 20px;
+        }
     }
     .icon-menu {
         @include centered;
-        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        @include responsive(Mobile){
+            display: flex;
+            justify-content: center;
+        }
     }
 }

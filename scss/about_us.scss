@@ -7,13 +7,19 @@ main {
     grid-template-rows: 10% 45%;
     padding: 90px 90px 40px 90px;
     @include responsive(Tablet){
-        padding: 20px 20px;
+        padding: 50px 20px;
     }
     .about-main-center {
         @include display-center;
         grid-template-columns: repeat(2, 1fr);
         padding: 0 10%;
         gap: 5%;
+        @include responsive(Mobile) {
+            display: flex;
+            flex-direction: column;
+            gap:35%;
+
+        }
         .card-header,
         .card-bottom {
             @include display-center;
@@ -48,7 +54,6 @@ main {
     }
     .card-header:hover {
         box-shadow: $about-hover 0px 8px 10px 4px;
-        // border-radius: 200px 200px 0px 0px;
         transition: .5s;
         font-weight: 500;
         scale: 0.98;
@@ -65,91 +70,136 @@ main {
     .card-ceo {
         height: 370px;
         display: grid;
-        grid-template-columns: 30% 65%;
-        gap: 5%;
-        margin: 50px 200px;
-        box-shadow: 0px 0px 3px 0px gray;
+        grid-template-columns: 35% 65%;
+        margin: 50px 100px;
+        box-shadow: 0px 0px 3px 0px $about-hover;
         @include responsive(Laptop){
-            margin: 50px 90px;
+            display: grid;
+            padding-right: 20px;
+            grid-template-columns: 35% 65%;
         }
         @include responsive(Tablet){
             grid-template-columns: 50% 50%;
         }
+        @include responsive(Mobile) {
+            height: 100%;
+            grid-template-columns: 50% 50%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin: 5% 14% 11% 14%;
+        }
+
         .card-ceo-left{
+<<<<<<< HEAD
             background: rgb(218, 215, 211);
+            @include display-center;
+=======
+            background:$shadow-card;
             display: grid;
-            grid-template-rows: 0.7fr 0.2fr;
+>>>>>>> 8ac4f27b7e085af316777e2fa87975ea4f58c61d
+            grid-template-rows: 80% 10% 10%;
+            @include responsive (Laptop) {
+                width: 100%;
+                height: 100%;
+            }
+            @include responsive(Mobile) {
+                width: 100%;
+                height: 100%;
+                display: grid;
+                grid-template-rows: 80% 10% 10%;
+                padding: 4%;
+            }
             
             img{
-                width: 240px;
-                height: 230px;
+                width:270px;
+                @include display-center;
                 padding: 20px;
                 border-radius: 30px;
                 @include responsive(Laptop){
-                    width: 215px;
+                    width: 90%;
+                    height: 80%;
+                    padding: 5%;
+                }
+                @include responsive(Tablet) {
+                    width: 90%;
+                    padding: 5%;
+                }
+                @include responsive(Mobile) {
+                    width: 90%;
+                    height: 90%;
+                    padding: 5%;
+                    @include display-center;
                 }
             }
             h3{
+                margin-top: -20px;
                 text-align: center;
+                padding: 10px;
+                font-size: 20px;
+                @include responsive(Mobile) {
+                    margin-top: -10px;
+                }
             }
             .contact-ceo{
                 display: flex;
                 align-items: center;
-                gap: 5px;
-                padding-left: 40px;
+                text-align: center;
                 margin-top: -30px;
+                margin-left: 25%;
+                @include responsive(Laptop) {
+                    display: flex;
+                    justify-content: center;
+                    gap: 20%;
+                }
+                @include responsive(Mobile) {
+                    @include display-center;
+                    grid-template-columns: repeat(4,1fr);
+                    padding: 0 20%;
+                    margin-top: .3px;
+                    margin-left: 40px;
+                    gap: 0;
+                    
+                }
                 a{
                     img{
                         width: 27px;
                         height: 25px;
                         margin-left: -19px;
+                        @include responsive (Laptop) {
+                            width: 20px;
+                        }
+                        @include responsive(Mobile) {
+                            width:25px;
+                        }
                     }
                 }
             }
         }
         .card-ceo-right{
-            margin-top: 60px;
+            padding-left: 10% 0% 0% 10%;
+            h2 {
+                padding: 5%;
+            }
             p{
-                margin-top: 50px;
-                @include responsive(Tablet){
-                    margin-right: 50px;
+                padding: 0% 5%;
+                @include responsive (Laptop) {
+                    padding: 5%;
+                }
+                @include responsive(Tablet) {
+                    padding: 5%;
+                }
+                @include responsive(Mobile) {
+                    margin-top: 10px;
+                    @include display-center;
                 }
             }
         }
     }
-    // .card-ceo:hover{
-    //     box-shadow: 1px 1px 5px 0px rgb(220, 220, 213);
-    //     .card-ceo-left:hover {
-    //         box-shadow: $about-hover 0px 8px 10px 4px;
-    //         transition: .5s;
-    //         // scale: .98;
-    //     }
-    //     .card-ceo-left,
-    //     .card-ceo-right {
-    //         display: grid;
-    //         .ceo {
-    //             display: grid;
-    //             background-image: url(/images/CEO.jpg);
-    //             background-repeat: no-repeat;
-    //             background-position: 100%;
-    //             background-size: cover;
-    //         }
-    //         div.ceo-ifo {
-    //             display: flex;
-    //             flex-direction: column;
-    //             padding: 5% 0 0 5%;
-    //             gap: 5%;
-    //             span {
-    //                 font-weight: 600;
-    //                 font-size: 25px;
-    //             }
-    //         }
-    //     }
-    // }
 
 .map {
     display: grid;
     width: 100%;
-    margin-top: 0%;
+    margin-bottom: 10%;
 }
 

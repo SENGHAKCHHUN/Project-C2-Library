@@ -1,0 +1,41 @@
+@import "./group-mixus/flex-mixus";
+@import "./conponents/main";
+body {
+    background: #007478;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    main {
+        margin-top: 100px;
+        padding: 50px;
+        background: white;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        flex-direction: column;
+        box-shadow: 0px 0px 5px 0px white;
+        img{
+            width: 100px;
+        }
+        button{
+            width: 100px;
+            background:#007478;
+            border-radius: 5px;
+            height: 30px;
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 15px;
+            }
+        }
+        button:hover{
+            background: white;
+            a{
+                color: #007478;
+
+            }
+        }
+    }
+}

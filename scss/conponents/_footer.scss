@@ -16,16 +16,27 @@ footer{
         height: 150px;
     }
     .footer-left{
+        h3{
+            @include responsive(Mobile){
+                font-size: 15px;
+            }
+        }
         @include flex-coloum;
         .email{
             @include contact;
             img{
                 width: 30px;
+                @include responsive(Mobile){
+                    width: 20px;
+                }
             }
             p{
                 margin-top: -5px;
                 @include responsive(Tablet){
                     font-size: 15px;
+                }
+                @include responsive(Mobile){
+                    font-size: 10px;
                 }
             }
         }
@@ -34,11 +45,17 @@ footer{
             img{
                 width: 38px;
                 margin-left: -5px;
+                @include responsive(Mobile){
+                    width: 28px;
+                }
             }
             p{
                 margin-top: 2px;
                 @include responsive(Tablet){
                     font-size: 15px;
+                }
+                @include responsive(Mobile){
+                    font-size: 10px;
                 }
             }
         }
@@ -46,6 +63,9 @@ footer{
     .footer-right{
         h3{
             text-align: center;
+            @include responsive(Mobile){
+                font-size: 15px;
+            }
         }
         .icon{
             padding: 10px;
@@ -53,6 +73,9 @@ footer{
                 width: 30px;
                 margin-left: 15px;
                 margin-top: 10px;
+                @include responsive(Mobile){
+                    width: 20px;
+                }
             }
         }
     }

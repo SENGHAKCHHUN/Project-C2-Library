@@ -14,21 +14,25 @@ body{
             width: 40%;
             background : rgba(237, 244, 244, 0.76);
             box-shadow: 0px 0px 10px 5px ;
-            height: 83vh;
+            // height: 83vh;
             @include responsive(Laptop){
                 width: 60%;
                 margin: 26px;
-                height: 100vh;
+                // height: 100vh;
             }
             @include responsive(Tablet){
                 width: 60%;
                 margin: 26px;
+                // height: 80vh;
+            }
+            @include responsive(Mobile){
+                width: 90%;
             }
             h1{
                 text-align: center;
                 margin-top: 10px;
                 background: orange;
-                border-radius: 0px 20px;
+                border-radius: 0px 10px;
                 width: 25%;
                 margin-left: 38%;
                 padding: 5px;
@@ -57,6 +61,9 @@ body{
                             font-size: 17px;
                             @include responsive(Tablet){
                                 font-size: 13px;
+                            }
+                            @include responsive(Mobile){
+                                font-size: 9px;
                             }
                         }
                         input{
@@ -102,6 +109,9 @@ body{
                     width: 84%;
                     font-size: 15px;
                 }
+                @include responsive(Mobile){
+                    width: 82%;
+                }
                 a{
                     text-decoration: none;
                     color: black;
@@ -120,6 +130,9 @@ body{
                 margin-bottom: 50px;
                 @include responsive(Tablet){
                     margin-left: 30%;
+                }
+                @include responsive(Mobile){
+                    margin-left: 28%;
                 }
                 img{
                     width: 35px;

@@ -84,7 +84,7 @@ body {
             align-items: center;
             justify-content: center;
             margin-left: -20px;
-            box-shadow: 1px 1px 1px 1px rgb(232, 227, 227);
+            box-shadow: 1px 1px 1px 1px $card-menu-hover;
             @include responsive(Mobile){
                 height: 27px;
             }
@@ -145,7 +145,7 @@ body {
                 @include flex-coloum;
                 height: 310px;
                 width: 210px;
-                border: 1px solid rgb(235, 231, 231);
+                border: 1px solid $card-menu-hover;
                 border-bottom: 4px solid $inter;
                 border-radius: 10px;
                 display: flex;

@@ -1,7 +1,6 @@
 @import './variable';
 @import './main';
 @import '../responsive/responsive';
-
 nav {
     @include format;
     position: sticky;

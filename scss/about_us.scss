@@ -91,13 +91,8 @@ main {
         }
 
         .card-ceo-left{
-<<<<<<< HEAD
             background: rgb(218, 215, 211);
             @include display-center;
-=======
-            background:$shadow-card;
-            display: grid;
->>>>>>> 8ac4f27b7e085af316777e2fa87975ea4f58c61d
             grid-template-rows: 80% 10% 10%;
             @include responsive (Laptop) {
                 width: 100%;

@@ -319,7 +319,7 @@ main .card-bottom:hover {
   display: grid;
   grid-template-columns: 35% 65%;
   margin: 50px 100px;
-  box-shadow: 0px 0px 3px 0px gray;
+  box-shadow: 0px 0px 3px 0px rgba(62, 183, 240, 0.231);
 }
 @media screen and (max-width: 1024px) {
   .card-ceo {

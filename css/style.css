@@ -234,7 +234,8 @@ body .cover {
 }
 @media screen and (max-width: 420px) {
   body .cover {
-    height: 300px;
+    height: 10vh;
+    width: 100%;
   }
 }
 @media screen and (max-width: 730px) {
@@ -252,6 +253,11 @@ body .cover h1 {
     font-size: 28px;
   }
 }
+@media screen and (max-width: 420px) {
+  body .cover h1 {
+    font-size: 20px;
+  }
+}
 body .cover h1,
 body .cover p {
   font-weight: 600;
@@ -266,7 +272,6 @@ body .cover p {
 @media screen and (max-width: 420px) {
   body .cover h1,
   body .cover p {
-    font-size: 25px;
     padding: 30px 50px;
   }
 }
@@ -277,6 +282,14 @@ body .cover p b {
 @media screen and (max-width: 730px) {
   body .cover p b {
     font-size: 15px;
+  }
+}
+@media screen and (max-width: 420px) {
+  body .cover p b {
+    text-shadow: 1px 2px rgba(210, 216, 176, 0.7215686275);
+    font-size: 11px;
+    width: 100%;
+    color: #00B9BE;
   }
 }
 body .cover .open {
@@ -301,7 +314,16 @@ body .cover .open {
     margin-left: 54px;
     margin-top: 20px;
     font-size: 15px;
-    box-shadow: 4px 4px 4px 0px rgb(116, 116, 116);
+    box-shadow: 4px 4px 4px 0px rgb(235, 232, 232);
+  }
+}
+@media screen and (max-width: 420px) {
+  body .cover .open {
+    width: 200px;
+    height: 25px;
+    margin-top: 45px;
+    font-size: 12px;
+    box-shadow: 4px 4px 4px 0px rgb(108, 107, 107);
   }
 }
 body .cover .open:hover {
@@ -309,7 +331,7 @@ body .cover .open:hover {
   justify-content: center;
   align-items: center;
   background: #00B9BE;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   width: 280px;
   height: 40px;
   border-radius: 10px 15px 0px 10px;
@@ -327,6 +349,15 @@ body .cover .open:hover {
     font-size: 15px;
   }
 }
+@media screen and (max-width: 420px) {
+  body .cover .open:hover {
+    width: 200px;
+    height: 25px;
+    margin-top: 45px;
+    font-size: 12px;
+    box-shadow: 4px 4px 4px 0px rgb(156, 156, 156);
+  }
+}
 body .popular-book {
   margin-top: 50px;
   display: flex;
@@ -334,6 +365,11 @@ body .popular-book {
   gap: 10px;
 }
 @media screen and (max-width: 730px) {
+  body .popular-book {
+    margin-top: 15px;
+  }
+}
+@media screen and (max-width: 420px) {
   body .popular-book {
     margin-top: 15px;
   }
@@ -350,7 +386,8 @@ body .popular-book h2 {
 }
 @media screen and (max-width: 420px) {
   body .popular-book h2 {
-    font-size: 20px;
+    font-size: 16px;
+    margin-top: 15px;
   }
 }
 body .popular-book .books {
@@ -369,10 +406,12 @@ body .popular-book .books {
     margin-right: 5;
   }
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 420px) {
   body .popular-book .books {
-    margin-left: 0;
     margin-right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
   }
 }
 body .popular-book .books .image-card {
@@ -409,9 +448,12 @@ body .popular-book .books .image-card {
 }
 @media screen and (max-width: 420px) {
   body .popular-book .books .image-card {
-    height: 170px;
-    width: 120px;
-    margin-right: 3px;
+    height: 120px;
+    width: 80px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid #00B9BE;
   }
 }
 body .popular-book .books .image-card img {
@@ -433,8 +475,8 @@ body .popular-book .books .image-card img {
 }
 @media screen and (max-width: 420px) {
   body .popular-book .books .image-card img {
-    width: 90px;
-    height: 140px;
+    width: 70px;
+    height: 90px;
   }
 }
 body .popular-book .books .image-card button {
@@ -454,8 +496,8 @@ body .popular-book .books .image-card button {
 }
 @media screen and (max-width: 730px) {
   body .popular-book .books .image-card button {
-    width: 60px;
-    height: 15px;
+    width: 58px;
+    height: 13px;
     font-size: 10px;
     border-radius: 3px;
   }
@@ -486,11 +528,14 @@ body .popular-book .books .image-card:hover {
     margin-right: 4px;
   }
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 420px) {
   body .popular-book .books .image-card:hover {
-    height: 170px;
-    width: 120px;
-    margin-right: 3px;
+    height: 120px;
+    width: 80px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid #00B9BE;
   }
 }
 body .popular-book .books .image-card:hover button {
@@ -502,6 +547,14 @@ body .popular-book .books .image-card:hover button {
 @media screen and (max-width: 730px) {
   body .popular-book .books .image-card:hover button {
     width: 100px;
+  }
+}
+@media screen and (max-width: 420px) {
+  body .popular-book .books .image-card:hover button {
+    height: 15px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
   }
 }
 body .popular-book .books .image-card:hover button a {
@@ -534,9 +587,9 @@ body .borrow-and-return .borrow-card {
     margin-top: 30px;
   }
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 420px) {
   body .borrow-and-return .borrow-card {
-    height: 185px;
+    height: 160px;
     width: 83%;
   }
 }
@@ -559,9 +612,9 @@ body .borrow-and-return .borrow-card .borrow-title h2 a {
     margin-left: 30px;
   }
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 420px) {
   body .borrow-and-return .borrow-card .borrow-title h2 a {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 body .borrow-and-return .borrow-card .borrow-title p {
@@ -574,10 +627,11 @@ body .borrow-and-return .borrow-card .borrow-title p {
     margin-top: 5px;
   }
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 420px) {
   body .borrow-and-return .borrow-card .borrow-title p {
-    font-size: 14px;
-    margin-left: 20px;
+    font-size: 10px;
+    margin-left: 13px;
+    line-height: 15px;
   }
 }
 body .borrow-and-return .borrow-card .img {
@@ -591,6 +645,12 @@ body .borrow-and-return .borrow-card .img img {
   border-radius: 5px;
   width: 100px;
   height: 140px;
+}
+@media screen and (max-width: 420px) {
+  body .borrow-and-return .borrow-card .img img {
+    width: 70px;
+    height: 110px;
+  }
 }
 body .borrow-and-return .return-card {
   box-shadow: 0px 2px 5px 2px rgb(235, 232, 232);
@@ -607,9 +667,9 @@ body .borrow-and-return .return-card {
     height: 210px;
   }
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 420px) {
   body .borrow-and-return .return-card {
-    height: 185px;
+    height: 160px;
     width: 83%;
   }
 }
@@ -624,6 +684,12 @@ body .borrow-and-return .return-card .return-img img {
   border-radius: 5px;
   width: 100px;
   height: 140px;
+}
+@media screen and (max-width: 420px) {
+  body .borrow-and-return .return-card .return-img img {
+    width: 70px;
+    height: 110px;
+  }
 }
 body .borrow-and-return .return-card .return-title {
   display: grid;
@@ -643,9 +709,9 @@ body .borrow-and-return .return-card .return-title h2 a {
     margin-right: 50px;
   }
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 420px) {
   body .borrow-and-return .return-card .return-title h2 a {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 body .borrow-and-return .return-card .return-title p {
@@ -658,10 +724,11 @@ body .borrow-and-return .return-card .return-title p {
     margin-top: 5px;
   }
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 420px) {
   body .borrow-and-return .return-card .return-title p {
-    font-size: 14px;
-    margin-right: 20px;
+    font-size: 10px;
+    margin-right: 13px;
+    line-height: 15px;
   }
 }
 body #address {
@@ -682,7 +749,7 @@ body #address p a {
 }
 @media screen and (max-width: 420px) {
   body #address p {
-    font-size: 10px;
+    font-size: 8px;
     margin-top: 10px;
   }
 }/*# sourceMappingURL=style.css.map */

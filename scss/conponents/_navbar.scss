@@ -45,7 +45,7 @@ nav {
                 margin-top: 17px;
                 a {
                     text-decoration: none;
-                    color: $black-color;
+                    color: $link-color;
                     font-size: 20px;
                     text-transform: uppercase;
                     @include responsive(Laptop){

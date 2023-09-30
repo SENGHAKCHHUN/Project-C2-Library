@@ -33,7 +33,7 @@ body {
             }
             a {
                 text-decoration: none;
-                color: $black-color;
+                color: $link-color;
                 padding: 5px;
                 @include responsive(Mobile){
                     padding-bottom: 3px;                    
@@ -103,7 +103,7 @@ body {
         }
         h1 {
             text-align: center;
-            color: $black-color;
+            color: $link-color;
             @include responsive(Tablet) {
                 font-size: 20px;
             }

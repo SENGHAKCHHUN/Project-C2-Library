@@ -285,7 +285,7 @@ body .cover .open {
   justify-content: center;
   align-items: center;
   background: white;
-  color: black;
+  color: #000;
   width: 280px;
   height: 40px;
   border-radius: 10px 15px 0px 10px;
@@ -301,7 +301,7 @@ body .cover .open {
     margin-left: 54px;
     margin-top: 20px;
     font-size: 15px;
-    box-shadow: 4px 4px 4px 0px rgb(116, 116, 116);
+    box-shadow: 4px 4px 4px 0px rgb(235, 232, 232);
   }
 }
 body .cover .open:hover {
@@ -309,7 +309,7 @@ body .cover .open:hover {
   justify-content: center;
   align-items: center;
   background: #00B9BE;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   width: 280px;
   height: 40px;
   border-radius: 10px 15px 0px 10px;

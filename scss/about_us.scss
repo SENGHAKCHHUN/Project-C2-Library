@@ -12,6 +12,7 @@ main {
     .about-main-center {
         @include display-center;
         grid-template-columns: repeat(2, 1fr);
+        margin-top: 10px;
         padding: 0 10%;
         gap: 5%;
         @include responsive(Mobile) {
@@ -27,6 +28,9 @@ main {
             border-radius: 18px 18px 0px 0px;
             box-shadow: rgba(18, 17, 17, 0.336) 0px 1px 5px 0px;
             padding: 1%;
+            @include responsive(Tablet) {
+                padding: 15px;
+            }
             .card-header-1,
             .card-bottom-1 {
                 @include display-center;
@@ -91,13 +95,8 @@ main {
         }
 
         .card-ceo-left{
-<<<<<<< HEAD
             background: rgb(218, 215, 211);
             @include display-center;
-=======
-            background:$shadow-card;
-            display: grid;
->>>>>>> 8ac4f27b7e085af316777e2fa87975ea4f58c61d
             grid-template-rows: 80% 10% 10%;
             @include responsive (Laptop) {
                 width: 100%;
@@ -116,6 +115,7 @@ main {
                 @include display-center;
                 padding: 20px;
                 border-radius: 30px;
+                margin-left: 5%;
                 @include responsive(Laptop){
                     width: 90%;
                     height: 80%;
@@ -200,6 +200,9 @@ main {
 .map {
     display: grid;
     width: 100%;
-    margin-bottom: 10%;
+    margin-top: 8%;
+    @include responsive(Laptop) {
+        margin-top: 10%;
+    }
 }
 

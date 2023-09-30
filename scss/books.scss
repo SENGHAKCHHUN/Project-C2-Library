@@ -163,8 +163,8 @@ body {
                     margin-right: 30px;
                 }
                 @include responsive(Mobile){
-                    height: 140px;
-                    width: 80px;
+                    height: 130px;
+                    width: 70px;
                     margin-right: -10px;
                 }
                 img {
@@ -180,8 +180,8 @@ body {
                         height: 150px;
                     }
                     @include responsive(Mobile){
-                        width: 70px;
-                        height: 100px;
+                        width: 60px;
+                        height: 90px;
                     }
                 }
             }

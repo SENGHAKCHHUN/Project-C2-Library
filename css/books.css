@@ -480,8 +480,8 @@ body #leadership .books .image-card {
   body #book-of-legends .books .image-card,
   body #financial .books .image-card,
   body #leadership .books .image-card {
-    height: 140px;
-    width: 80px;
+    height: 130px;
+    width: 70px;
     margin-right: -10px;
   }
 }
@@ -532,8 +532,8 @@ body #leadership .books .image-card img {
   body #book-of-legends .books .image-card img,
   body #financial .books .image-card img,
   body #leadership .books .image-card img {
-    width: 70px;
-    height: 100px;
+    width: 60px;
+    height: 90px;
   }
 }
 body #education-book .books button, body #Self-Development .books button,

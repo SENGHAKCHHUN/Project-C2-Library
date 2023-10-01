@@ -315,7 +315,6 @@ body .cover .open {
     margin-top: 20px;
     font-size: 15px;
     box-shadow: 4px 4px 4px 0px rgb(235, 232, 232);
-<<<<<<< HEAD
   }
 }
 @media screen and (max-width: 420px) {
@@ -325,8 +324,6 @@ body .cover .open {
     margin-top: 45px;
     font-size: 12px;
     box-shadow: 4px 4px 4px 0px rgb(108, 107, 107);
-=======
->>>>>>> f5af1614c5bbec61643ed4c8e6c2599185ee8b88
   }
 }
 body .cover .open:hover {

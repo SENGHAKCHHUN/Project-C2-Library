@@ -33,7 +33,7 @@ nav img {
 @media screen and (max-width: 730px) {
   nav img {
     padding-left: 50px;
-    margin-top: 14px;
+    margin-top: 10px;
     width: 40%;
   }
 }
@@ -51,6 +51,11 @@ nav .menu-bar {
   }
 }
 @media screen and (max-width: 420px) {
+  nav .menu-bar {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 730px) {
   nav .menu-bar {
     margin-bottom: 10px;
   }

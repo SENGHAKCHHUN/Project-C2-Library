@@ -452,7 +452,7 @@ body #leadership .books .image-card {
   body #book-of-legends .books .image-card,
   body #financial .books .image-card,
   body #leadership .books .image-card {
-    height: 210px;
+    height: 240px;
     width: 170px;
     margin-right: 30px;
   }
@@ -506,8 +506,8 @@ body #leadership .books .image-card img {
   body #book-of-legends .books .image-card img,
   body #financial .books .image-card img,
   body #leadership .books .image-card img {
-    width: 170px;
-    height: 225px;
+    width: 150px;
+    height: 190px;
   }
 }
 @media screen and (max-width: 730px) {

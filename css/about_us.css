@@ -57,7 +57,7 @@ nav .menu-bar {
 }
 @media screen and (max-width: 730px) {
   nav .menu-bar {
-    margin-top: 0px;
+    margin-top: -10px;
   }
 }
 nav .menu-bar ul {

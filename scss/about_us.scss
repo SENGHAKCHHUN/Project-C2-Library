@@ -1,139 +1,203 @@
 @import "./conponents/navbar";
 @import "./conponents/footer";
 @import "./responsive/responsive";
-
 main {
-    width: auto;
+    display: grid;
     height: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 7%;
-
-    .main-header,
-    .main-bottom {
-        height: 60vh;
-        display: flex;
-        justify-content: start;
-        border: 2px solid chocolate;
-        gap: 40px;
-
-        .main-hr-left,
-        .main-hr-right {
-            width: 100%;
-            height: 100%;
+    grid-template-rows: 10% 45%;
+    padding: 90px 90px 40px 90px;
+    @include responsive(Tablet){
+        padding: 50px 20px;
+    }
+    .about-main-center {
+        @include display-center;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 10px;
+        padding: 0 10%;
+        gap: 5%;
+        @include responsive(Mobile) {
             display: flex;
             flex-direction: column;
-            padding: 10px;
-
-            .left-header,
-            .right-header {
-                width: 100%;
-                height: 50%;
-
-                .left-header-icon,
-                .right-header-icon {
-                    width: 100%;
-                    height: 80%;
-                    display: flex;
-                    justify-content: center;
-                    .left-icon {
-                        background-image: url(/images/ceo.png);
-                        background-position: 100%;
-                        background-repeat: no-repeat;
-                        background-size: cover;
-                        width: 29%;
-                        height: 100%;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                    }
-                    .right-icon {
-                        background-color: rgb(79, 139, 192);
-                        width: 50%;
-                        height: 100%;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                    }
-                }
-
-                .left-header-name,
-                .right-header-name {
-                    background-color: aliceblue;
-                    width: 100%;
-                    height: 20%;
-                }
-            }
-            
-            .left-bottom,
-            .right-bottom {
-                background-color: palevioletred;
-                width: 100%;
-                height: 50%;
-            }
+            gap:35%;
         }
-
-        .main-bt-left {
-            background-color: rgb(251, 254, 254);
-            width: 20%;
-            height: 100%;
-
-            .bt-left-header {
-                background-color: orange;
-                width: 100%;
-                height: 60%;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-
-                .cover {
-                    background-color: antiquewhite;
-                    width: 100%;
-                    height: 100%;
+        .card-header,
+        .card-bottom {
+            @include display-center;
+            grid-template-rows: repeat(2, 1fr);
+            border-radius: 18px 18px 0px 0px;
+            box-shadow: rgba(18, 17, 17, 0.336) 0px 1px 5px 0px;
+            padding: 1%;
+            @include responsive(Tablet) {
+                padding: 15px;
+            }
+            .card-header-1,
+            .card-bottom-1 {
+                @include display-center;
+                grid-template-rows: 1fr;
+                border-radius: 4px;
+                gap: 10px;
+                img {
+                    padding-left: 40%;
+                    width: 100px;
                     display: flex;
                 }
+                h3 {
+                    @include display-center;
+                    color: $inter;
+                    font-weight: 50px;
+                    font-size: 25px;
+                }
             }
-
-            .bt-right-center {
-                background-color: bisque;
-                width: 100%;
-                height: 20%;
-            }
-
-            .bt-right-bottom {
-                background-color: blueviolet;
-                width: 100%;
-                height: 20%;
+            .card-header-2,
+            .card-bottom-2 {
+                @include display-center;
+                border-radius: 18px 18px 18px 18px;
             }
         }
-        .main-bt-right {
-            background-color: olivedrab;
-            width: 80%;
-            height: 100%;
-            display: flex;
-            gap: 10px;
-        }
-        
+    }
+    .card-header:hover {
+        box-shadow: $about-hover 0px 8px 10px 4px;
+        transition: .5s;
+        font-weight: 500;
+        scale: 0.98;
+        color: $inter;
+    }
+    .card-bottom:hover {
+        box-shadow: $about-hover 0px 8px 10px 4px;
+        transition: .5s;
+        font-weight: 500;
+        scale: 0.98;
+        color: $inter;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
+    .card-ceo {
+        height: 370px;
+        display: grid;
+        grid-template-columns: 35% 65%;
+        margin: 50px 100px;
+        box-shadow: 0px 0px 3px 0px $about-hover;
+        @include responsive(Laptop){
+            display: grid;
+            padding-right: 20px;
+            grid-template-columns: 35% 65%;
+        }
+        @include responsive(Tablet){
+            grid-template-columns: 50% 50%;
+        }
+        @include responsive(Mobile) {
+            height: 100%;
+            grid-template-columns: 50% 50%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin: 5% 14% 11% 14%;
+        }
+        .card-ceo-left{
+            background: rgb(218, 215, 211);
+            @include display-center;
+            grid-template-rows: 80% 10% 10%;
+            @include responsive (Laptop) {
+                width: 100%;
+                height: 100%;
+            }
+            @include responsive(Mobile) {
+                width: 100%;
+                height: 100%;
+                display: grid;
+                grid-template-rows: 80% 10% 10%;
+                padding: 4%;
+            }
+            img{
+                width:270px;
+                @include display-center;
+                padding: 20px;
+                border-radius: 30px;
+                margin-left: 5%;
+                @include responsive(Laptop){
+                    width: 90%;
+                    height: 80%;
+                    padding: 5%;
+                }
+                @include responsive(Tablet) {
+                    width: 80%;
+                    padding: 5%;
+                }
+                @include responsive(Mobile) {
+                    width: 80%;
+                    height: 90%;
+                    padding: 5%;
+                    @include display-center;
+                    margin-left: 4.5%;
+                }
+            }
+            h3{
+                margin-top: -20px;
+                text-align: center;
+                padding: 10px;
+                font-size: 20px;
+                @include responsive(Mobile) {
+                    margin-top: -10px;
+                }
+            }
+            .contact-ceo{
+                display: flex;
+                align-items: center;
+                text-align: center;
+                margin-top: -30px;
+                margin-left: 25%;
+                @include responsive(Laptop) {
+                    display: flex;
+                    justify-content: center;
+                    gap: 20%;
+                }
+                @include responsive(Mobile) {
+                    @include display-center;
+                    grid-template-columns: repeat(4,1fr);
+                    padding: 0 20%;
+                    margin-top: .3px;
+                    margin-left: 40px;
+                    gap: 0;   
+                }
+                a{
+                    img{
+                        width: 27px;
+                        height: 25px;
+                        margin-left: -19px;
+                        @include responsive (Laptop) {
+                            width: 20px;
+                        }
+                        @include responsive(Mobile) {
+                            width:25px;
+                        }
+                    }
+                }
+            }
+        }
+        .card-ceo-right{
+            padding-left: 10% 0% 0% 10%;
+            h2 {
+                padding: 5%;
+            }
+            p{
+                padding: 0% 5%;
+                @include responsive (Laptop) {
+                    padding: 5%;
+                }
+                @include responsive(Tablet) {
+                    padding: 5%;
+                }
+                @include responsive(Mobile) {
+                    margin-top: 10px;
+                    @include display-center;
+                }
+            }
+        }
+    }
 
 .map {
     display: grid;
     width: 100%;
     margin-top: 8%;
-
     @include responsive(Laptop) {
         margin-top: 10%;
     }

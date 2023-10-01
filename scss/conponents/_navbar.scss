@@ -22,7 +22,7 @@ nav {
         }
         @include responsive(Tablet) {
             padding-left: 50px;
-            margin-top: 10px;
+            margin-top: 8px;
             width: 40%;
         }
         @include responsive(Mobile){
@@ -37,7 +37,7 @@ nav {
             margin-bottom: 10px;
         }
         @include responsive(Tablet){
-            margin-bottom: 10px;
+            margin-bottom: 14px;
         }
         margin-top: -2px;
         ul {

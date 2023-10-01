@@ -368,30 +368,32 @@ main .card-bottom:hover {
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-rows: 80% 10% 10%;
+    grid-template-rows: 85% 15%;
     padding: 4%;
   }
 }
 .card-ceo .card-ceo-left img {
-  width: 270px;
+  width: 220px;
   display: grid;
   align-items: center;
   text-align: center;
   padding: 20px;
   border-radius: 30px;
-  margin-left: 5%;
+  margin-left: 10%;
 }
 @media screen and (max-width: 1024px) {
   .card-ceo .card-ceo-left img {
     width: 90%;
     height: 80%;
     padding: 5%;
+    margin-left: 0;
   }
 }
 @media screen and (max-width: 730px) {
   .card-ceo .card-ceo-left img {
     width: 80%;
     padding: 5%;
+    margin-left: 5%;
   }
 }
 @media screen and (max-width: 420px) {

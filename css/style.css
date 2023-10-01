@@ -94,7 +94,7 @@ nav .menu-bar ul li a:hover {
 }
 nav .icons-color {
   font-size: 30px;
-  color: #00B9BE;
+  color: teal;
   margin-top: 10px;
 }
 @media screen and (max-width: 420px) {

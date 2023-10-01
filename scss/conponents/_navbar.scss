@@ -70,7 +70,7 @@ nav {
     }
     .icons-color{
         font-size: 30px;
-        color: #00B9BE ;
+        color: $primary-color;
         margin-top: 10px;
         @include responsive(Mobile){
             margin-top: 10px;

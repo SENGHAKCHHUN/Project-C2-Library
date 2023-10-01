@@ -33,9 +33,6 @@ nav {
         @include responsive(Laptop){
             margin-bottom: 10px;
         }
-        @include responsive(Mobile){
-            margin-bottom: 15px;
-        }
         margin-top: -2px;
         ul {
             @include formated;

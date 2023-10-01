@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":3,"sourceRoot":"","sources":["../scss/conponents/_main.scss","../scss/success.scss"],"names":[],"mappings":"AAEA;EACI;EACA;EACA;;;ACHJ;EACI;EACA;EACA;EACA;;AACA;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AACA;EACI;;AAEJ;EACI;EACA;EACA;EACA;;AACA;EACI;EACA;EACA;;AAGR;EACI;;AACA;EACI","file":"success.css"}
+=======
+{"version":3,"sources":["../scss/conponents/_main.scss","success.css","../scss/success.scss"],"names":[],"mappings":"AAEA;EACI,UAAA;EACA,SAAA;EACA,yCAAA;ACDJ;;ACFA;EACI,mBAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;ADKJ;ACJI;EACI,iBAAA;EACA,aAAA;EACA,iBAAA;EACA,kBAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,SAAA;EACA,sBAAA;EACA,iCAAA;ADMR;ACLQ;EACI,YAAA;ADOZ;ACLQ;EACI,YAAA;EACA,mBAAA;EACA,kBAAA;EACA,YAAA;ADOZ;ACNY;EACI,qBAAA;EACA,YAAA;EACA,eAAA;ADQhB;ACLQ;EACI,iBAAA;ADOZ;ACNY;EACI,cAAA;ADQhB","file":"success.css"}
+>>>>>>> 7d03c5fddf6a4d8dfa21afb0fe7dcfd6d6a58795

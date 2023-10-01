@@ -50,6 +50,11 @@ nav .menu-bar {
     margin-bottom: 10px;
   }
 }
+@media screen and (max-width: 730px) {
+  nav .menu-bar {
+    margin-bottom: 13px;
+  }
+}
 nav .menu-bar ul {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
